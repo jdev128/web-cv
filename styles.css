@@ -1,0 +1,112 @@
+:root {
+    font-size: 1.17vw;
+}
+
+body {
+    font-family: Bahnschrift, sans-serif;
+    font-weight: 100;
+    margin: 0 1vh 1vh;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    border-radius:50%
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 98vh;
+}
+
+#side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    margin-right: 1vw;
+    margin-bottom: 0;
+}
+
+#skills-box {
+}
+
+#main {
+    width: 70vw;
+}
+
+i, img.logo {
+    margin-right: 1vw;
+    width: 1rem;
+    vertical-align: middle;
+}
+
+.box {
+    border-radius: .25rem;
+    padding: 1rem;
+    margin-top: 1vw;
+}
+
+.side-list {
+    padding: .25rem 1rem 1rem;
+}
+
+.text {
+    font-size: smaller;
+}
+
+.title {
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.dark {
+    color: white;
+    background-color: #1199d7;
+}
+
+.mid-dark {
+    color: white;
+    background-color: #50c8f3;
+}
+
+.content {
+    border: 1px solid #e2e2e2;
+    line-height: 1.5rem;
+}
+
+.header {
+    font-weight: 600;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+ul {
+    padding-left: 1.4rem;
+    margin-bottom: 0;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+.education-plan, .job-title, .course-title {
+    font-weight: 400;
+}
