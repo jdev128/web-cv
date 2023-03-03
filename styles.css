@@ -110,3 +110,10 @@ li {
 .education-plan, .job-title, .course-title {
     font-weight: 400;
 }
+
+progress {
+    display: block;
+    height: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
