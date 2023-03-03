@@ -111,9 +111,19 @@ li {
     font-weight: 400;
 }
 
+.job-responsibilities {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0.5rem 0 0;
+}
+
 progress {
     display: block;
     height: 1rem;
     width: 100%;
     margin-bottom: 1rem;
+}
+
+.underline-txt {
+    text-decoration: underline;
 }
