@@ -1,5 +1,5 @@
 :root {
-    font-size: 1.17vw;
+    font-size: 15px;
 }
 
 body {
@@ -30,13 +30,13 @@ a:hover {
 
 #container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 #side-bar {
     display: flex;
     flex-direction: column;
+    word-break: break-all;
     width: 22vw;
     margin-right: 1vw;
     margin-bottom: 0;
@@ -118,7 +118,7 @@ li {
 
 progress {
     display: block;
-    height: 1.2rem;
+    height: 1.5rem;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
