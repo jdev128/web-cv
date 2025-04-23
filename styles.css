@@ -4,7 +4,6 @@
 
 body {
     font-family: Bahnschrift, sans-serif;
-    font-weight: 100;
     margin: 0 1vh 1vh;
 }
 
@@ -106,14 +105,27 @@ li {
     padding-bottom: 0.9rem;
 }
 
-.education-plan, .job-title, .course-title {
-    font-weight: 400;
+#profile {
+    padding: 1.5rem;
 }
 
-.job-responsibilities {
+.education-plan, .job-title, .course-title {
+    font-weight: 600;
+}
+
+.job-industry {
     font-size: 0.9em;
     font-style: italic;
     margin: 0.5rem 0 0;
+}
+
+.job-milestones {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.job-milestones ul {
+    margin-top: 0.9rem;
 }
 
 progress {
