@@ -4,6 +4,10 @@
 
 /* TODO: NORMALIZAR ESTILOS */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Bahnschrift, sans-serif;
 	margin: 0 1vh 1vh;
@@ -15,7 +19,7 @@ body {
 	justify-content: center;
 }
 
-img {
+#photo img {
 	width: 70%;
 	border-radius: 50%;
 }
@@ -38,17 +42,18 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	word-break: break-all;
-	width: 22vw;
+	width: 800px;
 	margin-right: 1vw;
 	margin-bottom: 0;
 }
 
-.full-height {
-	height: 100%;
+#main {
+    display: flex;
+    flex-direction: column;
 }
 
-#main {
-	width: 70vw;
+#main:last-child {
+    flex-grow: 1;
 }
 
 i,
@@ -104,16 +109,30 @@ li {
 	padding-bottom: 0.9rem;
 }
 
-.education-plan,
+.education-program,
 .job-title,
-.course-title, .tool-title {
+.course-title,
+.tool-title {
 	font-weight: 600;
 }
 
-.job-industry {
+.job {
+	padding: 1rem 0;
+}
+
+.job:not(:last-child) {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.job-title,
+.education-program {
+	font-size: 1.1em;
+}
+
+.job-industry,
+.education-institute {
 	font-size: 0.9em;
-	font-style: italic;
-	margin: 0.5rem 0 0;
+	margin: 0.5rem 0 1rem;
 }
 
 .job-milestones {
@@ -143,9 +162,60 @@ progress {
 }
 
 .tool {
-    display: flex;
+	display: flex;
 	justify-content: space-between;
-    padding: 0.3rem 0.7rem;
+	padding: 0.3rem 0.7rem;
 	margin: 0;
-    margin-bottom: 0.7rem;
+	margin-bottom: 0.7rem;
+}
+
+.job-headline,
+.education-headline {
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.job-stack {
+	font-size: 0.8rem;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.text-end {
+	text-align: end;
+}
+
+#certifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.certification-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    .certification-title {
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+    .certification-validation-url {
+        display: inline;
+        border-radius: 20px;
+        width: fit-content;
+        align-self: flex-end;
+        padding: 0.1rem 1rem;
+        font-size: 0.9em;
+        background-color: #50c8f3;
+        color: white;
+    }
+    img {
+        width: 70px;
+        grid-row: 1 / span 3;
+    }
 }
