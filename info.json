@@ -1,0 +1,588 @@
+{
+	"name": "Mauricio Daniel",
+	"surname": "Pisco",
+	"headline": "Desarrollador Frontend React",
+	"profilePicture": "./assets/photo.jpg",
+	"location": {
+		"city": "La Plata",
+		"country": "Argentina",
+		"mapsUrl": "https://maps.app.goo.gl/U7btArnFZ1YHHk9XA"
+	},
+	"birth": "1994-11-04",
+	"contact": {
+		"email": "mauriciopisco@gmail.com",
+		"phone": {
+			"countryCode": "54",
+			"number": "1172001736"
+		},
+		"linkedin": "mauricio-pisco",
+		"portfolio": "https://jdev128-portfolio.netlify.app/",
+		"github": "jdev128",
+		"x": "MauricioPisco"
+	},
+	"profileSummary": "Desarrollador web con más de YEARS_PLACEHOLDER años de experiencia en seguros de salud. <br><br> Con alma emprendedora y curioso por naturaleza, busco continuamente nuevas formas de resolver problemas con las herramientas que integro de forma cotidiana, enfocándome en empatizar con el usuario para crear soluciones digitales que le aporten un valor real.",
+	"firstJobDate": "2019-08-05",
+	"skills": [
+		"escucha activa",
+		"empatía",
+		"comunicación",
+		"negociación",
+		"trabajo en equipo",
+		"liderazgo",
+		"resiliencia",
+		"adaptabilidad",
+		"asertividad",
+		"atencion al detalle",
+		"orientación al cliente",
+		"diseño UX/UI",
+		"creatividad",
+		"resolución de problemas",
+		"pensamiento crítico",
+		"pensamiento analítico",
+		"foco en objetivos",
+		"vision de conjunto",
+		"organizacion y planificación",
+		"autonomia y proactividad",
+		"toma de decisiones",
+		"gestión del tiempo"
+	],
+	"values": [
+		"curiosidad",
+		"autoconocimiento",
+		"responsabilidad",
+		"justicia",
+		"respeto",
+		"integridad",
+		"transparencia",
+		"mejora continua",
+		"innovación",
+		"diversidad e inclusion",
+		"sostenibilidad"
+	],
+	"interests": [
+		"tecnología",
+		"diseño de soluciones",
+		"negocios y finanzas",
+		"naturaleza y sostenibilidad",
+		"desarrollo personal",
+		"psicologia y neurociencia",
+		"relaciones interpersonales",
+		"filosofia y espiritualidad",
+		"salud"
+	],
+	"hobbies": [
+		"ejercicio fisico",
+		"meditación",
+		"yoga",
+		"canto",
+		"baile",
+		"lectura",
+		"natacion",
+		"senderismo"
+	],
+	"tools": [
+		{
+			"name": "HTML",
+			"level": "Avanzado"
+		},
+		{
+			"name": "CSS",
+			"level": "Avanzado"
+		},
+		{
+			"name": "Sass",
+			"level": "Intermedio"
+		},
+		{
+			"name": "JavaScript",
+			"level": "Avanzado"
+		},
+		{
+			"name": "TypeScript",
+			"level": "Intermedio"
+		},
+		{
+			"name": "React",
+			"level": "Avanzado"
+		},
+		{
+			"name": "Redux",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Ionic",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Bootstrap",
+			"level": "Basico"
+		},
+		{
+			"name": "Material-UI",
+			"level": "Basico"
+		},
+		{
+			"name": "RESTful APIs",
+			"level": "Intermedio"
+		},
+		{
+			"name": "SQL",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Git",
+			"level": "Intermedio"
+		},
+		{
+			"name": "GitHub",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Postman",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Visual Studio Code",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Docker",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Bash / Linux",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Kubernetes",
+			"level": "Basico"
+		},
+		{
+			"name": "Amazon Web Services",
+			"level": "Basico"
+		},
+		{
+			"name": "Agile",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Scrum",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Kanban",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Figma",
+			"level": "Intermedio"
+		},
+		{
+			"name": "Jira",
+			"level": "Basico"
+		},
+		{
+			"name": "Confluence",
+			"level": "Basico"
+		},
+		{
+			"name": "Selenium",
+			"level": "Basico"
+		}
+	],
+	"languages": [
+		{
+			"name": "Español",
+			"logoUrl": "./assets/espana.svg",
+			"proficiency": "Nativo"
+		},
+		{
+			"name": "Inglés",
+			"logoUrl": "./assets/united-states.svg",
+			"proficiency": "Intermedio"
+		},
+		{
+			"name": "Portugués",
+			"logoUrl": "./assets/brazil.svg",
+			"proficiency": "Pre Intermedio"
+		}
+	],
+	"experience": [
+		{
+			"jobTitle": "Desarrollador Frontend React",
+			"company": "Softtek",
+			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"location": "La Plata (Argentina)",
+			"start": {
+				"month": "Noviembre",
+				"year": "2023"
+			},
+			"end": null,
+			"responsibilities": [
+				"Diseño e implementacion de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnologia principal.",
+				"Definicion de archivos de configuracion para Docker y Kubernetes."
+			],
+			"achievements": [
+				"Colabore en el desarrollo del frontend de una aplicacion para la gestion de relaciones con prestadores de salud, realizando el desglose de varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
+				"Diseñe las pantallas de autenticacion de una aplicacion móvil para la autogestion de afiliados, aplicando principios de Diseño UX/UI para mejorar la experiencia del usuario y sembrando las bases para el desarrollo de un sistema de diseño.",
+				"Lleve adelante la contenerizacion y puesta en produccion de un proceso en segundo plano para la geolocalizacion de direcciones, trabajando en conjunto con el area de DevOps y brindando las capacitaciones pertinentes al resto del equipo tecnico."
+			],
+			"tools": [
+				"html",
+				"javascript",
+				"css",
+				"react",
+				"react router",
+				"redux",
+				"typescript",
+				"tanstack query",
+				"scrum",
+				"kanban",
+				"figma",
+				"git",
+				"github",
+				"gitlab",
+				"ant design",
+				"axios",
+				"postman",
+				"insomnia",
+				"docker",
+				"kubernetes",
+				"bash"
+			]
+		},
+		{
+			"jobTitle": "Desarrollador Full Stack",
+			"company": "Softtek",
+			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"location": "La Plata (Argentina)",
+			"start": {
+				"month": "Noviembre",
+				"year": "2020"
+			},
+			"end": {
+				"month": "Octubre",
+				"year": "2023"
+			},
+			"responsibilities": [
+				"Diseño e implementacion de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnologia principal, asi como Angular de manera ocasional.",
+				"Estimacion e implementacion de mejoras puntuales en el backend de las aplicaciones."
+			],
+			"achievements": [
+				"Realice la adaptacion de una aplicacion web movil a dispositivos de escritorio, trabajando en conjunto con el area de Diseño UX para mejorar la experiencia del usuario en pantallas mas grandes.",
+				"Colabore en la definicion e implementacion del estado global de una aplicacion para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para mejorar la comunicacion entre componentes.",
+				"Realice la configuracion de SSL Pinning en una aplicacion movil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
+				"Colabore en la implementacion de APIs REST para la solicitud de ambulancias, asegurando la comunicacion interna con mTLS, generando la documentacion necesaria en Postman e Insomnia y gestionando la comunicacion con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad."
+			],
+			"tools": [
+				"html",
+				"javascript",
+				"css",
+				"sass",
+				"react",
+				"typescript",
+				"angular",
+				"ionic",
+				"figma",
+				"scrum",
+				"kanban",
+				"git",
+				"gitlab",
+				"rest",
+				"postman",
+				"insomnia",
+				"android studio",
+				"xcode",
+				"maven",
+				"java 8",
+				"jboss 7",
+				"hibernate",
+				"ms sql server"
+			]
+		},
+		{
+			"jobTitle": "Desarrollador Full Stack",
+			"company": "Softtek",
+			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"location": "La Plata (Argentina)",
+			"start": {
+				"month": "Agosto",
+				"year": "2019"
+			},
+			"end": {
+				"month": "Octubre",
+				"year": "2020"
+			},
+			"responsibilities": [
+				"Implementacion de mejoras en aplicaciones web heredadas para gestion de medicamentos, precios y consumos, con enfasis en el soporte a usuarios y la gestion de incidentes."
+			],
+			"achievements": [],
+			"tools": [
+				"kanban",
+				"maven",
+				"java 8",
+				"jboss 4",
+				"hibernate",
+				"ms sql server"
+			]
+		}
+	],
+	"education": [
+		{
+			"program": "Analista Programador Universitario",
+			"institution": "Universidad Nacional de la Patagonia",
+			"location": "Esquel (Argentina)",
+			"finished": false,
+			"end": {
+				"year": "2025",
+				"month": "Febrero"
+			}
+		},
+		{
+			"program": "Técnico en Gestión Organizacional y Registración Contable",
+			"institution": "Escuela Secundaria N° 711",
+			"location": "Comodoro Rivadavia (Argentina)",
+			"finished": true,
+			"end": {
+				"year": "2012",
+				"month": "Diciembre"
+			}
+		}
+	],
+	"certifications": [
+		{
+			"name": "GitHub Foundations",
+			"issuingOrganization": "GitHub",
+			"issueDate": "2025-03-04T00:00:00.000-03:00",
+			"badgeIcon": "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
+			"credentialUrl": "https://www.credly.com/badges/da7a7b5e-8811-4628-890f-c246f6394082"
+		},
+		{
+			"name": "AWS Certified Cloud Practitioner",
+			"issuingOrganization": "Amazon Web Services Training and Certification",
+			"issueDate": "2023-09-05T00:00:00.000-03:00",
+			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
+		}
+	],
+	"courses": [
+		{
+			"title": "React + Redux con Typescript",
+			"hours": "15",
+			"institution": "Digital House",
+			"endDate": "2025-07-18T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "React JS",
+			"hours": "13",
+			"institution": "Digital House",
+			"endDate": "2025-04-23T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "GitHub Foundations Learning Path",
+			"hours": "11",
+			"institution": "Microsoft",
+			"endDate": "2025-01-28T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Testing en Calidad de Software",
+			"hours": "14",
+			"institution": "Digital House",
+			"endDate": "2024-12-20T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Diseño UX/UI",
+			"hours": "8",
+			"institution": "Digital House",
+			"endDate": "2024-11-21T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Identidad Poderosa",
+			"hours": "8",
+			"institution": "Softtek",
+			"endDate": "2024-10-17T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Feedback",
+			"hours": "3",
+			"institution": "Softtek",
+			"endDate": "2024-09-20T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Javascript para DOM",
+			"hours": "12",
+			"institution": "Digital House",
+			"endDate": "2024-09-17T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Negociacion",
+			"hours": "6",
+			"institution": "Softtek",
+			"endDate": "2024-08-14T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Programación Imperativa con Javascript",
+			"hours": "17",
+			"institution": "Digital House",
+			"endDate": "2024-07-18T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Diseño Web: HTML y CSS",
+			"hours": "13",
+			"institution": "Digital House",
+			"endDate": "2024-07-03T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Cerebro Ejecutivo",
+			"hours": "24",
+			"institution": "INECO",
+			"endDate": "2024-06-26T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "The Influencer",
+			"hours": "6",
+			"institution": "Softtek",
+			"endDate": "2024-05-16T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Inteligencia Emocional",
+			"hours": "6",
+			"institution": "Softtek",
+			"endDate": "2023-07-26T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Libere el Poder de las Aplicaciones Modernas de AWS con EKS",
+			"hours": "2",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-07-21T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Herramientas de Migración hacia AWS",
+			"hours": "2",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-07-14T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Actualice sus Políticas de Recuperación de Desastres",
+			"hours": "2",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-07-07T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Recomendaciones para Mantener Segura su Infraestructura",
+			"hours": "2",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-06-30T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Gestión de Costos con AWS Cost Calculator",
+			"hours": "2",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-06-23T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Interactive Introduction to Containers and Kubernetes",
+			"hours": null,
+			"institution": "KubeAcademy",
+			"endDate": "2023-04-18T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "AWS Partner: Accreditation (Technical)",
+			"hours": null,
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-04-16T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Getting Started with Kubernetes",
+			"hours": null,
+			"institution": "KubeAcademy",
+			"endDate": "2023-04-13T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "AWS Cloud Practitioner Essentials",
+			"hours": "8",
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-03-31T00:00:00.000-03:00",
+			"hidden": false
+		},
+		{
+			"title": "Containers 101",
+			"hours": null,
+			"institution": "KubeAcademy",
+			"endDate": "2023-03-16T00:00:00.000-03:00",
+			"hidden": true
+		},
+		{
+			"title": "Kubernetes 101",
+			"hours": null,
+			"institution": "KubeAcademy",
+			"endDate": "2023-03-16T00:00:00.000-03:00",
+			"hidden": true
+		},
+		{
+			"title": "Introduction to Containers",
+			"hours": null,
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-02-14T00:00:00.000-03:00",
+			"hidden": true
+		},
+		{
+			"title": "Portugués - Nivel 1",
+			"hours": "39",
+			"institution": "Facultad de Agronomía de la Universidad de Buenos Aires",
+			"endDate": "2022-07-26T00:00:00.000-03:00",
+			"hidden": true
+		}
+	],
+	"projects": [
+		{
+			"title": "",
+			"description": "",
+			"technologies": [],
+			"url": ""
+		}
+	],
+	"volunteerExperience": [
+		{
+			"role": "",
+			"organization": "",
+			"startDate": "",
+			"endDate": "",
+			"description": ""
+		}
+	],
+	"awards": [],
+	"publications": [],
+	"references": [
+		{
+			"name": "",
+			"relationship": "",
+			"contact": {
+				"email": "",
+				"phone": ""
+			}
+		}
+	]
+}
