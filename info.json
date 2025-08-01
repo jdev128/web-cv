@@ -406,14 +406,14 @@
 			"hours": "8",
 			"institution": "Softtek",
 			"endDate": "2024-10-17T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Feedback",
 			"hours": "3",
 			"institution": "Softtek",
 			"endDate": "2024-09-20T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Javascript para DOM",
@@ -455,7 +455,7 @@
 			"hours": "6",
 			"institution": "Softtek",
 			"endDate": "2024-05-16T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Inteligencia Emocional",
@@ -532,14 +532,14 @@
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-03-16T00:00:00.000-03:00",
-			"hidden": true
+			"hidden": false
 		},
 		{
 			"title": "Kubernetes 101",
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-03-16T00:00:00.000-03:00",
-			"hidden": true
+			"hidden": false
 		},
 		{
 			"title": "Introduction to Containers",
@@ -553,7 +553,7 @@
 			"hours": "39",
 			"institution": "Facultad de Agronomía de la Universidad de Buenos Aires",
 			"endDate": "2022-07-26T00:00:00.000-03:00",
-			"hidden": true
+			"hidden": false
 		}
 	],
 	"projects": [
