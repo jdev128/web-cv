@@ -2,6 +2,12 @@ import data from "./info.json" with { type: "json" };
 
 const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
 
+const PHOTO = document.getElementById("photo");
+const CONTACT_INFO = document.getElementById("contact-info");
+
+const SIDE_BAR = document.getElementById("side-bar");
+const MAIN_HEADER = document.getElementById("main-header");
+
 function calculateElapsedYears(initialDate) {
 	return Math.floor(
 		(Date.now() - new Date(initialDate).getTime()) / MILLISECONDS_IN_A_YEAR
@@ -9,12 +15,12 @@ function calculateElapsedYears(initialDate) {
 }
 
 function formatDate(date) {
-    const options = {
-        year: "numeric",
+	const options = {
+		year: "numeric",
 		month: "2-digit",
-		day: "2-digit"
-    };
-    return new Date(date).toLocaleDateString("es-AR", options);
+		day: "2-digit",
+	};
+	return new Date(date).toLocaleDateString("es-AR", options);
 }
 
 function fillPersonalData() {
@@ -24,9 +30,6 @@ function fillPersonalData() {
 		"full-name"
 	).innerText = `${data.surname}, ${data.name}`;
 	document.getElementById("role-title").innerText = data.headline;
-	document.getElementById("age").innerHTML += `${calculateElapsedYears(
-		data.birth
-	)} Años`;
 
 	document.querySelector("#photo img").src = data.profilePicture;
 
@@ -37,14 +40,6 @@ function fillPersonalData() {
 	let emailElement = document.getElementById("email");
 	emailElement.innerText = data.contact.email;
 	emailElement.href = `mailto:${data.contact.email}`;
-
-	let whatsappElement = document.getElementById("phone");
-	whatsappElement.innerText = `+${
-		data.contact.phone.countryCode + data.contact.phone.number
-	}`;
-	whatsappElement.href = `tel:+${
-		data.contact.phone.countryCode + data.contact.phone.number
-	}`;
 
 	let linkedInElement = document.getElementById("linkedin");
 	linkedInElement.innerText = data.contact.linkedin;
@@ -63,8 +58,10 @@ function fillLanguages() {
 		.join("");
 	document.getElementById("languages").innerHTML = languagesList;
 }
+
 function fillTools() {
 	let toolsList = data.tools
+		.filter((tool) => !tool.hidden)
 		.map((tool) => {
 			return `<span class="tool pill"><span class="tool-title">${tool.name}</span><span>${tool.level}</span></span>`;
 		})
@@ -84,10 +81,10 @@ function fillSkills() {
 }
 
 function fillProfileSummary() {
-	let profileSummary = data.profileSummary.replace(
-		"YEARS_PLACEHOLDER",
-		calculateElapsedYears(data.firstJobDate)
-	);
+	let profileSummary = data.profileSummary
+		.join("<br><br>")
+		.replace("TOTAL_EXPERIENCE", calculateElapsedYears(data.firstJobDate))
+		.replace("FRONTEND_EXPERIENCE", calculateElapsedYears(data.firstFrontendJobDate));
 	document.getElementById("profile").innerHTML = profileSummary;
 }
 
@@ -160,76 +157,104 @@ function createJob(job) {
 
 function fillExperience() {
 	let experienceContainer = document.getElementById("experience");
-	data.experience.forEach((job) => {
-		let jobElement = createJob(job);
-		experienceContainer.appendChild(jobElement);
-	});
+	data.experience
+		.filter((job) => !job.hidden)
+		.forEach((job) => {
+			let jobElement = createJob(job);
+			experienceContainer.appendChild(jobElement);
+		});
 }
 
-function createFormalEducation (education) {
-    let educationElement = document.createElement("div");
-    educationElement.classList.add("formal-learning");
-    educationElement.innerHTML = `
+function createFormalEducation(education) {
+	let educationElement = document.createElement("div");
+	educationElement.classList.add("formal-learning");
+	educationElement.innerHTML = `
         <div class="education-headline">
             <span class="education-program"
                 >${education.program}</span
             >
-            <span class="education-egress-date">Fecha de egreso: 
-                ${education.end.month + " " + education.end.year} ${!education.finished ? "(en curso)": ""}
+            <span class="education-egress-date text-end">Fecha de egreso: 
+                ${education.end.month + " " + education.end.year} ${
+		!education.finished ? "(en curso)" : ""
+	}
             </span>
         </div>
         <p class="education-institute">
             ${education.institution}, ${education.location}.
         </p>
     `;
-    return educationElement;
+	return educationElement;
 }
 
 function fillEducation() {
-    let educationContainer = document.getElementById("education");
-    data.education.forEach((education) => {
-        let educationElement = createFormalEducation(education);
-        educationContainer.appendChild(educationElement);
-    });
+	let educationContainer = document.getElementById("education");
+	data.education.forEach((education) => {
+		let educationElement = createFormalEducation(education);
+		educationContainer.appendChild(educationElement);
+	});
 }
 
 function createCertification(certification) {
-    let certificationElement = document.createElement("div");
-    certificationElement.classList.add("certification-card", "content", "box");
-    certificationElement.innerHTML = `
+	let certificationElement = document.createElement("div");
+	certificationElement.classList.add("certification-card", "content", "box");
+	certificationElement.innerHTML = `
         <img src="${certification.badgeIcon}" alt="${certification.name} badge">
         <div class="certification-title">${certification.name}</div>
-        <div class="certification-issue">${certification.issuingOrganization} (${formatDate(certification.issueDate)})</div>
-        <a class="certification-validation-url" href="${certification.credentialUrl}" target="_blank">Validar</a>
+        <div class="certification-issue">${
+			certification.issuingOrganization
+		} (${formatDate(certification.issueDate)})</div>
+        <a class="certification-validation-url" href="${
+			certification.credentialUrl
+		}" target="_blank">Validar</a>
     `;
-    return certificationElement;
+	return certificationElement;
 }
 
 function fillCertifications() {
-    let certificationsContainer = document.getElementById("certifications");
-    data.certifications.forEach((certification) => {
-        let certificationElement = createCertification(certification);
-        certificationsContainer.appendChild(certificationElement);
-    });
+	let certificationsContainer = document.getElementById("certifications");
+	data.certifications.forEach((certification) => {
+		let certificationElement = createCertification(certification);
+		certificationsContainer.appendChild(certificationElement);
+	});
 }
 
 function createCourse(course) {
-    let courseElement = document.createElement("p");
-    courseElement.innerHTML = `
-        <span class="course-title">"${course.title}"</span> (${course.hours ? course.hours + " HORAS" : "ASINCRONICO"}).
+	let courseElement = document.createElement("p");
+	courseElement.innerHTML = `
+        <span class="course-title">"${course.title}"</span> (${
+		course.hours ? course.hours + " HORAS" : "ASINCRONICO"
+	}).
         ${course.institution} (${formatDate(course.endDate)}).
     `;
-    return courseElement;
+	return courseElement;
 }
 
 function fillCourses() {
-    let coursesContainer = document.getElementById("courses");
-    data.courses.forEach((course) => {
-        if (course.hidden) return; // Skip hidden courses
-        let courseElement = createCourse(course);
-        coursesContainer.appendChild(courseElement);
-    });
+	let coursesContainer = document.getElementById("courses");
+	data.courses.forEach((course) => {
+		if (course.hidden) return; // Skip hidden courses
+		let courseElement = createCourse(course);
+		coursesContainer.appendChild(courseElement);
+	});
 }
+
+// Mobile version
+
+function onMobile () {
+	return window.innerWidth <= 720;
+}
+
+function movePhotoAndContactInfo () {
+	if (onMobile()) {
+		MAIN_HEADER.prepend(PHOTO);
+		MAIN_HEADER.append(CONTACT_INFO);
+	} else {
+		SIDE_BAR.prepend(PHOTO, CONTACT_INFO);
+	}
+}
+
+document.addEventListener("DOMContentLoaded", movePhotoAndContactInfo);
+window.addEventListener("resize", movePhotoAndContactInfo);
 
 document.addEventListener("DOMContentLoaded", fillPersonalData);
 document.addEventListener("DOMContentLoaded", fillLanguages);
