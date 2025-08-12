@@ -4,6 +4,7 @@ const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
 
 const PHOTO = document.getElementById("photo");
 const CONTACT_INFO = document.getElementById("contact-info");
+const LANGUAGES_INFO = document.getElementById("languages-info");
 
 const SIDE_BAR = document.getElementById("side-bar");
 const MAIN_HEADER = document.getElementById("main-header");
@@ -247,9 +248,9 @@ function onMobile () {
 function movePhotoAndContactInfo () {
 	if (onMobile()) {
 		MAIN_HEADER.prepend(PHOTO);
-		MAIN_HEADER.append(CONTACT_INFO);
+		MAIN_HEADER.append(CONTACT_INFO, LANGUAGES_INFO);
 	} else {
-		SIDE_BAR.prepend(PHOTO, CONTACT_INFO);
+		SIDE_BAR.prepend(PHOTO, CONTACT_INFO, LANGUAGES_INFO);
 	}
 }
 
