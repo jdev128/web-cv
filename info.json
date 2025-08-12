@@ -21,7 +21,7 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador web con mas de FRONTEND_EXPERIENCE años de experiencia creando aplicaciones React y mas de TOTAL_EXPERIENCE años aportando valor a empresas de seguros de salud.",
+		"Desarrollador web con más de FRONTEND_EXPERIENCE años de experiencia en la creación de aplicaciones responsive con React.",
 		"Con alma emprendedora y curioso por naturaleza, busco continuamente nuevas formas de resolver problemas con las herramientas que integro de forma cotidiana, enfocándome en empatizar con el usuario para crear soluciones digitales que le aporten un valor real."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
@@ -243,7 +243,7 @@
 		{
 			"jobTitle": "Desarrollador Frontend React",
 			"company": "Softtek",
-			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
 			"location": "La Plata (Argentina)",
 			"hidden": false,
 			"start": {
@@ -252,13 +252,13 @@
 			},
 			"end": null,
 			"responsibilities": [
-				"Diseño e implementacion de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnologia principal.",
-				"Definicion de archivos de configuracion para Docker y Kubernetes."
+				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal.",
+				"Definición de archivos de configuración para Docker y Kubernetes."
 			],
 			"achievements": [
-				"Colabore en el desarrollo del frontend de una aplicacion para la gestion de relaciones con prestadores de salud, realizando el desglose de varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
-				"Diseñe las pantallas de autenticacion de una aplicacion móvil para la autogestion de afiliados, aplicando principios de Diseño UX/UI para mejorar la experiencia del usuario y sembrando las bases para el desarrollo de un sistema de diseño.",
-				"Lleve adelante la contenerizacion y puesta en produccion de un proceso en segundo plano para la geolocalizacion de direcciones, trabajando en conjunto con el area de DevOps y brindando las capacitaciones pertinentes al resto del equipo tecnico."
+				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, realizando el desglose de varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
+				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para mejorar la experiencia del usuario y sembrando las bases para el desarrollo de un sistema de diseño.",
+				"Llevé adelante la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
 			],
 			"tools": [
 				"html",
@@ -287,7 +287,7 @@
 		{
 			"jobTitle": "Desarrollador Full Stack",
 			"company": "Softtek",
-			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
 			"location": "La Plata (Argentina)",
 			"hidden": false,
 			"start": {
@@ -299,14 +299,14 @@
 				"year": "2023"
 			},
 			"responsibilities": [
-				"Diseño e implementacion de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnologia principal, asi como Angular de manera ocasional.",
-				"Estimacion e implementacion de mejoras puntuales en el backend de las aplicaciones."
+				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal, así como Angular de manera ocasional.",
+				"Estimación e implementación de mejoras puntuales en el backend de las aplicaciones."
 			],
 			"achievements": [
-				"Realice la adaptacion de una aplicacion web movil a dispositivos de escritorio, trabajando en conjunto con el area de Diseño UX para mejorar la experiencia del usuario en pantallas mas grandes.",
-				"Colabore en la definicion e implementacion del estado global de una aplicacion para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para mejorar la comunicacion entre componentes.",
-				"Realice la configuracion de SSL Pinning en una aplicacion movil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
-				"Colabore en la implementacion de APIs REST para la solicitud de ambulancias, asegurando la comunicacion interna con mTLS, generando la documentacion necesaria en Postman e Insomnia y gestionando la comunicacion con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad."
+				"Realicé la adaptación de una aplicación web móvil a dispositivos de escritorio, trabajando en conjunto con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes.",
+				"Colaboré en la definición e implementación del estado global de una aplicación para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para mejorar la comunicación entre componentes.",
+				"Realicé la configuración de SSL Pinning en una aplicación móvil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
+				"Colaboré en la implementación de APIs REST para la solicitud de ambulancias, asegurando la comunicación interna con mTLS, generando la documentación necesaria en Postman e Insomnia y gestionando la comunicación con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad."
 			],
 			"tools": [
 				"html",
@@ -337,7 +337,7 @@
 		{
 			"jobTitle": "Desarrollador Full Stack",
 			"company": "Softtek",
-			"companyDetail": "Consultoria y servicios de TI para empresas de seguros de salud.",
+			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
 			"location": "La Plata (Argentina)",
 			"hidden": false,
 			"start": {
@@ -349,7 +349,7 @@
 				"year": "2020"
 			},
 			"responsibilities": [
-				"Mantenimiento de aplicaciones web heredadas para gestion de consumos, precios y medicamentos, con enfasis en el soporte a usuarios y la gestion de incidentes."
+				"Mantenimiento de aplicaciones web heredadas para gestión de consumos, precios y medicamentos, con énfasis en el soporte a usuarios y la gestión de incidentes."
 			],
 			"achievements": [],
 			"tools": [
@@ -458,7 +458,7 @@
 			"hidden": false
 		},
 		{
-			"title": "Negociacion",
+			"title": "Negociación",
 			"hours": "6",
 			"institution": "Softtek",
 			"endDate": "2024-08-14T00:00:00.000-03:00",
@@ -500,7 +500,7 @@
 			"hidden": false
 		},
 		{
-			"title": "Libere el Poder de las Aplicaciones Modernas de AWS con EKS",
+			"title": "Libere el Poder de las Aplicaciones Modernas con EKS",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-07-21T00:00:00.000-03:00",
@@ -602,7 +602,7 @@
 		},
 		{
 			"title": "Live CV",
-			"description": "Un resumen online de quien soy y lo que estuve haciendo estos ultimos años.",
+			"description": "Un resumen online de quién soy y lo que estuve haciendo estos últimos años.",
 			"technologies": ["html5", "css", "javascript", "responsive design"],
 			"url": "https://jdev128.github.io/web-cv/",
 			"repositoryUrl": "https://github.com/jdev128/web-cv",
@@ -610,7 +610,7 @@
 		},
 		{
 			"title": "Pizza Time",
-			"description": "Una aplicación para que puedas buscar peliculas en tendencia para un sabado por la noche.",
+			"description": "Una aplicación para que puedas buscar películas en tendencia para un sábado por la noche.",
 			"technologies": [
 				"html5",
 				"css",
@@ -626,7 +626,7 @@
 		},
 		{
 			"title": "Hello World ... Banking",
-			"description": "Una aplicacion bancaria para que simules transacciones en un entorno libre de riesgos.",
+			"description": "Una aplicación bancaria para que simules transacciones en un entorno libre de riesgos.",
 			"technologies": ["html5", "css", "javascript", "responsive design"],
 			"url": "https://jdev128-bank-account.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/js-poo-collections-bank-account",
@@ -634,7 +634,7 @@
 		},
 		{
 			"title": "Ephemeral Blog",
-			"description": "Un blog personal para que vuelques y le des forma a tus ideas... Al menos de forma efimera ;)",
+			"description": "Un blog personal para que vuelques y le des forma a tus ideas... Al menos de forma efímera ;)",
 			"technologies": [
 				"html5",
 				"css",
@@ -649,7 +649,7 @@
 		},
 		{
 			"title": "Suitcase Checker",
-			"description": "Una aplicación para que sepas como se encuentra el clima en la ciudad a la que vas a viajar.",
+			"description": "Una aplicación para que sepas como se encuentra el clima en la ciudad a la que piensas viajar.",
 			"technologies": [
 				"html5",
 				"css",
