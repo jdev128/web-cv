@@ -21,8 +21,8 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador web con más de FRONTEND_EXPERIENCE años de experiencia en la creación de aplicaciones responsive con React.",
-		"Con alma emprendedora y curioso por naturaleza, busco continuamente nuevas formas de resolver problemas con las herramientas que integro de forma cotidiana, enfocándome en empatizar con el usuario para crear soluciones digitales que le aporten un valor real."
+		"Desarrollador web con más de FRONTEND_EXPERIENCE años de experiencia en React y conocimiento de las industrias gastronómica y de seguros de salud.",
+		"Con alma emprendedora y curioso por naturaleza, busco nuevas formas de resolver problemas con las herramientas que integro de forma cotidiana, enfocándome en empatizar con el usuario para crear soluciones digitales que le aporten un valor real."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -38,16 +38,17 @@
 		"adaptabilidad",
 		"asertividad",
 		"creatividad",
-		"atencion al detalle",
+		"atención al detalle",
 		"orientación al cliente",
 		"diseño UX/UI",
+		"diseño Responsive",
 		"resolución de problemas",
 		"pensamiento crítico",
 		"pensamiento analítico",
 		"foco en objetivos",
-		"vision de conjunto",
-		"organizacion y planificación",
-		"autonomia y proactividad",
+		"visión de conjunto",
+		"organización y planificación",
+		"autonomía y proactividad",
 		"toma de decisiones",
 		"gestión del tiempo"
 	],
@@ -261,27 +262,28 @@
 				"Llevé adelante la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
 			],
 			"tools": [
-				"html",
-				"javascript",
-				"css",
-				"react",
-				"react router",
-				"redux",
-				"typescript",
-				"tanstack query",
-				"scrum",
-				"kanban",
-				"figma",
-				"git",
-				"github",
-				"gitlab",
-				"ant design",
-				"axios",
-				"postman",
-				"insomnia",
-				"docker",
-				"kubernetes",
-				"bash"
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"React",
+				"React Router",
+				"Redux",
+				"TypeScript",
+				"Tanstack Query",
+				"Ant Design",
+				"Axios",
+				"Scrum",
+				"Kanban",
+				"Figma",
+				"Git",
+				"GitHub",
+				"GitLab",
+				"Postman",
+				"Insomnia",
+				"Docker",
+				"Bash",
+				"cURL",
+				"Kubernetes"
 			]
 		},
 		{
@@ -309,29 +311,37 @@
 				"Colaboré en la implementación de APIs REST para la solicitud de ambulancias, asegurando la comunicación interna con mTLS, generando la documentación necesaria en Postman e Insomnia y gestionando la comunicación con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad."
 			],
 			"tools": [
-				"html",
-				"javascript",
-				"css",
-				"sass",
-				"react",
-				"typescript",
-				"angular",
-				"ionic",
-				"figma",
-				"scrum",
-				"kanban",
-				"git",
-				"gitlab",
-				"rest",
-				"postman",
-				"insomnia",
-				"android studio",
-				"xcode",
-				"maven",
-				"java 8",
-				"jboss 7",
-				"hibernate",
-				"ms sql server"
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"Sass",
+				"React",
+				"TypeScript",
+				"Angular",
+				"Ionic",
+				"Figma",
+				"Scrum",
+				"Kanban",
+				"Git",
+				"GitLab",
+				"REST",
+				"JSON",
+				"XML",
+				"Postman",
+				"Insomnia",
+				"OpenAPI",
+				"mTLS",
+				"protocolos de red",
+				"cURL",
+				"OpenSSL",
+				"Wireshark",
+				"Android Studio",
+				"Xcode",
+				"Maven",
+				"Java 8",
+				"JBoss 7",
+				"Hibernate",
+				"MS SQL Server"
 			]
 		},
 		{
@@ -349,16 +359,16 @@
 				"year": "2020"
 			},
 			"responsibilities": [
-				"Mantenimiento de aplicaciones web heredadas para gestión de consumos, precios y medicamentos, con énfasis en el soporte a usuarios y la gestión de incidentes."
+				"Mantenimiento de aplicaciones web heredadas para gestión de consumos, precios y medicamentos, con énfasis en la resolución de incidentes y problemas."
 			],
 			"achievements": [],
 			"tools": [
-				"kanban",
-				"maven",
-				"java 8",
-				"jboss 4",
-				"hibernate",
-				"ms sql server"
+				"Kanban",
+				"Maven",
+				"Java 8",
+				"JBoss 4",
+				"Hibernate",
+				"MS SQL Server"
 			]
 		}
 	],
@@ -369,7 +379,7 @@
 			"location": "Esquel (Argentina)",
 			"finished": false,
 			"end": {
-				"year": "2025",
+				"year": "2026",
 				"month": "Febrero"
 			}
 		},
@@ -402,7 +412,7 @@
 	],
 	"courses": [
 		{
-			"title": "React + Redux con Typescript",
+			"title": "React + Redux con TypeScript",
 			"hours": "15",
 			"institution": "Digital House",
 			"endDate": "2025-07-18T00:00:00.000-03:00",
@@ -451,7 +461,7 @@
 			"hidden": true
 		},
 		{
-			"title": "Javascript para DOM",
+			"title": "JavaScript para DOM",
 			"hours": "12",
 			"institution": "Digital House",
 			"endDate": "2024-09-17T00:00:00.000-03:00",
@@ -465,7 +475,7 @@
 			"hidden": false
 		},
 		{
-			"title": "Programación Imperativa con Javascript",
+			"title": "Programación Imperativa con JavaScript",
 			"hours": "17",
 			"institution": "Digital House",
 			"endDate": "2024-07-18T00:00:00.000-03:00",
@@ -595,7 +605,7 @@
 		{
 			"title": "Personal Portfolio",
 			"description": "Un sitio web para que puedas conocerme mejor y conectar conmigo.",
-			"technologies": ["html5", "css", "javascript", "responsive design"],
+			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
 			"url": "https://jdev128-portfolio.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/dh-web-portfolio",
 			"hidden": false
@@ -603,7 +613,7 @@
 		{
 			"title": "Live CV",
 			"description": "Un resumen online de quién soy y lo que estuve haciendo estos últimos años.",
-			"technologies": ["html5", "css", "javascript", "responsive design"],
+			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
 			"url": "https://jdev128.github.io/web-cv/",
 			"repositoryUrl": "https://github.com/jdev128/web-cv",
 			"hidden": false
@@ -612,13 +622,13 @@
 			"title": "Pizza Time",
 			"description": "Una aplicación para que puedas buscar películas en tendencia para un sábado por la noche.",
 			"technologies": [
-				"html5",
-				"css",
-				"javascript",
-				"react",
-				"responsive design",
-				"restful apis",
-				"tmdb api"
+				"HTML5",
+				"CSS",
+				"JavaScript",
+				"React",
+				"Responsive Design",
+				"RESTful APIs",
+				"TMDB API"
 			],
 			"url": "https://jdev128-movies.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/movies-catalog",
@@ -627,7 +637,7 @@
 		{
 			"title": "Hello World ... Banking",
 			"description": "Una aplicación bancaria para que simules transacciones en un entorno libre de riesgos.",
-			"technologies": ["html5", "css", "javascript", "responsive design"],
+			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
 			"url": "https://jdev128-bank-account.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/js-poo-collections-bank-account",
 			"hidden": false
@@ -636,12 +646,12 @@
 			"title": "Ephemeral Blog",
 			"description": "Un blog personal para que vuelques y le des forma a tus ideas... Al menos de forma efímera ;)",
 			"technologies": [
-				"html5",
-				"css",
-				"javascript",
-				"responsive design",
-				"restful apis",
-				"json placeholder api"
+				"HTML5",
+				"CSS",
+				"JavaScript",
+				"Responsive Design",
+				"RESTful APIs",
+				"JSON Placeholder API"
 			],
 			"url": "https://jdev128-blog.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/dh-javascript-blog",
@@ -651,11 +661,11 @@
 			"title": "Suitcase Checker",
 			"description": "Una aplicación para que sepas como se encuentra el clima en la ciudad a la que piensas viajar.",
 			"technologies": [
-				"html5",
-				"css",
-				"javascript",
-				"restful apis",
-				"open weather map api"
+				"HTML5",
+				"CSS",
+				"JavaScript",
+				"RESTful APIs",
+				"OpenWeather API"
 			],
 			"url": "https://jdev128-weather.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/dh-javascript-weather-app",
