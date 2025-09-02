@@ -251,7 +251,10 @@
 				"month": "Noviembre",
 				"year": "2023"
 			},
-			"end": null,
+			"end": {
+				"month": "Agosto",
+				"year": "2025"
+			},
 			"responsibilities": [
 				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal.",
 				"Definición de archivos de configuración para Docker y Kubernetes."
