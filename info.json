@@ -12,8 +12,8 @@
 	"contact": {
 		"email": "mauriciopisco@gmail.com",
 		"phone": {
-			"countryCode": "54",
-			"number": "1172001736"
+			"countryCode": "",
+			"number": ""
 		},
 		"linkedin": "mauricio-pisco",
 		"portfolio": "https://jdev128-portfolio.netlify.app/",
@@ -263,13 +263,14 @@
 			],
 			"tools": [
 				"HTML",
-				"JavaScript",
+				"JavaScript (ES2020)",
+				"Web APIs",
 				"CSS",
 				"React",
 				"React Router",
 				"Redux",
 				"TypeScript",
-				"Tanstack Query",
+				"TanStack Query",
 				"Ant Design",
 				"Axios",
 				"Scrum",
@@ -283,7 +284,8 @@
 				"Docker",
 				"Bash",
 				"cURL",
-				"Kubernetes"
+				"Kubernetes",
+				"MS SQL Server"
 			]
 		},
 		{
@@ -312,7 +314,8 @@
 			],
 			"tools": [
 				"HTML",
-				"JavaScript",
+				"JavaScript (ES2020)",
+				"Web APIs",
 				"CSS",
 				"Sass",
 				"React",
@@ -603,19 +606,21 @@
 	],
 	"projects": [
 		{
-			"title": "Personal Portfolio",
-			"description": "Un sitio web para que puedas conocerme mejor y conectar conmigo.",
-			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
-			"url": "https://jdev128-portfolio.netlify.app/",
-			"repositoryUrl": "https://github.com/jdev128/dh-web-portfolio",
-			"hidden": false
-		},
-		{
-			"title": "Live CV",
-			"description": "Un resumen online de quién soy y lo que estuve haciendo estos últimos años.",
-			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
-			"url": "https://jdev128.github.io/web-cv/",
-			"repositoryUrl": "https://github.com/jdev128/web-cv",
+			"title": "Lens SNS",
+			"description": "Una red social para ver lo que tus amigos estuvieron haciendo ultimamente.",
+			"technologies": [
+				"HTML5",
+				"CSS3",
+				"JavaScript (ES2020)",
+				"React",
+				"Context API",
+				"React Router",
+				"TanStack Query",
+				"Responsive Design",
+				"RESTful APIs"
+			],
+			"url": "https://lens-sns.netlify.app/",
+			"repositoryUrl": "https://github.com/jdev128/lens-sns",
 			"hidden": false
 		},
 		{
@@ -623,8 +628,8 @@
 			"description": "Una aplicación para que puedas buscar películas en tendencia para un sábado por la noche.",
 			"technologies": [
 				"HTML5",
-				"CSS",
-				"JavaScript",
+				"CSS3",
+				"JavaScript (ES2020)",
 				"React",
 				"Responsive Design",
 				"RESTful APIs",
@@ -637,7 +642,12 @@
 		{
 			"title": "Hello World ... Banking",
 			"description": "Una aplicación bancaria para que simules transacciones en un entorno libre de riesgos.",
-			"technologies": ["HTML5", "CSS", "JavaScript", "Responsive Design"],
+			"technologies": [
+				"HTML5",
+				"CSS3",
+				"JavaScript (ES2020)",
+				"Responsive Design"
+			],
 			"url": "https://jdev128-bank-account.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/js-poo-collections-bank-account",
 			"hidden": false
@@ -647,8 +657,8 @@
 			"description": "Un blog personal para que vuelques y le des forma a tus ideas... Al menos de forma efímera ;)",
 			"technologies": [
 				"HTML5",
-				"CSS",
-				"JavaScript",
+				"CSS3",
+				"JavaScript (ES2020)",
 				"Responsive Design",
 				"RESTful APIs",
 				"JSON Placeholder API"
@@ -658,12 +668,38 @@
 			"hidden": false
 		},
 		{
+			"title": "Personal Portfolio",
+			"description": "Un sitio web para que puedas conocerme mejor y conectar conmigo.",
+			"technologies": [
+				"HTML5",
+				"CSS3",
+				"JavaScript (ES2020)",
+				"Responsive Design"
+			],
+			"url": "https://jdev128-portfolio.netlify.app/",
+			"repositoryUrl": "https://github.com/jdev128/dh-web-portfolio",
+			"hidden": false
+		},
+		{
+			"title": "Live CV",
+			"description": "Un resumen online de quién soy y lo que estuve haciendo estos últimos años.",
+			"technologies": [
+				"HTML5",
+				"CSS3",
+				"JavaScript (ES2020)",
+				"Responsive Design"
+			],
+			"url": "https://jdev128.github.io/web-cv/",
+			"repositoryUrl": "https://github.com/jdev128/web-cv",
+			"hidden": false
+		},
+		{
 			"title": "Suitcase Checker",
 			"description": "Una aplicación para que sepas como se encuentra el clima en la ciudad a la que piensas viajar.",
 			"technologies": [
 				"HTML5",
-				"CSS",
-				"JavaScript",
+				"CSS3",
+				"JavaScript (ES2020)",
 				"RESTful APIs",
 				"OpenWeather API"
 			],
