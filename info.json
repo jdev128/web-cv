@@ -1,7 +1,7 @@
 {
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
-	"headline": "Desarrollador Frontend React SSr.",
+	"headline": "Desarrollador Frontend React",
 	"profilePicture": "./assets/photo.jpg",
 	"location": {
 		"city": "La Plata",
@@ -21,8 +21,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador web con más de FRONTEND_EXPERIENCE años de experiencia en React y conocimiento de las industrias gastronómica y de seguros de salud.",
-		"Con alma emprendedora y curioso por naturaleza, busco nuevas formas de resolver problemas con las herramientas que integro de forma cotidiana, enfocándome en empatizar con el usuario para crear soluciones digitales que le aporten un valor real."
+		"Desarrollador Frontend con más de FRONTEND_EXPERIENCE años de experiencia en diseño e implementación de interfaces con React, y 2 años de experiencia en implementacion y contenerizacion de APIs REST con Docker y Kubernetes.",
+		"Gracias a mi experiencia en diseño UX/UI, backend, bases de datos, arquitectura, seguridad y redes, comprendo el ciclo de vida completo del software y puedo comunicarme de manera efectiva con cualquier persona, sin importar su área de dominio.",
+		"Con alma emprendedora y curioso por naturaleza, me apasiona conectar con las personas y crear soluciones digitales de calidad que aporten valor a la sociedad y al planeta, por lo que estoy buscando sumarme a un equipo ágil que ponga foco en el usuario y la colaboración."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -260,9 +261,9 @@
 				"Definición de archivos de configuración para Docker y Kubernetes."
 			],
 			"achievements": [
-				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, realizando el desglose de varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
-				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para mejorar la experiencia del usuario y sembrando las bases para el desarrollo de un sistema de diseño.",
-				"Llevé adelante la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
+				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
+				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para optimizar la experiencia del usuario y sentando las bases para el desarrollo de un sistema de diseño.",
+				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
 			],
 			"tools": [
 				"HTML5",
@@ -311,10 +312,10 @@
 				"Estimación e implementación de mejoras puntuales en el backend de las aplicaciones."
 			],
 			"achievements": [
-				"Realicé la adaptación de una aplicación web móvil a dispositivos de escritorio, trabajando en conjunto con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes.",
-				"Colaboré en la definición e implementación del estado global de una aplicación para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para mejorar la comunicación entre componentes.",
-				"Realicé la configuración de SSL Pinning en una aplicación móvil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
-				"Colaboré en la implementación de APIs REST para la solicitud de ambulancias, asegurando la comunicación interna con mTLS, generando la documentación necesaria en Postman e Insomnia y gestionando la comunicación con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad (QA)."
+				"Adapté una aplicación web móvil a dispositivos de escritorio, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes.",
+				"Colaboré en la definición e implementación del estado global de una aplicación para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para optimizar la comunicación entre componentes.",
+				"Configuré SSL Pinning en una aplicación móvil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
+				"Lideré la implementación de APIs REST para la solicitud de ambulancias, asegurando la comunicación interna con mTLS, generando la documentación necesaria en Postman e Insomnia y gestionando la comunicación con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad (QA)."
 			],
 			"tools": [
 				"HTML5",
@@ -367,7 +368,7 @@
 				"year": "2020"
 			},
 			"responsibilities": [
-				"Mantenimiento de aplicaciones web heredadas para gestión de consumos, precios y medicamentos, con énfasis en la resolución de incidentes y problemas."
+				"Soporte e implementación de mejoras en aplicaciones web para gestión de consumos, precios y medicamentos, con énfasis en la resolución de incidentes y problemas."
 			],
 			"achievements": [],
 			"tools": [
