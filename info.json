@@ -89,12 +89,12 @@
 	],
 	"tools": [
 		{
-			"name": "HTML",
+			"name": "HTML5",
 			"level": "Avanzado",
 			"hidden": false
 		},
 		{
-			"name": "CSS",
+			"name": "CSS3",
 			"level": "Avanzado",
 			"hidden": false
 		},
@@ -139,56 +139,6 @@
 			"hidden": true
 		},
 		{
-			"name": "RESTful APIs",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "SQL",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Git",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "GitHub",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Postman",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Visual Studio Code",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Docker",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Bash / Linux",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Kubernetes",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Amazon Web Services",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
 			"name": "Agile",
 			"level": "Intermedio",
 			"hidden": false
@@ -219,7 +169,57 @@
 			"hidden": true
 		},
 		{
+			"name": "Git",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "GitHub",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Visual Studio Code",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Postman",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
 			"name": "Selenium",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "RESTful APIs",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "SQL",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Docker",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Bash / Linux",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Kubernetes",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "Amazon Web Services",
 			"level": "Basico",
 			"hidden": true
 		}
@@ -277,7 +277,7 @@
 				"React Router",
 				"Redux",
 				"TypeScript",
-				"TanStack Query",
+				"//TanStack Query",
 				"Angular",
 				"Ionic",
 				"Ant Design",
