@@ -29,29 +29,29 @@
 	"firstJobDate": "2019-08-05",
 	"firstFrontendJobDate": "2020-11-01",
 	"skills": [
-		"escucha activa",
-		"empatía",
-		"comunicación",
-		"negociación",
-		"trabajo en equipo",
-		"liderazgo",
-		"resiliencia",
-		"adaptabilidad",
-		"asertividad",
-		"creatividad",
-		"atención al detalle",
-		"orientación al usuario",
-		"diseño UX/UI",
-		"diseño Responsive",
-		"resolución de problemas",
-		"pensamiento crítico",
-		"pensamiento analítico",
-		"foco en objetivos",
-		"visión de conjunto",
-		"organización y planificación",
-		"autonomía y proactividad",
-		"toma de decisiones",
-		"gestión del tiempo"
+		{ "description": "escucha activa", "hidden": true },
+		{ "description": "empatía", "hidden": true },
+		{ "description": "adaptabilidad", "hidden": false },
+		{ "description": "comunicación", "hidden": false },
+		{ "description": "trabajo en equipo", "hidden": false },
+		{ "description": "negociación", "hidden": true },
+		{ "description": "resiliencia", "hidden": true },
+		{ "description": "asertividad", "hidden": true },
+		{ "description": "creatividad", "hidden": true },
+		{ "description": "atención al detalle", "hidden": true },
+		{ "description": "orientación al usuario", "hidden": false },
+		{ "description": "diseño UX/UI", "hidden": true },
+		{ "description": "diseño Responsive", "hidden": true },
+		{ "description": "resolución de problemas", "hidden": false },
+		{ "description": "liderazgo", "hidden": false },
+		{ "description": "pensamiento crítico", "hidden": true },
+		{ "description": "pensamiento analítico", "hidden": true },
+		{ "description": "foco en objetivos", "hidden": false },
+		{ "description": "visión de conjunto", "hidden": false },
+		{ "description": "organización y planificación", "hidden": true },
+		{ "description": "autonomía y proactividad", "hidden": true },
+		{ "description": "toma de decisiones", "hidden": true },
+		{ "description": "gestión del tiempo", "hidden": true }
 	],
 	"values": [
 		"curiosidad",
@@ -250,7 +250,7 @@
 			"hidden": false,
 			"start": {
 				"month": "Noviembre",
-				"year": "2023"
+				"year": "2021"
 			},
 			"end": {
 				"month": "Agosto",
@@ -261,61 +261,10 @@
 				"Definición de archivos de configuración para Docker y Kubernetes."
 			],
 			"achievements": [
-				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
 				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para optimizar la experiencia del usuario y sentando las bases para el desarrollo de un sistema de diseño.",
-				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
-			],
-			"tools": [
-				"HTML5",
-				"JavaScript (ES2020)",
-				"Web APIs",
-				"CSS3",
-				"React",
-				"React Router",
-				"Redux",
-				"TypeScript",
-				"TanStack Query",
-				"Ant Design",
-				"Axios",
-				"Scrum",
-				"Kanban",
-				"Figma",
-				"Git",
-				"GitHub",
-				"GitLab",
-				"REST APIs",
-				"Postman",
-				"Insomnia",
-				"Docker",
-				"Bash",
-				"cURL",
-				"Kubernetes",
-				"MS SQL Server"
-			]
-		},
-		{
-			"jobTitle": "Desarrollador Full Stack",
-			"company": "Softtek",
-			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
-			"location": "La Plata (Argentina)",
-			"hidden": false,
-			"start": {
-				"month": "Noviembre",
-				"year": "2020"
-			},
-			"end": {
-				"month": "Octubre",
-				"year": "2023"
-			},
-			"responsibilities": [
-				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal, así como Angular de manera ocasional.",
-				"Estimación e implementación de mejoras puntuales en el backend de las aplicaciones."
-			],
-			"achievements": [
 				"Adapté una aplicación web móvil a dispositivos de escritorio, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes.",
-				"Colaboré en la definición e implementación del estado global de una aplicación para solicitud de visitas a domicilio, haciendo uso de Context API y React Hooks para optimizar la comunicación entre componentes.",
-				"Configuré SSL Pinning en una aplicación móvil para la solicitud de visitas a domicilio, para mejorar la seguridad de las comunicaciones y proteger los datos sensibles de los usuarios.",
-				"Lideré la implementación de APIs REST para la solicitud de ambulancias, asegurando la comunicación interna con mTLS, generando la documentación necesaria en Postman e Insomnia y gestionando la comunicación con los referentes de Arquitectura, Seguridad, Redes y Aseguramiento de la Calidad (QA)."
+				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
+				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
 			],
 			"tools": [
 				"HTML5",
@@ -325,13 +274,19 @@
 				"Sass",
 				"Responsive Design",
 				"React",
+				"React Router",
+				"Redux",
 				"TypeScript",
+				"TanStack Query",
 				"Angular",
 				"Ionic",
-				"Figma",
+				"Ant Design",
+				"Axios",
 				"Scrum",
 				"Kanban",
+				"Figma",
 				"Git",
+				"GitHub",
 				"GitLab",
 				"REST APIs",
 				"JSON",
@@ -341,6 +296,9 @@
 				"OpenAPI",
 				"mTLS",
 				"protocolos de red",
+				"Docker",
+				"Kubernetes",
+				"Bash",
 				"cURL",
 				"OpenSSL",
 				"Wireshark",
@@ -365,12 +323,14 @@
 			},
 			"end": {
 				"month": "Octubre",
-				"year": "2020"
+				"year": "2021"
 			},
 			"responsibilities": [
-				"Soporte e implementación de mejoras en aplicaciones web para gestión de consumos, precios y medicamentos, con énfasis en la resolución de incidentes y problemas."
+				"Soporte e implementación de mejoras para aplicaciones web de back office, con foco en el backend y la resolución de incidentes y problemas."
 			],
-			"achievements": [],
+			"achievements": [
+				"Lideré la implementación de APIs REST para la solicitud de ambulancias, gestionando la comunicación con equipos externos (Arquitectura, Seguridad y QA), asegurando los estándares requeridos (mTLS) y generando la documentación técnica pertinente."
+			],
 			"tools": [
 				"Kanban",
 				"Maven",
@@ -457,8 +417,8 @@
 			"hidden": false
 		},
 		{
-			"title": "Diseño UX/UI",
-			"hours": "8",
+			"title": "Web Designer",
+			"hours": "50",
 			"institution": "Digital House",
 			"endDate": "2024-11-21T00:00:00.000-03:00",
 			"hidden": false
@@ -478,31 +438,10 @@
 			"hidden": true
 		},
 		{
-			"title": "JavaScript para DOM",
-			"hours": "12",
-			"institution": "Digital House",
-			"endDate": "2024-09-17T00:00:00.000-03:00",
-			"hidden": false
-		},
-		{
 			"title": "Negociación",
 			"hours": "6",
 			"institution": "Softtek",
 			"endDate": "2024-08-14T00:00:00.000-03:00",
-			"hidden": false
-		},
-		{
-			"title": "Programación Imperativa con JavaScript",
-			"hours": "17",
-			"institution": "Digital House",
-			"endDate": "2024-07-18T00:00:00.000-03:00",
-			"hidden": false
-		},
-		{
-			"title": "Diseño Web: HTML y CSS",
-			"hours": "13",
-			"institution": "Digital House",
-			"endDate": "2024-07-03T00:00:00.000-03:00",
 			"hidden": false
 		},
 		{
@@ -524,84 +463,84 @@
 			"hours": "6",
 			"institution": "Softtek",
 			"endDate": "2023-07-26T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Libere el Poder de las Aplicaciones Modernas con EKS",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-07-21T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Herramientas de Migración hacia AWS",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-07-14T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Actualice sus Políticas de Recuperación de Desastres",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-07-07T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Recomendaciones para Mantener Segura su Infraestructura",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-06-30T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Gestión de Costos con AWS Cost Calculator",
 			"hours": "2",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-06-23T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Interactive Introduction to Containers and Kubernetes",
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-04-18T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "AWS Partner: Accreditation (Technical)",
 			"hours": null,
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-04-16T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Getting Started with Kubernetes",
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-04-13T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "AWS Cloud Practitioner Essentials",
 			"hours": "8",
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-03-31T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Containers 101",
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-03-16T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Kubernetes 101",
 			"hours": null,
 			"institution": "KubeAcademy",
 			"endDate": "2023-03-16T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Introduction to Containers",
@@ -615,7 +554,7 @@
 			"hours": "39",
 			"institution": "Facultad de Agronomía de la Universidad de Buenos Aires",
 			"endDate": "2022-07-26T00:00:00.000-03:00",
-			"hidden": false
+			"hidden": true
 		}
 	],
 	"projects": [
@@ -739,7 +678,8 @@
 			"relationship": "",
 			"contact": {
 				"email": "",
-				"phone": ""
+				"phone": "",
+				"linkedin": ""
 			}
 		}
 	]

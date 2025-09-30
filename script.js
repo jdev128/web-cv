@@ -79,10 +79,10 @@ function fillTools() {
 }
 
 function fillSkills() {
-	let skillsList = data.skills
+	let skillsList = data.skills.filter(skill => !skill.hidden)
 		.map((skill) => {
 			return `<span class="pill">${
-				skill[0].toUpperCase() + skill.slice(1)
+				skill.description[0].toUpperCase() + skill.description.slice(1)
 			}</span>`;
 		})
 		.join("");
@@ -98,25 +98,6 @@ function fillProfileSummary() {
 			calculateElapsedYears(data.firstFrontendJobDate)
 		);
 	document.getElementById("profile").innerHTML = profileSummary;
-}
-
-function fillInterests() {
-	let interestsList = data.interests
-		.map((interest) => {
-			return `<span class="pill">${
-				interest[0].toUpperCase() + interest.slice(1)
-			}</span>`;
-		})
-		.join("");
-	let hobbiesList = data.hobbies
-		.map((hobby) => {
-			return `<span class="pill">${
-				hobby[0].toUpperCase() + hobby.slice(1)
-			}</span>`;
-		})
-		.join("");
-	document.getElementById("interests").innerHTML =
-		interestsList + hobbiesList;
 }
 
 function createJob(job) {
@@ -157,12 +138,6 @@ function createJob(job) {
 					.join("")}
             </ul>
         </div>
-        <div class="job-stack">
-            Herramientas:
-            <span class="list">
-                ${job.tools.join(", ")}
-            </span>
-        </div>
         `;
 	return jobElement;
 }
@@ -185,14 +160,10 @@ function createFormalEducation(education) {
             <span class="education-program"
                 >${education.program}</span
             >
-			<span class="education-dates text-end"
-				>${education.start.month + " " + education.start.year} a 
-				${
-					education.end
-						? education.end.month + " " + education.end.year
-						: "la Actualidad"
-				}
-			</span>
+			<span class="education-egress-date text-end">
+				Fecha de egreso: 
+                ${education.end.month + " " + education.end.year}
+            </span>
         </div>
         <p class="education-institute">
             ${education.institution}, ${education.location}.
@@ -268,34 +239,6 @@ function movePhotoAndContactInfo() {
 	}
 }
 
-// Accordion functionality
-
-const ACCORDIONS = [
-	{
-		headerId: "profile-header",
-		dataId: "profile",
-	},
-	{
-		headerId: "experience-header",
-		dataId: "experience",
-	},
-	{
-		headerId: "education-header",
-		dataId: "education",
-	},
-	{
-		headerId: "certifications-header",
-		dataId: "certifications",
-	},
-	{
-		headerId: "courses-header",
-		dataId: "courses",
-	},
-];
-
-function registerAccordionsListeners() {}
-
-function initAccordions() {}
 
 document.addEventListener("DOMContentLoaded", movePhotoAndContactInfo);
 window.addEventListener("resize", movePhotoAndContactInfo);
@@ -305,7 +248,6 @@ document.addEventListener("DOMContentLoaded", fillLanguages);
 document.addEventListener("DOMContentLoaded", fillTools);
 document.addEventListener("DOMContentLoaded", fillSkills);
 document.addEventListener("DOMContentLoaded", fillProfileSummary);
-document.addEventListener("DOMContentLoaded", fillInterests);
 document.addEventListener("DOMContentLoaded", fillExperience);
 document.addEventListener("DOMContentLoaded", fillEducation);
 document.addEventListener("DOMContentLoaded", fillCertifications);
