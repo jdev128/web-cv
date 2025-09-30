@@ -3,6 +3,7 @@
 	"surname": "Pisco",
 	"headline": "Desarrollador Frontend React",
 	"profilePicture": "./assets/photo.jpg",
+	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
 		"city": "La Plata",
 		"country": "Argentina",
@@ -23,7 +24,7 @@
 	"profileSummary": [
 		"Desarrollador Frontend React con más de FRONTEND_EXPERIENCE años de experiencia en equipos ágiles, diseñando e implementando interfaces web responsive para compañías de medicina prepaga.",
 		"Gracias a mi adaptabilidad y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona y soy capaz de gestionar la comunicación con equipos externos, coordinar tareas o capacitar a nuevos colaboradores sin problema.",
-		"Con alma emprendedora y curioso por naturaleza, me apasiona compartir conocimiento y conectar con las personas para crear soluciones digitales de calidad que aporten valor a la sociedad y al planeta, por lo que estoy buscando sumarme a un equipo que ponga foco en el usuario y la colaboración para llegar a experiencias increíbles."
+		"Con alma emprendedora y curioso por naturaleza, me apasiona compartir conocimiento y crear soluciones digitales que aporten un valor real a la sociedad y al planeta, por lo que siempre estoy buscando nuevas formas de mejorar la calidad del software y la experiencia de cada usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -120,6 +121,11 @@
 		},
 		{
 			"name": "Redux",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "TanStack Query",
 			"level": "Intermedio",
 			"hidden": false
 		},
@@ -277,7 +283,7 @@
 				"React Router",
 				"Redux",
 				"TypeScript",
-				"//TanStack Query",
+				"TanStack Query",
 				"Angular",
 				"Ionic",
 				"Ant Design",
