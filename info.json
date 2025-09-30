@@ -12,8 +12,8 @@
 	"contact": {
 		"email": "mauriciopisco@gmail.com",
 		"phone": {
-			"countryCode": "",
-			"number": ""
+			"countryCode": "54",
+			"number": "1172001736"
 		},
 		"linkedin": "mauricio-pisco",
 		"portfolio": "https://jdev128-portfolio.netlify.app/",
@@ -21,9 +21,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador Frontend con más de FRONTEND_EXPERIENCE años de experiencia en diseño e implementación de interfaces con React, y 2 años de experiencia en implementacion y contenerizacion de APIs REST con Docker y Kubernetes.",
-		"Gracias a mi experiencia en diseño UX/UI, backend, bases de datos, arquitectura, seguridad y redes, comprendo el ciclo de vida completo del software y puedo comunicarme de manera efectiva con cualquier persona, sin importar su área de dominio.",
-		"Con alma emprendedora y curioso por naturaleza, me apasiona conectar con las personas y crear soluciones digitales de calidad que aporten valor a la sociedad y al planeta, por lo que estoy buscando sumarme a un equipo ágil que ponga foco en el usuario y la colaboración."
+		"Desarrollador Frontend React con más de FRONTEND_EXPERIENCE años de experiencia en equipos ágiles, diseñando e implementando interfaces web responsive para compañías de medicina prepaga.",
+		"Gracias a mi adaptabilidad y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona y soy capaz de gestionar la comunicación con equipos externos, coordinar tareas o capacitar a nuevos colaboradores sin problema.",
+		"Con alma emprendedora y curioso por naturaleza, me apasiona compartir conocimiento y conectar con las personas para crear soluciones digitales de calidad que aporten valor a la sociedad y al planeta, por lo que estoy buscando sumarme a un equipo que ponga foco en el usuario y la colaboración para llegar a experiencias increíbles."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -40,7 +40,7 @@
 		"asertividad",
 		"creatividad",
 		"atención al detalle",
-		"orientación al cliente",
+		"orientación al usuario",
 		"diseño UX/UI",
 		"diseño Responsive",
 		"resolución de problemas",
@@ -387,6 +387,10 @@
 			"institution": "Universidad Nacional de la Patagonia",
 			"location": "Esquel (Argentina)",
 			"finished": false,
+			"start": {
+				"year": "2013",
+				"month": "Febrero"
+			},
 			"end": {
 				"year": "2026",
 				"month": "Febrero"
@@ -397,6 +401,10 @@
 			"institution": "Escuela Secundaria N° 711",
 			"location": "Comodoro Rivadavia (Argentina)",
 			"finished": true,
+			"start": {
+				"year": "2010",
+				"month": "Febrero"
+			},
 			"end": {
 				"year": "2012",
 				"month": "Diciembre"

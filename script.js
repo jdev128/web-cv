@@ -42,6 +42,14 @@ function fillPersonalData() {
 	emailElement.innerText = data.contact.email;
 	emailElement.href = `mailto:${data.contact.email}`;
 
+	let phoneElement = document.getElementById("phone");
+	phoneElement.innerText = `+${
+		data.contact.phone.countryCode + data.contact.phone.number
+	}`;
+	phoneElement.href = `tel:+${
+		data.contact.phone.countryCode + data.contact.phone.number
+	}`;
+
 	let linkedInElement = document.getElementById("linkedin");
 	linkedInElement.innerText = data.contact.linkedin;
 	linkedInElement.href = `https://www.linkedin.com/in/${data.contact.linkedin}/`;
@@ -85,7 +93,10 @@ function fillProfileSummary() {
 	let profileSummary = data.profileSummary
 		.join("<br><br>")
 		.replace("TOTAL_EXPERIENCE", calculateElapsedYears(data.firstJobDate))
-		.replace("FRONTEND_EXPERIENCE", calculateElapsedYears(data.firstFrontendJobDate));
+		.replace(
+			"FRONTEND_EXPERIENCE",
+			calculateElapsedYears(data.firstFrontendJobDate)
+		);
 	document.getElementById("profile").innerHTML = profileSummary;
 }
 
@@ -174,11 +185,14 @@ function createFormalEducation(education) {
             <span class="education-program"
                 >${education.program}</span
             >
-            <span class="education-egress-date text-end">Fecha de egreso: 
-                ${education.end.month + " " + education.end.year} ${
-		!education.finished ? "(en curso)" : ""
-	}
-            </span>
+			<span class="education-dates text-end"
+				>${education.start.month + " " + education.start.year} a 
+				${
+					education.end
+						? education.end.month + " " + education.end.year
+						: "la Actualidad"
+				}
+			</span>
         </div>
         <p class="education-institute">
             ${education.institution}, ${education.location}.
@@ -241,11 +255,11 @@ function fillCourses() {
 
 // Mobile version
 
-function onMobile () {
+function onMobile() {
 	return window.innerWidth <= 720;
 }
 
-function movePhotoAndContactInfo () {
+function movePhotoAndContactInfo() {
 	if (onMobile()) {
 		MAIN_HEADER.prepend(PHOTO);
 		MAIN_HEADER.append(CONTACT_INFO, LANGUAGES_INFO);
@@ -253,6 +267,35 @@ function movePhotoAndContactInfo () {
 		SIDE_BAR.prepend(PHOTO, CONTACT_INFO, LANGUAGES_INFO);
 	}
 }
+
+// Accordion functionality
+
+const ACCORDIONS = [
+	{
+		headerId: "profile-header",
+		dataId: "profile",
+	},
+	{
+		headerId: "experience-header",
+		dataId: "experience",
+	},
+	{
+		headerId: "education-header",
+		dataId: "education",
+	},
+	{
+		headerId: "certifications-header",
+		dataId: "certifications",
+	},
+	{
+		headerId: "courses-header",
+		dataId: "courses",
+	},
+];
+
+function registerAccordionsListeners() {}
+
+function initAccordions() {}
 
 document.addEventListener("DOMContentLoaded", movePhotoAndContactInfo);
 window.addEventListener("resize", movePhotoAndContactInfo);
