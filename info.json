@@ -655,7 +655,7 @@
 			],
 			"url": "https://jdev128-blog.netlify.app/",
 			"repositoryUrl": "https://github.com/jdev128/dh-javascript-blog",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Personal Portfolio",
