@@ -22,13 +22,12 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador Frontend React con más de FRONTEND_EXPERIENCE años de experiencia en equipos ágiles, diseñando e implementando interfaces web responsive para compañías de medicina prepaga.",
-		"Gracias a mi adaptabilidad y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona y soy capaz de gestionar la comunicación con equipos externos, coordinar tareas o capacitar a nuevos colaboradores sin problema.",
-		"Con alma emprendedora y curioso por naturaleza, me apasiona compartir conocimiento y crear soluciones digitales que aporten un valor real a la sociedad y al planeta, por lo que siempre estoy buscando nuevas formas de mejorar la calidad del software y la experiencia de cada usuario."
+		"Desarrollador Frontend React con FRONTEND_EXPERIENCE años de experiencia diseñando e implementando aplicaciones web responsive en equipos ágiles de medicina prepaga. Gracias a mis habilidades de liderazgo y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona, lo que me ha llevado a gestionar la comunicación con equipos externos, coordinar tareas y capacitar a nuevos colaboradores.",
+		"Con alma emprendedora y curioso por naturaleza, me apasiona crear soluciones digitales que aporten valor a la sociedad y al planeta, por lo que siempre estoy buscando nuevas formas de mejorar la calidad del software y la experiencia de cada usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
-	"firstFrontendJobDate": "2020-11-01",
+	"firstFrontendJobDate": "2022-08-01",
 	"skills": [
 		{ "description": "escucha activa", "hidden": true },
 		{ "description": "empatía", "hidden": true },
@@ -100,11 +99,6 @@
 			"hidden": false
 		},
 		{
-			"name": "Sass",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
 			"name": "JavaScript",
 			"level": "Avanzado",
 			"hidden": false
@@ -116,7 +110,12 @@
 		},
 		{
 			"name": "React",
-			"level": "Avanzado",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "TanStack Query",
+			"level": "Intermedio",
 			"hidden": false
 		},
 		{
@@ -125,9 +124,19 @@
 			"hidden": false
 		},
 		{
-			"name": "TanStack Query",
+			"name": "Jest",
 			"level": "Intermedio",
 			"hidden": false
+		},
+		{
+			"name": "React Testing Library",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Playwright",
+			"level": "Basico",
+			"hidden": true
 		},
 		{
 			"name": "Ionic",
@@ -140,14 +149,19 @@
 			"hidden": true
 		},
 		{
-			"name": "Material-UI",
+			"name": "Material UI",
 			"level": "Basico",
 			"hidden": true
 		},
 		{
-			"name": "Agile",
-			"level": "Intermedio",
-			"hidden": false
+			"name": "Emotion",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "Sass",
+			"level": "Basico",
+			"hidden": true
 		},
 		{
 			"name": "Scrum",
@@ -205,6 +219,11 @@
 			"hidden": false
 		},
 		{
+			"name": "GraphQL",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
 			"name": "SQL",
 			"level": "Intermedio",
 			"hidden": false
@@ -226,6 +245,11 @@
 		},
 		{
 			"name": "Amazon Web Services",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "GitHub Actions",
 			"level": "Basico",
 			"hidden": true
 		}
@@ -251,26 +275,24 @@
 		{
 			"jobTitle": "Desarrollador Frontend React",
 			"company": "Softtek",
-			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
+			"companyDetail": "Consultoría y servicios de TI para empresas de medicina prepaga.",
 			"location": "La Plata (Argentina)",
 			"hidden": false,
 			"start": {
-				"month": "Noviembre",
-				"year": "2021"
+				"month": "Agosto",
+				"year": "2022"
 			},
 			"end": {
-				"month": "Agosto",
+				"month": "Julio",
 				"year": "2025"
 			},
 			"responsibilities": [
-				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal.",
-				"Definición de archivos de configuración para Docker y Kubernetes."
+				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal."
 			],
 			"achievements": [
 				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para optimizar la experiencia del usuario y sentando las bases para el desarrollo de un sistema de diseño.",
-				"Adapté una aplicación web móvil a dispositivos de escritorio, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes.",
-				"Colaboré en el desarrollo del frontend de una aplicación para la gestión de relaciones con prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
-				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico."
+				"Participé en el desarrollo de una aplicación web para gestionar las relaciones con los prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
+				"Adapté una aplicación web móvil a diseño responsive, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes."
 			],
 			"tools": [
 				"HTML5",
@@ -296,6 +318,39 @@
 				"GitLab",
 				"REST APIs",
 				"JSON",
+				"Postman",
+				"Insomnia",
+				"Android Studio",
+				"Xcode",
+				"MS SQL Server"
+			]
+		},
+		{
+			"jobTitle": "Desarrollador Full Stack Java",
+			"company": "Softtek",
+			"companyDetail": "Consultoría y servicios de TI para empresas de medicina prepaga.",
+			"location": "La Plata (Argentina)",
+			"hidden": false,
+			"start": {
+				"month": "Agosto",
+				"year": "2019"
+			},
+			"end": {
+				"month": "Julio",
+				"year": "2022"
+			},
+			"responsibilities": [
+				"Soporte e implementación de mejoras para aplicaciones web de back office, con foco en la resolución de incidentes y problemas.",
+				"Definición de archivos de configuración para Docker y Kubernetes."
+			],
+			"achievements": [
+				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico.",
+				"Lideré la migración de APIs para la comunicación con empresas de ambulancias, gestionando la comunicación con equipos externos (Arquitectura, Seguridad y QA), asegurando los estándares requeridos (REST, mTLS) y generando la documentación técnica pertinente."
+			],
+			"tools": [
+				"Kanban",
+				"REST APIs",
+				"JSON",
 				"XML",
 				"Postman",
 				"Insomnia",
@@ -308,40 +363,9 @@
 				"cURL",
 				"OpenSSL",
 				"Wireshark",
-				"Android Studio",
-				"Xcode",
 				"Maven",
 				"Java 8",
 				"JBoss 7",
-				"Hibernate",
-				"MS SQL Server"
-			]
-		},
-		{
-			"jobTitle": "Desarrollador Full Stack",
-			"company": "Softtek",
-			"companyDetail": "Consultoría y servicios de TI para empresas de seguros de salud.",
-			"location": "La Plata (Argentina)",
-			"hidden": false,
-			"start": {
-				"month": "Agosto",
-				"year": "2019"
-			},
-			"end": {
-				"month": "Octubre",
-				"year": "2021"
-			},
-			"responsibilities": [
-				"Soporte e implementación de mejoras para aplicaciones web de back office, con foco en el backend y la resolución de incidentes y problemas."
-			],
-			"achievements": [
-				"Lideré la implementación de APIs REST para la solicitud de ambulancias, gestionando la comunicación con equipos externos (Arquitectura, Seguridad y QA), asegurando los estándares requeridos (mTLS) y generando la documentación técnica pertinente."
-			],
-			"tools": [
-				"Kanban",
-				"Maven",
-				"Java 8",
-				"JBoss 4",
 				"Hibernate",
 				"MS SQL Server"
 			]
@@ -359,7 +383,7 @@
 			},
 			"end": {
 				"year": "2026",
-				"month": "Febrero"
+				"month": "Diciembre"
 			}
 		},
 		{
@@ -388,12 +412,19 @@
 		{
 			"name": "AWS Certified Cloud Practitioner",
 			"issuingOrganization": "Amazon Web Services Training and Certification",
-			"issueDate": "2023-09-05T00:00:00.000-03:00",
+			"issueDate": "2023-05-09T00:00:00.000-03:00",
 			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
 			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
 		}
 	],
 	"courses": [
+		{
+			"title": "Patrones de diseño + Testing",
+			"hours": "7",
+			"institution": "Digital House",
+			"endDate": "2025-10-30T00:00:00.000-03:00",
+			"hidden": false
+		},
 		{
 			"title": "React + Redux con TypeScript",
 			"hours": "15",
