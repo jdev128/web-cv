@@ -34,20 +34,20 @@
 		{ "description": "adaptabilidad", "hidden": false },
 		{ "description": "comunicación", "hidden": false },
 		{ "description": "trabajo en equipo", "hidden": false },
+		{ "description": "liderazgo", "hidden": false },
 		{ "description": "negociación", "hidden": true },
 		{ "description": "resiliencia", "hidden": true },
 		{ "description": "asertividad", "hidden": true },
 		{ "description": "creatividad", "hidden": true },
-		{ "description": "atención al detalle", "hidden": true },
 		{ "description": "orientación al usuario", "hidden": false },
+		{ "description": "atención al detalle", "hidden": false },
 		{ "description": "diseño UX/UI", "hidden": true },
 		{ "description": "diseño Responsive", "hidden": true },
 		{ "description": "resolución de problemas", "hidden": false },
-		{ "description": "liderazgo", "hidden": false },
+		{ "description": "visión de conjunto", "hidden": false },
 		{ "description": "pensamiento crítico", "hidden": true },
 		{ "description": "pensamiento analítico", "hidden": true },
 		{ "description": "foco en objetivos", "hidden": false },
-		{ "description": "visión de conjunto", "hidden": false },
 		{ "description": "organización y planificación", "hidden": true },
 		{ "description": "autonomía y proactividad", "hidden": true },
 		{ "description": "toma de decisiones", "hidden": true },
@@ -89,12 +89,7 @@
 	],
 	"tools": [
 		{
-			"name": "HTML5",
-			"level": "Avanzado",
-			"hidden": false
-		},
-		{
-			"name": "CSS3",
+			"name": "HTML5 / CSS3",
 			"level": "Avanzado",
 			"hidden": false
 		},
@@ -114,23 +109,23 @@
 			"hidden": false
 		},
 		{
+			"name": "Context API",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
 			"name": "TanStack Query",
 			"level": "Intermedio",
 			"hidden": false
 		},
 		{
 			"name": "Redux",
-			"level": "Intermedio",
-			"hidden": false
+			"level": "Basico",
+			"hidden": true
 		},
 		{
-			"name": "Jest",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "React Testing Library",
-			"level": "Intermedio",
+			"name": "Jest / Testing Library",
+			"level": "Basico",
 			"hidden": false
 		},
 		{
@@ -141,7 +136,7 @@
 		{
 			"name": "Ionic",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"name": "Bootstrap",
@@ -164,12 +159,72 @@
 			"hidden": true
 		},
 		{
-			"name": "Scrum",
+			"name": "Git",
 			"level": "Intermedio",
 			"hidden": false
 		},
 		{
-			"name": "Kanban",
+			"name": "GitHub",
+			"level": "Intermedio",
+			"hidden": true
+		},
+		{
+			"name": "Visual Studio Code",
+			"level": "Intermedio",
+			"hidden": true
+		},
+		{
+			"name": "Postman",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Selenium",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "REST APIs",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "GraphQL",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "SQL",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Bash / Linux",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Docker",
+			"level": "Intermedio",
+			"hidden": false
+		},
+		{
+			"name": "Kubernetes",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "AWS",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
+			"name": "GitHub Actions",
+			"level": "Basico",
+			"hidden": true
+		},
+				{
+			"name": "Scrum / Kanban",
 			"level": "Intermedio",
 			"hidden": false
 		},
@@ -185,71 +240,6 @@
 		},
 		{
 			"name": "Confluence",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Git",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "GitHub",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Visual Studio Code",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Postman",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Selenium",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "RESTful APIs",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "GraphQL",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "SQL",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Docker",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Bash / Linux",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Kubernetes",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Amazon Web Services",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "GitHub Actions",
 			"level": "Basico",
 			"hidden": true
 		}
