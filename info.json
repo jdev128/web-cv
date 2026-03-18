@@ -316,7 +316,7 @@
 			]
 		},
 		{
-			"jobTitle": "Desarrollador Full Stack Java",
+			"jobTitle": "Desarrollador Backend (Java EE)",
 			"company": "Softtek",
 			"companyDetail": "Consultoría y servicios de TI para empresas de medicina prepaga.",
 			"location": "La Plata (Argentina)",
@@ -330,12 +330,12 @@
 				"year": "2022"
 			},
 			"responsibilities": [
-				"Soporte e implementación de mejoras para aplicaciones web de back office, con foco en la resolución de incidentes y problemas.",
-				"Definición de archivos de configuración para Docker y Kubernetes."
+				"Implementación de mejoras en aplicaciones Java EE 8 y configuración de servidores JBoss.",
+				"Migración de procesos legacy hacia arquitecturas de microservicios y contenedores."
 			],
 			"achievements": [
-				"Lideré la contenerización y puesta en producción de un proceso en segundo plano para la geolocalización de direcciones, trabajando en conjunto con el área de DevOps y brindando las capacitaciones pertinentes al resto del equipo técnico.",
-				"Lideré la migración de APIs para la comunicación con empresas de ambulancias, gestionando la comunicación con equipos externos (Arquitectura, Seguridad y QA), asegurando los estándares requeridos (REST, mTLS) y generando la documentación técnica pertinente."
+				"Lideré la contenerización de un proceso en segundo plano para la geolocalización de direcciones, definiendo archivos de configuración para Docker/Kubernetes y coordinando la puesta en marcha con el resto del equipo técnico.",
+				"Lideré la migración de APIs para la comunicación con empresas de ambulancias, garantizando los estándares de comunicación requeridos (REST, mTLS) y generando la documentación técnica pertinente."
 			],
 			"tools": [
 				"Kanban",
