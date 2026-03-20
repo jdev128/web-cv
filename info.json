@@ -22,7 +22,7 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador Frontend React con FRONTEND_EXPERIENCE años de experiencia diseñando e implementando aplicaciones web responsive en equipos ágiles de medicina prepaga. Gracias a mis habilidades de liderazgo y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona, lo que me ha llevado a gestionar la comunicación con equipos externos, coordinar tareas y capacitar a nuevos colaboradores.",
+		"Desarrollador Frontend React con FRONTEND_EXPERIENCE años de experiencia diseñando e implementando aplicaciones web y mobile híbridas en equipos ágiles de medicina prepaga. Gracias a mis habilidades de liderazgo y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona, lo que me ha llevado a gestionar la comunicación con equipos externos, coordinar tareas y capacitar a nuevos colaboradores.",
 		"Con alma emprendedora y curioso por naturaleza, me apasiona crear soluciones digitales que aporten valor a la sociedad y al planeta, por lo que siempre estoy buscando nuevas formas de mejorar la calidad del software y la experiencia de cada usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
@@ -114,7 +114,7 @@
 			"hidden": false
 		},
 		{
-			"name": "TanStack Query",
+			"name": "React Query",
 			"level": "Intermedio",
 			"hidden": false
 		},
@@ -124,7 +124,7 @@
 			"hidden": true
 		},
 		{
-			"name": "Jest / Testing Library",
+			"name": "Jest / RTL",
 			"level": "Basico",
 			"hidden": false
 		},
@@ -134,9 +134,14 @@
 			"hidden": true
 		},
 		{
+			"name": "Selenium",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
 			"name": "Ionic",
 			"level": "Intermedio",
-			"hidden": true
+			"hidden": false
 		},
 		{
 			"name": "Bootstrap",
@@ -174,14 +179,14 @@
 			"hidden": true
 		},
 		{
+			"name": "Xcode / Android Studio",
+			"level": "Basico",
+			"hidden": true
+		},
+		{
 			"name": "Postman",
 			"level": "Intermedio",
 			"hidden": false
-		},
-		{
-			"name": "Selenium",
-			"level": "Basico",
-			"hidden": true
 		},
 		{
 			"name": "REST APIs",
@@ -191,7 +196,7 @@
 		{
 			"name": "GraphQL",
 			"level": "Basico",
-			"hidden": true
+			"hidden": false
 		},
 		{
 			"name": "SQL",
@@ -223,7 +228,7 @@
 			"level": "Basico",
 			"hidden": true
 		},
-				{
+		{
 			"name": "Scrum / Kanban",
 			"level": "Intermedio",
 			"hidden": false
@@ -277,12 +282,12 @@
 				"year": "2025"
 			},
 			"responsibilities": [
-				"Diseño e implementación de interfaces para aplicaciones web, aplicando principios de diseño UX/UI y usando React como tecnología principal."
+				"Diseño UX/UI e implementación de interfaces para aplicaciones web y mobile híbridas, usando React y Ionic como tecnologías principales."
 			],
 			"achievements": [
 				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para optimizar la experiencia del usuario y sentando las bases para el desarrollo de un sistema de diseño.",
 				"Participé en el desarrollo de una aplicación web para gestionar las relaciones con los prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
-				"Adapté una aplicación web móvil a diseño responsive, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes."
+				"Adapté una aplicación mobile híbrida a diseño responsive, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes."
 			],
 			"tools": [
 				"HTML5",
