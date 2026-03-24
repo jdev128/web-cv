@@ -29,29 +29,86 @@
 	"firstJobDate": "2019-08-05",
 	"firstFrontendJobDate": "2022-08-01",
 	"skills": [
-		{ "description": "escucha activa", "hidden": true },
-		{ "description": "empatía", "hidden": true },
-		{ "description": "adaptabilidad", "hidden": false },
-		{ "description": "comunicación", "hidden": false },
-		{ "description": "trabajo en equipo", "hidden": false },
-		{ "description": "liderazgo", "hidden": false },
-		{ "description": "negociación", "hidden": true },
-		{ "description": "resiliencia", "hidden": true },
-		{ "description": "asertividad", "hidden": true },
-		{ "description": "creatividad", "hidden": true },
-		{ "description": "orientación al usuario", "hidden": false },
-		{ "description": "atención al detalle", "hidden": false },
-		{ "description": "diseño UX/UI", "hidden": true },
-		{ "description": "diseño Responsive", "hidden": true },
-		{ "description": "resolución de problemas", "hidden": false },
-		{ "description": "visión de conjunto", "hidden": false },
-		{ "description": "pensamiento crítico", "hidden": true },
-		{ "description": "pensamiento analítico", "hidden": true },
-		{ "description": "foco en objetivos", "hidden": false },
-		{ "description": "organización y planificación", "hidden": true },
-		{ "description": "autonomía y proactividad", "hidden": true },
-		{ "description": "toma de decisiones", "hidden": true },
-		{ "description": "gestión del tiempo", "hidden": true }
+		{
+			"description": "Resolución de problemas",
+			"hidden": false
+		},
+		{
+			"description": "Creatividad",
+			"hidden": true
+		},
+		{
+			"description": "Orientación al usuario",
+			"hidden": true
+		},
+		{
+			"description": "Atención al detalle",
+			"hidden": false
+		},
+		{
+			"description": "Pensamiento crítico",
+			"hidden": true
+		},
+		{
+			"description": "Pensamiento analítico",
+			"hidden": true
+		},
+		{
+			"description": "Autonomía y proactividad",
+			"hidden": false
+		},
+		{
+			"description": "Comunicación asertiva",
+			"hidden": false
+		},
+		{
+			"description": "Escucha activa",
+			"hidden": true
+		},
+		{
+			"description": "Empatía",
+			"hidden": true
+		},		
+		{
+			"description": "Trabajo en equipo",
+			"hidden": true
+		},
+		{
+			"description": "Liderazgo",
+			"hidden": true
+		},
+		{
+			"description": "Negociación",
+			"hidden": true
+		},
+		{
+			"description": "Adaptabilidad",
+			"hidden": false
+		},
+		{
+			"description": "Resiliencia",
+			"hidden": true
+		},
+		{
+			"description": "Visión de conjunto",
+			"hidden": true
+		},
+		{
+			"description": "Foco en objetivos",
+			"hidden": true
+		},
+		{
+			"description": "Organización y planificación",
+			"hidden": true
+		},
+		{
+			"description": "Toma de decisiones",
+			"hidden": true
+		},
+		{
+			"description": "Gestión del tiempo",
+			"hidden": true
+		}
 	],
 	"values": [
 		"curiosidad",
@@ -87,166 +144,260 @@
 		"natacion",
 		"senderismo"
 	],
+	"toolCategories": [
+		{
+			"id": 1,
+			"description": "Frontend & Core"
+		},
+		{
+			"id": 2,
+			"description": "Calidad & Procesos"
+		},
+		{
+			"id": 3,
+			"description": "Backend & Data"
+		},
+		{
+			"id": 4,
+			"description": "Cloud & DevOps"
+		},
+		{
+			"id": 5,
+			"description": "Tooling & AI"
+		},
+		{
+			"id": 6,
+			"description": "Diseño & UX"
+		}
+	],
 	"tools": [
 		{
 			"name": "HTML5 / CSS3",
 			"level": "Avanzado",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
-			"name": "JavaScript",
+			"name": "JavaScript (ES6+)",
 			"level": "Avanzado",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "TypeScript",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "React",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
-			"name": "Context API",
+			"name": "TanStack Query",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
-			"name": "React Query",
+			"name": "Context API / Redux",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
-			"name": "Redux",
-			"level": "Basico",
-			"hidden": true
+			"name": "Vite",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
-			"name": "Jest / RTL",
+			"name": "Styled Components",
 			"level": "Basico",
-			"hidden": false
-		},
-		{
-			"name": "Playwright",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Selenium",
-			"level": "Basico",
-			"hidden": true
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "Ionic",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "Bootstrap",
 			"level": "Basico",
-			"hidden": true
+			"hidden": true,
+			"categoryId": 1
 		},
 		{
 			"name": "Material UI",
 			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Emotion",
-			"level": "Basico",
-			"hidden": true
+			"hidden": true,
+			"categoryId": 1
 		},
 		{
 			"name": "Sass",
 			"level": "Basico",
-			"hidden": true
-		},
+			"hidden": true,
+			"categoryId": 1
+		},		
 		{
-			"name": "Git",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "GitHub",
-			"level": "Intermedio",
-			"hidden": true
-		},
-		{
-			"name": "Visual Studio Code",
-			"level": "Intermedio",
-			"hidden": true
-		},
-		{
-			"name": "Xcode / Android Studio",
+			"name": "Unit Testing (Jest / RTL)",
 			"level": "Basico",
-			"hidden": true
+			"hidden": false,
+			"categoryId": 2
 		},
 		{
-			"name": "Postman",
+			"name": "Code Review",
 			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 2
 		},
 		{
-			"name": "REST APIs",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "GraphQL",
+			"name": "Playwright",
 			"level": "Basico",
-			"hidden": false
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
-			"name": "SQL",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Bash / Linux",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Docker",
-			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Kubernetes",
+			"name": "Selenium",
 			"level": "Basico",
-			"hidden": true
-		},
+			"hidden": true,
+			"categoryId": 2
+		},		
 		{
-			"name": "AWS",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "GitHub Actions",
-			"level": "Basico",
-			"hidden": true
-		},
-		{
-			"name": "Scrum / Kanban",
+			"name": "Agile (Scrum / Kanban)",
 			"level": "Intermedio",
-			"hidden": false
-		},
-		{
-			"name": "Figma",
-			"level": "Intermedio",
-			"hidden": false
+			"hidden": false,
+			"categoryId": 2
 		},
 		{
 			"name": "Jira",
 			"level": "Basico",
-			"hidden": true
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
 			"name": "Confluence",
 			"level": "Basico",
-			"hidden": true
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "REST APIs",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "GraphQL",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Postman",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "SQL",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Java (EE)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "OOP",
+			"level": "Avanzado",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Estructuras de Datos",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "AWS Cloud Practitioner",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "Git (GitHub / GitLab)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "Bash (Linux)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "Docker",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "Kubernetes",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "VS Code",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "GitHub Copilot",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Cursor",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Xcode",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Android Studio",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Figma",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 6
+		},
+		{
+			"name": "UX/UI Design",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 6
 		}
 	],
 	"languages": [

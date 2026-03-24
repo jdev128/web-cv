@@ -53,7 +53,7 @@ a:hover {
 	margin-bottom: 0;
 }
 
-:is(#contact-info, #languages, #courses) p:not(:first-child, :last-child) {
+:is(#contact-info, #languages, #courses, #tools) p:not(:first-child, :last-child) {
 	margin-block: 1em;
 }
 
@@ -121,7 +121,7 @@ li {
 .education-program,
 .job-title,
 .course-title,
-.tool-title {
+.tool-category {
 	font-weight: 600;
 }
 
@@ -153,22 +153,19 @@ li {
 	margin-top: 0.9rem;
 }
 
-.pill {
+.tool-category {
+	margin-block-end: 1rem;
+}
+
+.skill {
 	display: inline-flex;
 	align-items: center;
-	padding: 0.2rem 0.8rem;
-	margin: 0 0.4rem 0.7rem 0;
+    padding: 0.2rem 0.8rem;
+    margin: 0 0.3rem 0.3rem 0;
 	border-radius: 1rem;
 	border: solid 1px white;
 	color: white;
 	font-size: 0.9em;
-}
-
-.tool {
-	display: flex;
-	justify-content: space-between;
-	padding-block: 0.3rem;
-	margin-right: 0;
 }
 
 .job-headline,

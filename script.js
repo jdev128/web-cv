@@ -69,21 +69,27 @@ function fillLanguages() {
 }
 
 function fillTools() {
-	let toolsList = data.tools
-		.filter((tool) => !tool.hidden)
-		.map((tool) => {
-			return `<span class="tool pill"><span class="tool-title">${tool.name}</span><span>${tool.level}</span></span>`;
-		})
-		.join("");
-	document.getElementById("tools").innerHTML = toolsList;
+	data.toolCategories.forEach(category => {
+
+		let toolsList = data.tools
+			.filter((tool) => tool.categoryId === category.id && !tool.hidden)
+			.map((tool) => {
+				return `<span class="skill">${tool.name}</span>`;
+			})
+			.join("");
+
+		let categoryTools = document.createElement("p");
+		categoryTools.innerHTML = `<div class="tool-category">${category.description}</div> ${toolsList}`
+
+		document.getElementById("tools").appendChild(categoryTools);
+	});
+
 }
 
 function fillSkills() {
 	let skillsList = data.skills.filter(skill => !skill.hidden)
 		.map((skill) => {
-			return `<span class="pill">${
-				skill.description[0].toUpperCase() + skill.description.slice(1)
-			}</span>`;
+			return `<span class="skill">${skill.description}</span>`;
 		})
 		.join("");
 	document.getElementById("skills").innerHTML = skillsList;
