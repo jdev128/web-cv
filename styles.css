@@ -20,26 +20,25 @@ a:hover {
 #container {
 	display: grid;
 	margin: 1rem;
-	grid-template-columns: 3fr 9fr;
 	justify-content: center;
 	align-content: center;
+	gap: 1em;
 }
 
 #main-header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	row-gap: 1em;
-	min-height: 200px;
+	display: grid;
+	align-items: center;
+	padding: 2rem;
+	margin-block-end: 0;
+	gap: 2rem;
 }
 
 #photo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-block: 1rem;
 	img {
-		width: 230px;
+		width: 250px;
 		border-radius: 50%;
 	}
 }
@@ -47,14 +46,22 @@ a:hover {
 #side-bar {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	word-break: break-all;
-	margin-inline-end: 1rem;
 	margin-bottom: 0;
 }
 
-:is(#contact-info, #languages, #courses, #tools) p:not(:first-child, :last-child) {
-	margin-block: 1em;
+:is(p, li, .formal-learning):not(:last-child),
+#full-name,
+#role-title {
+	margin-block-end: 1rem;
+}
+
+#contact-info {
+	display: grid;
+	gap: 1rem;
+	padding: 0;
+	p {
+		margin-block-end: 0;
+	}
 }
 
 #main {
@@ -114,15 +121,17 @@ ul {
 	margin-bottom: 0;
 }
 
-li {
-	padding-bottom: 0.9rem;
-}
-
 .education-program,
 .job-title,
 .course-title,
-.tool-category {
+.tool-category,
+.job-milestones-title,
+.milestone-title {
 	font-weight: 600;
+}
+
+.job-milestones-title {
+	margin-block-start: 1rem;
 }
 
 .job:not(:last-child) {
@@ -160,9 +169,9 @@ li {
 .skill {
 	display: inline-flex;
 	align-items: center;
-    padding: 0.2rem 0.8rem;
-    margin: 0 0.3rem 0.3rem 0;
-	border-radius: 1rem;
+	padding: 0.3rem 0.8rem;
+	margin: 0 0.1rem 0.3rem 0;
+	border-radius: 3rem;
 	border: solid 1px white;
 	color: white;
 	font-size: 0.9em;
@@ -180,10 +189,6 @@ li {
 	font-size: 0.8em;
 }
 
-.formal-learning:not(:last-child) {
-	margin-block-end: 1rem;
-}
-
 .full-height {
 	height: 100%;
 }
@@ -194,7 +199,6 @@ li {
 
 #certifications {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	column-gap: 1rem;
 }
 
@@ -224,27 +228,18 @@ li {
 	}
 }
 
-@media screen and (max-width: 720px) {
-	#container,
-	#certifications {
-		grid-template-columns: 1fr;
-	}
-	#side-bar {
-		order: 1;
-		margin-inline-end: 0;
-		margin-block-start: 1rem;
+@media all and (min-width: 1024px) {
+	#container {
+		grid-template-columns: 9fr 3fr;
 	}
 	#main-header {
-		row-gap: 1rem;
+		grid-column: 1 / span 2;
+		grid-template-columns: auto 1fr;
 	}
-	#photo,
+	#certifications {
+		grid-template-columns: 1fr 1fr;
+	}
 	#contact-info {
-		margin-block: 1rem;
-	}
-	#contact-info {
-		padding: 0;
-	}
-	#languages-info {
-		margin-block-end: 0;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }

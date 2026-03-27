@@ -22,8 +22,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Desarrollador Frontend React con FRONTEND_EXPERIENCE años de experiencia diseñando e implementando aplicaciones web y mobile híbridas en equipos ágiles de medicina prepaga. Gracias a mis habilidades de liderazgo y mi experiencia previa en backend e infraestructura, puedo interactuar de manera efectiva con cualquier persona, lo que me ha llevado a gestionar la comunicación con equipos externos, coordinar tareas y capacitar a nuevos colaboradores.",
-		"Con alma emprendedora y curioso por naturaleza, me apasiona crear soluciones digitales que aporten valor a la sociedad y al planeta, por lo que siempre estoy buscando nuevas formas de mejorar la calidad del software y la experiencia de cada usuario."
+		"Analista Programador Universitario con más de TOTAL_EXPERIENCE años de experiencia integral en el ciclo de vida de desarrollo de software. Mi trayectoria se caracteriza por una evolución estratégica desde la ingeniería de Backend e Infraestructura (Java EE, SQL Server, Kubernetes) hacia la especialización en Frontend y Mobile (React, Ionic).",
+		"Cuento con un fuerte enfoque en la excelencia técnica y la robustez del producto, aplicando tipado estricto con TypeScript, esquemas de validación con Zod y gestión avanzada de formularios. Asimismo, impulso la mantenibilidad mediante el uso de linters, desarrollo asistido por IA (GitHub Copilot) y estrategias de Testing Automatizado (Vitest / React Testing Library).",
+		"Mi experiencia previa en entornos críticos de salud y mi dominio de herramientas de diseño UX/UI (Figma) me permiten liderar la comunicación con stakeholders técnicos o de negocio y actuar con la autonomía necesaria para garantizar soluciones escalables, seguras (mTLS/REST) y centradas en el usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -154,20 +155,20 @@
 			"description": "Calidad & Procesos"
 		},
 		{
-			"id": 3,
-			"description": "Backend & Data"
-		},
-		{
-			"id": 4,
-			"description": "Cloud & DevOps"
-		},
-		{
 			"id": 5,
 			"description": "Tooling & AI"
 		},
 		{
 			"id": 6,
 			"description": "Diseño & UX"
+		},
+		{
+			"id": 3,
+			"description": "Backend & Data"
+		},
+		{
+			"id": 4,
+			"description": "Cloud & DevOps"
 		}
 	],
 	"tools": [
@@ -192,6 +193,18 @@
 		{
 			"name": "React",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Zod",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "React Hook Form",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 1
 		},
@@ -244,7 +257,13 @@
 			"categoryId": 1
 		},		
 		{
-			"name": "Unit Testing (Jest / RTL)",
+			"name": "Unit Testing (Vitest / Jest)",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "React Testing Library (RTL)",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 2
@@ -287,6 +306,12 @@
 		},
 		{
 			"name": "REST APIs",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "mTLS",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
@@ -370,6 +395,18 @@
 			"categoryId": 5
 		},
 		{
+			"name": "ESLint",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Prettier",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
 			"name": "Cursor",
 			"level": "Basico",
 			"hidden": true,
@@ -419,60 +456,7 @@
 	],
 	"experience": [
 		{
-			"jobTitle": "Desarrollador Frontend React",
-			"company": "Softtek",
-			"companyDetail": "Consultoría y servicios de TI para empresas de medicina prepaga.",
-			"location": "La Plata (Argentina)",
-			"hidden": false,
-			"start": {
-				"month": "Agosto",
-				"year": "2022"
-			},
-			"end": {
-				"month": "Julio",
-				"year": "2025"
-			},
-			"responsibilities": [
-				"Diseño UX/UI e implementación de interfaces para aplicaciones web y mobile híbridas, usando React y Ionic como tecnologías principales."
-			],
-			"achievements": [
-				"Diseñé las pantallas de autenticación de una aplicación móvil para la autogestión de afiliados, aplicando principios de Diseño UX/UI para optimizar la experiencia del usuario y sentando las bases para el desarrollo de un sistema de diseño.",
-				"Participé en el desarrollo de una aplicación web para gestionar las relaciones con los prestadores de salud, desglosando varios incrementos en tareas y coordinando el trabajo con el resto del equipo de desarrollo.",
-				"Adapté una aplicación mobile híbrida a diseño responsive, colaborando estrechamente con el área de Diseño UX para mejorar la experiencia del usuario en pantallas más grandes."
-			],
-			"tools": [
-				"HTML5",
-				"JavaScript (ES2020)",
-				"Web APIs",
-				"CSS3",
-				"Sass",
-				"Responsive Design",
-				"React",
-				"React Router",
-				"Redux",
-				"TypeScript",
-				"TanStack Query",
-				"Angular",
-				"Ionic",
-				"Ant Design",
-				"Axios",
-				"Scrum",
-				"Kanban",
-				"Figma",
-				"Git",
-				"GitHub",
-				"GitLab",
-				"REST APIs",
-				"JSON",
-				"Postman",
-				"Insomnia",
-				"Android Studio",
-				"Xcode",
-				"MS SQL Server"
-			]
-		},
-		{
-			"jobTitle": "Desarrollador Backend (Java EE)",
+			"jobTitle": "Desarrollador Fullstack",
 			"company": "Softtek",
 			"companyDetail": "Consultoría y servicios de TI para empresas de medicina prepaga.",
 			"location": "La Plata (Argentina)",
@@ -483,26 +467,77 @@
 			},
 			"end": {
 				"month": "Julio",
-				"year": "2022"
+				"year": "2025"
 			},
 			"responsibilities": [
-				"Implementación de mejoras en aplicaciones Java EE 8 y configuración de servidores JBoss.",
-				"Migración de procesos legacy hacia arquitecturas de microservicios y contenedores."
+				"Evolución profesional dentro de equipos ágiles para el sector de medicina prepaga, transitando desde la ingeniería de backend e infraestructura hacia la especialización en interfaces modernas y escalables."
 			],
 			"achievements": [
-				"Lideré la contenerización de un proceso en segundo plano para la geolocalización de direcciones, definiendo archivos de configuración para Docker/Kubernetes y coordinando la puesta en marcha con el resto del equipo técnico.",
-				"Lideré la migración de APIs para la comunicación con empresas de ambulancias, garantizando los estándares de comunicación requeridos (REST, mTLS) y generando la documentación técnica pertinente."
+				{
+					"title": "Especialización Frontend, Mobile & UX (2021 – 2025)",
+					"content": [
+						{
+							"title": "Diseño y Prototipado",
+							"content": "Diseñé las pantallas de autenticación para una app móvil de autogestión, aplicando principios de UX/UI en Figma para optimizar la conversión y sentando las bases de un sistema de diseño institucional."
+						},
+						{
+							"title": "Coordinación Técnica",
+							"content": "Participé en el desarrollo de una web para la gestión de relaciones con prestadores, desglosando incrementos de producto en tareas técnicas y coordinando la ejecución con el equipo de desarrollo."
+						},
+						{
+							"title": "Adaptación Responsive",
+							"content": "Lideré la adaptación de una aplicación mobile híbrida (Ionic/React) a diseño responsive, colaborando con el área de UX para garantizar una experiencia óptima en dispositivos de mayor escala."
+						}
+					]
+				},
+				{
+					"title": "Ingeniería de Backend e Infraestructura (2019 – 2024)",
+					"content": [
+						{
+							"title": "Cloud & Containers",
+							"content": "Lideré la contenerización de procesos de geolocalización, definiendo configuraciones para Docker y objetos de Kubernetes (Tanzu) y coordinando la puesta en marcha con el equipo de infraestructura."
+						},
+						{
+							"title": "Integraciones Críticas",
+							"content": "Lideré la migración de APIs para la comunicación con empresas de ambulancias, asegurando los estándares requeridos (REST, mTLS) y generando la documentación técnica pertinente."
+						},
+						{
+							"title": "Core Business",
+							"content": "Brindé mantenimiento a servicios Java EE 8 (JBoss/EAP) y bases de datos MS SQL Server utilizadas para la valorización de órdenes médicas y scoring de afiliados."
+						}
+					]
+				}
 			],
 			"tools": [
+				"HTML5",
+				"JavaScript (ES6+)",
+				"Web APIs",
+				"CSS3",
+				"Sass",
+				"Responsive Design",
+				"React",
+				"React Router",
+				"Redux",
+				"TypeScript",
+				"Angular",
+				"Ionic",
+				"Ant Design",
+				"Axios",
+				"Scrum",
 				"Kanban",
+				"Figma",
+				"Git",
+				"GitLab",
 				"REST APIs",
 				"JSON",
 				"XML",
+				"mTLS",
+				"protocolos de red",
 				"Postman",
 				"Insomnia",
 				"OpenAPI",
-				"mTLS",
-				"protocolos de red",
+				"Android Studio",
+				"Xcode",
 				"Docker",
 				"Kubernetes",
 				"Bash",

@@ -129,17 +129,26 @@ function createJob(job) {
                 </span>
             </div>
         </div>
-        <p class="job-industry">
-            ${job.companyDetail}
-        </p>
         <div class="job-responsibilities">
             ${job.responsibilities.join(" ")}
         </div>
+		<p class="job-milestones-title">
+			Hitos y Logros Principales:
+		</p>
         <div class="job-milestones">
             <ul>
                 ${job.achievements
 					.map((achievement) => {
-						return `<li>${achievement}</li>`;
+						return `
+							<li>
+								<span class="milestone-title">${achievement.title}:</span>
+								<ul>
+									${achievement.content.map((subItem) => {
+										return `<li><span class="milestone-title">${subItem.title}:</span> ${subItem.content}</li>`;
+									})
+									.join("")}
+								</ul>
+							</li>`;
 					})
 					.join("")}
             </ul>
@@ -229,25 +238,6 @@ function fillCourses() {
 		coursesContainer.appendChild(courseElement);
 	});
 }
-
-// Mobile version
-
-function onMobile() {
-	return window.innerWidth <= 720;
-}
-
-function movePhotoAndContactInfo() {
-	if (onMobile()) {
-		MAIN_HEADER.prepend(PHOTO);
-		MAIN_HEADER.append(CONTACT_INFO, LANGUAGES_INFO);
-	} else {
-		SIDE_BAR.prepend(PHOTO, CONTACT_INFO, LANGUAGES_INFO);
-	}
-}
-
-
-document.addEventListener("DOMContentLoaded", movePhotoAndContactInfo);
-window.addEventListener("resize", movePhotoAndContactInfo);
 
 document.addEventListener("DOMContentLoaded", fillPersonalData);
 document.addEventListener("DOMContentLoaded", fillLanguages);
