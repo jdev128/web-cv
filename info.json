@@ -22,9 +22,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Analista Programador Universitario con más de TOTAL_EXPERIENCE años de experiencia integral en el ciclo de vida de desarrollo de software. Mi trayectoria se caracteriza por una evolución estratégica desde la ingeniería de Backend e Infraestructura (Java EE, SQL Server, Kubernetes) hacia la especialización en Frontend y Mobile (React, Ionic).",
-		"Cuento con un fuerte enfoque en la excelencia técnica y la robustez del producto, aplicando tipado estricto con TypeScript, esquemas de validación con Zod y gestión avanzada de formularios. Asimismo, impulso la mantenibilidad mediante el uso de linters, desarrollo asistido por IA (GitHub Copilot) y estrategias de Testing Automatizado (Vitest / React Testing Library).",
-		"Mi experiencia previa en entornos críticos de salud y mi dominio de herramientas de diseño UX/UI (Figma) me permiten liderar la comunicación con stakeholders técnicos o de negocio y actuar con la autonomía necesaria para garantizar soluciones escalables, seguras (mTLS/REST) y centradas en el usuario."
+		"Estudiante avanzado de Analista Programador Universitario (UNPSJB) con más de TOTAL_EXPERIENCE años de experiencia integral en el ciclo de vida del desarrollo de software. Mi perfil integra una sólida base académica y técnica en Backend e Infraestructura (Java, SQL, Kubernetes) con una especialización avanzada en el ecosistema React.",
+		"Mi enfoque actual se centra en la construcción de interfaces que cumplan con buenas prácticas de Accesibilidad y Rendimiento, bajo estándares WCAG y Core Web Vitals, asegurando la robustez del código por medio de TypeScript y estrategias de Testing Automatizado (Vitest, React Testing Library).",
+		"Mi experiencia previa en entornos críticos y mi dominio de herramientas de diseño UX/UI (Figma) me permiten liderar la comunicación con stakeholders técnicos o de negocio y actuar con total autonomía en el desarrollo de soluciones escalables, seguras y centradas en el usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -69,7 +69,7 @@
 		{
 			"description": "Empatía",
 			"hidden": true
-		},		
+		},
 		{
 			"description": "Trabajo en equipo",
 			"hidden": true
@@ -152,11 +152,7 @@
 		},
 		{
 			"id": 2,
-			"description": "Calidad & Procesos"
-		},
-		{
-			"id": 5,
-			"description": "Tooling & AI"
+			"description": "Calidad & Metodologías"
 		},
 		{
 			"id": 6,
@@ -168,24 +164,16 @@
 		},
 		{
 			"id": 4,
-			"description": "Cloud & DevOps"
+			"description": "DevOps & Cloud"
+		},
+		{
+			"id": 5,
+			"description": "Tooling"
 		}
 	],
 	"tools": [
 		{
-			"name": "HTML5 / CSS3",
-			"level": "Avanzado",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
 			"name": "JavaScript (ES6+)",
-			"level": "Avanzado",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "TypeScript",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 1
@@ -197,15 +185,21 @@
 			"categoryId": 1
 		},
 		{
+			"name": "TypeScript",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
 			"name": "Zod",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 1
 		},
 		{
 			"name": "React Hook Form",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 1
 		},
 		{
@@ -215,7 +209,13 @@
 			"categoryId": 1
 		},
 		{
-			"name": "Context API / Redux",
+			"name": "Context API",
+			"level": "Avanzado",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Redux",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 1
@@ -223,13 +223,37 @@
 		{
 			"name": "Vite",
 			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "HTML5",
+			"level": "Avanzado",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "CSS3",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "CSS Modules",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 1
 		},
 		{
 			"name": "Styled Components",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "Sass",
+			"level": "Basico",
+			"hidden": true,
 			"categoryId": 1
 		},
 		{
@@ -251,13 +275,7 @@
 			"categoryId": 1
 		},
 		{
-			"name": "Sass",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 1
-		},		
-		{
-			"name": "Unit Testing (Vitest / Jest)",
+			"name": "Vitest",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 2
@@ -269,8 +287,26 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Jest",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "Agile (Scrum / Kanban)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
 			"name": "Code Review",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "CI/CD (GitHub Actions / GitLab CI)",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 2
 		},
@@ -284,12 +320,6 @@
 			"name": "Selenium",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
-		},		
-		{
-			"name": "Agile (Scrum / Kanban)",
-			"level": "Intermedio",
-			"hidden": false,
 			"categoryId": 2
 		},
 		{
@@ -353,12 +383,6 @@
 			"categoryId": 3
 		},
 		{
-			"name": "AWS Cloud Practitioner",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 4
-		},
-		{
 			"name": "Git (GitHub / GitLab)",
 			"level": "Intermedio",
 			"hidden": false,
@@ -383,14 +407,14 @@
 			"categoryId": 4
 		},
 		{
-			"name": "VS Code",
-			"level": "Intermedio",
+			"name": "AWS Cloud",
+			"level": "Basico",
 			"hidden": false,
-			"categoryId": 5
+			"categoryId": 4
 		},
 		{
-			"name": "GitHub Copilot",
-			"level": "Basico",
+			"name": "VS Code",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 5
 		},
@@ -407,12 +431,6 @@
 			"categoryId": 5
 		},
 		{
-			"name": "Cursor",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
 			"name": "Xcode",
 			"level": "Basico",
 			"hidden": false,
@@ -425,6 +443,18 @@
 			"categoryId": 5
 		},
 		{
+			"name": "GitHub Copilot",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Cursor",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
 			"name": "Figma",
 			"level": "Intermedio",
 			"hidden": false,
@@ -433,6 +463,18 @@
 		{
 			"name": "UX/UI Design",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 6
+		},
+		{
+			"name": "Prototipado",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 6
+		},
+		{
+			"name": "Design Systems",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 6
 		}

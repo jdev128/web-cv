@@ -76,10 +76,10 @@ function fillTools() {
 			.map((tool) => {
 				return `<span class="skill">${tool.name}</span>`;
 			})
-			.join("");
+			.join("&nbsp;");
 
 		let categoryTools = document.createElement("p");
-		categoryTools.innerHTML = `<div class="tool-category">${category.description}</div> ${toolsList}`
+		categoryTools.innerHTML = `<div class="tool-category">${category.description}</div> ${toolsList}<br>`;
 
 		document.getElementById("tools").appendChild(categoryTools);
 	});
@@ -91,7 +91,7 @@ function fillSkills() {
 		.map((skill) => {
 			return `<span class="skill">${skill.description}</span>`;
 		})
-		.join("");
+		.join("&nbsp;");
 	document.getElementById("skills").innerHTML = skillsList;
 }
 
