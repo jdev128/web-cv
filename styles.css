@@ -46,6 +46,7 @@ a:hover {
 #side-bar {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	margin-bottom: 0;
 }
 
@@ -174,7 +175,6 @@ ul {
 	border-radius: 3rem;
 	border: solid 1px white;
 	color: white;
-	font-size: 0.9em;
 }
 
 .job-headline,
@@ -230,16 +230,21 @@ ul {
 
 @media all and (min-width: 1024px) {
 	#container {
-		grid-template-columns: 9fr 3fr;
+		grid-template-columns: 3fr 9fr;
 	}
 	#main-header {
 		grid-column: 1 / span 2;
 		grid-template-columns: auto 1fr;
+		padding-inline: 4rem;
+		column-gap: 6rem;
 	}
 	#certifications {
 		grid-template-columns: 1fr 1fr;
 	}
 	#contact-info {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	#main {
+		order: 1;
 	}
 }

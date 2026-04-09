@@ -22,9 +22,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Estudiante avanzado de Analista Programador Universitario (UNPSJB) con más de TOTAL_EXPERIENCE años de experiencia integral en el ciclo de vida del desarrollo de software. Mi perfil integra una sólida base académica y técnica en Backend e Infraestructura (Java, SQL, Kubernetes) con una especialización avanzada en el ecosistema React.",
-		"Mi enfoque actual se centra en la construcción de interfaces que cumplan con buenas prácticas de Accesibilidad y Rendimiento, bajo estándares WCAG y Core Web Vitals, asegurando la robustez del código por medio de TypeScript y estrategias de Testing Automatizado (Vitest, React Testing Library).",
-		"Mi experiencia previa en entornos críticos y mi dominio de herramientas de diseño UX/UI (Figma) me permiten liderar la comunicación con stakeholders técnicos o de negocio y actuar con total autonomía en el desarrollo de soluciones escalables, seguras y centradas en el usuario."
+		"Analista Programador (UNPSJB) con más de TOTAL_EXPERIENCE años de experiencia en el ciclo de vida de desarrollo de software. Mi perfil combina una sólida base técnica en Backend e Infraestructura (Java, SQL, Kubernetes) con una fuerte experiencia en desarrollo Frontend con React.",
+		"Mi foco actual se centra en la construcción de interfaces robustas bajo estándares de Accesibilidad (WCAG) y Rendimiento (Core Web Vitals), asegurando la calidad mediante TypeScript y el diseño de estrategias de Testing Automatizado.",
+		"Gracias a mi experiencia en entornos críticos y mi dominio de Figma, cuento con total autonomía para liderar la comunicación entre diseño y negocio, entregando soluciones escalables y centradas en el usuario."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -59,6 +59,14 @@
 			"hidden": false
 		},
 		{
+			"description": "Adaptabilidad",
+			"hidden": false
+		},
+		{
+			"description": "Resiliencia",
+			"hidden": true
+		},
+		{
 			"description": "Comunicación asertiva",
 			"hidden": false
 		},
@@ -80,14 +88,6 @@
 		},
 		{
 			"description": "Negociación",
-			"hidden": true
-		},
-		{
-			"description": "Adaptabilidad",
-			"hidden": false
-		},
-		{
-			"description": "Resiliencia",
 			"hidden": true
 		},
 		{
@@ -275,24 +275,6 @@
 			"categoryId": 1
 		},
 		{
-			"name": "Vitest",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 2
-		},
-		{
-			"name": "React Testing Library (RTL)",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 2
-		},
-		{
-			"name": "Jest",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 2
-		},
-		{
 			"name": "Agile (Scrum / Kanban)",
 			"level": "Intermedio",
 			"hidden": false,
@@ -305,9 +287,33 @@
 			"categoryId": 2
 		},
 		{
-			"name": "CI/CD (GitHub Actions / GitLab CI)",
+			"name": "CI/CD",
 			"level": "Basico",
 			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "Rendimiento",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "Accesibilidad",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "Testing (Vitest / RTL)",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
+			"name": "Jest",
+			"level": "Basico",
+			"hidden": true,
 			"categoryId": 2
 		},
 		{
@@ -335,6 +341,18 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Java (EE)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "SQL",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
 			"name": "REST APIs",
 			"level": "Intermedio",
 			"hidden": false,
@@ -349,24 +367,6 @@
 		{
 			"name": "GraphQL",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
-			"name": "Postman",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
-			"name": "SQL",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
-			"name": "Java (EE)",
-			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
 		},
@@ -419,14 +419,8 @@
 			"categoryId": 5
 		},
 		{
-			"name": "ESLint",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Prettier",
-			"level": "Basico",
+			"name": "Postman",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 5
 		},
@@ -438,6 +432,18 @@
 		},
 		{
 			"name": "Android Studio",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "ESLint",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Prettier",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 5
