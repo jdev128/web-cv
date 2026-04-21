@@ -2,16 +2,9 @@ import data from "./info.json" with { type: "json" };
 
 const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
 
-const PHOTO = document.getElementById("photo");
-const CONTACT_INFO = document.getElementById("contact-info");
-const LANGUAGES_INFO = document.getElementById("languages-info");
-
-const SIDE_BAR = document.getElementById("side-bar");
-const MAIN_HEADER = document.getElementById("main-header");
-
 function calculateElapsedYears(initialDate) {
 	return Math.floor(
-		(Date.now() - new Date(initialDate).getTime()) / MILLISECONDS_IN_A_YEAR
+		(Date.now() - new Date(initialDate).getTime()) / MILLISECONDS_IN_A_YEAR,
 	);
 }
 
@@ -25,17 +18,16 @@ function formatDate(date) {
 }
 
 function fillPersonalData() {
-	document.title = `${data.name} ${data.surname} - CV`;
+	document.title = `${data.name} ${data.surname} - Curriculum`;
 
-	document.getElementById(
-		"full-name"
-	).innerText = `${data.surname}, ${data.name}`;
+	document.getElementById("full-name").innerText =
+		`${data.name} ${data.surname}`;
 	document.getElementById("role-title").innerText = data.headline;
 
 	document.querySelector("#photo img").src = data.profilePicture;
 
 	let locationElement = document.getElementById("location");
-	locationElement.innerText = `${data.location.city} (${data.location.country})`;
+	locationElement.innerText = `${data.location.city}, ${data.location.country}`;
 	locationElement.href = data.location.mapsUrl;
 
 	let emailElement = document.getElementById("email");
@@ -43,20 +35,18 @@ function fillPersonalData() {
 	emailElement.href = `mailto:${data.contact.email}`;
 
 	let phoneElement = document.getElementById("phone");
-	phoneElement.innerText = `+${
-		data.contact.phone.countryCode + data.contact.phone.number
-	}`;
+	phoneElement.innerText = `+${data.contact.phone.countryCode} ${data.contact.phone.internationalPrefix} ${data.contact.phone.areaCode} ${data.contact.phone.number}`;
 	phoneElement.href = `tel:+${
-		data.contact.phone.countryCode + data.contact.phone.number
+		data.contact.phone.countryCode + data.contact.phone.internationalPrefix + data.contact.phone.areaCode + data.contact.phone.number.replaceAll(" ", "")
 	}`;
 
 	let linkedInElement = document.getElementById("linkedin");
-	linkedInElement.innerText = data.contact.linkedin;
-	linkedInElement.href = `https://www.linkedin.com/in/${data.contact.linkedin}/`;
+	linkedInElement.innerText = `linkedin.com/in/${data.contact.linkedin}`;
+	linkedInElement.href = `https://www.linkedin.com/in/${data.contact.linkedin}`;
 
 	let gitHubElement = document.getElementById("github");
-	gitHubElement.innerText = data.contact.github;
-	gitHubElement.href = `https://github.com/${data.contact.github}/`;
+	gitHubElement.innerText = `github.com/${data.contact.github}`;
+	gitHubElement.href = `https://github.com/${data.contact.github}`;
 }
 
 function fillLanguages() {
@@ -69,30 +59,23 @@ function fillLanguages() {
 }
 
 function fillTools() {
-	data.toolCategories.forEach(category => {
-
+	data.toolCategories.forEach((category) => {
 		let toolsList = data.tools
 			.filter((tool) => tool.categoryId === category.id && !tool.hidden)
 			.map((tool) => {
-				return `<span class="skill">${tool.name}</span>`;
+				return tool.name;
 			})
-			.join("&nbsp;");
+			.join(", ");
 
 		let categoryTools = document.createElement("p");
-		categoryTools.innerHTML = `<div class="tool-category">${category.description}</div> ${toolsList}<br>`;
+		categoryTools.innerHTML = `
+		<div>
+			<span class="tool-category">${category.description}</span>: ${toolsList}
+		</div>
+		`;
 
 		document.getElementById("tools").appendChild(categoryTools);
 	});
-
-}
-
-function fillSkills() {
-	let skillsList = data.skills.filter(skill => !skill.hidden)
-		.map((skill) => {
-			return `<span class="skill">${skill.description}</span>`;
-		})
-		.join("&nbsp;");
-	document.getElementById("skills").innerHTML = skillsList;
 }
 
 function fillProfileSummary() {
@@ -101,7 +84,7 @@ function fillProfileSummary() {
 		.replace("TOTAL_EXPERIENCE", calculateElapsedYears(data.firstJobDate))
 		.replace(
 			"FRONTEND_EXPERIENCE",
-			calculateElapsedYears(data.firstFrontendJobDate)
+			calculateElapsedYears(data.firstFrontendJobDate),
 		);
 	document.getElementById("profile").innerHTML = profileSummary;
 }
@@ -110,45 +93,31 @@ function createJob(job) {
 	let jobElement = document.createElement("div");
 	jobElement.classList.add("job");
 	jobElement.innerHTML = `
-        <div class="job-headline">
-            <span class="job-title"
-                >${job.jobTitle}</span
-            >
-            <div class="text-end">
-                <span class="job-organization"> ${job.company}, </span>
-                <span class="job-location">
-                    ${job.location}.
-                </span>
-                <span class="job-dates"
-                    >${job.start.month + " " + job.start.year} a 
-                    ${
-						job.end
-							? job.end.month + " " + job.end.year
-							: "la Actualidad"
-					}
-                </span>
-            </div>
-        </div>
+		<span class="job-title"
+			>${job.jobTitle}</span
+		>
+		<div>
+			<span class="job-organization">${job.company}</span> – 
+			<span class="job-location">
+				${job.location.city}, ${job.location.country} |
+			</span>
+			<span class="job-dates"
+				>${job.start.month + " " + job.start.year} – 
+				${
+					job.end
+						? job.end.month + " " + job.end.year
+						: "Actualidad"
+				}
+			</span>
+		</div>
         <div class="job-responsibilities">
             ${job.responsibilities.join(" ")}
         </div>
-		<p class="job-milestones-title">
-			Hitos y Logros Principales:
-		</p>
         <div class="job-milestones">
             <ul>
-                ${job.achievements
+				${job.achievements
 					.map((achievement) => {
-						return `
-							<li>
-								<span class="milestone-title">${achievement.title}:</span>
-								<ul>
-									${achievement.content.map((subItem) => {
-										return `<li><span class="milestone-title">${subItem.title}:</span> ${subItem.content}</li>`;
-									})
-									.join("")}
-								</ul>
-							</li>`;
+						return `<li><span class="milestone-title">${achievement.title}:</span> ${achievement.content}</li>`;
 					})
 					.join("")}
             </ul>
@@ -171,17 +140,14 @@ function createFormalEducation(education) {
 	let educationElement = document.createElement("div");
 	educationElement.classList.add("formal-learning");
 	educationElement.innerHTML = `
-        <div class="education-headline">
-            <span class="education-program"
-                >${education.program}</span
-            >
-			<span class="education-egress-date text-end">
-				Fecha de egreso: 
-                ${education.end.month + " " + education.end.year}
-            </span>
-        </div>
+		<span class="education-program"
+			>${education.program}</span
+		>
+		<div class="education-status">
+			${education.status}
+		</div>
         <p class="education-institute">
-            ${education.institution}, ${education.location}.
+            ${education.institution} – ${education.location.city}, ${education.location.country}.
         </p>
     `;
 	return educationElement;
@@ -189,42 +155,18 @@ function createFormalEducation(education) {
 
 function fillEducation() {
 	let educationContainer = document.getElementById("education");
-	data.education.forEach((education) => {
-		let educationElement = createFormalEducation(education);
-		educationContainer.appendChild(educationElement);
-	});
-}
-
-function createCertification(certification) {
-	let certificationElement = document.createElement("div");
-	certificationElement.classList.add("certification-card", "content", "box");
-	certificationElement.innerHTML = `
-        <img src="${certification.badgeIcon}" alt="${certification.name} badge">
-        <div class="certification-title">${certification.name}</div>
-        <div class="certification-issue">${
-			certification.issuingOrganization
-		} (${formatDate(certification.issueDate)})</div>
-        <a class="certification-validation-url" href="${
-			certification.credentialUrl
-		}" target="_blank">Validar</a>
-    `;
-	return certificationElement;
-}
-
-function fillCertifications() {
-	let certificationsContainer = document.getElementById("certifications");
-	data.certifications.forEach((certification) => {
-		let certificationElement = createCertification(certification);
-		certificationsContainer.appendChild(certificationElement);
-	});
+	data.education
+		.filter((education) => !education.hidden)
+		.forEach((education) => {
+			let educationElement = createFormalEducation(education);
+			educationContainer.appendChild(educationElement);
+		});
 }
 
 function createCourse(course) {
 	let courseElement = document.createElement("p");
-	courseElement.innerHTML = `
-        <span class="course-title">"${course.title}"</span> (${
-		course.hours ? course.hours + " HORAS" : "ASINCRONICO"
-	}).
+	courseElement.innerHTML = `${course.type}: 
+        <span class="course-title">"${course.title}"</span>${course.hours ? " (" + course.hours + " hs)" : ""}.
         ${course.institution} (${formatDate(course.endDate)}).
     `;
 	return courseElement;
@@ -232,19 +174,18 @@ function createCourse(course) {
 
 function fillCourses() {
 	let coursesContainer = document.getElementById("courses");
-	data.courses.forEach((course) => {
-		if (course.hidden) return; // Skip hidden courses
-		let courseElement = createCourse(course);
-		coursesContainer.appendChild(courseElement);
-	});
+	data.courses
+		.filter((course) => !course.hidden)
+		.forEach((course) => {
+			let courseElement = createCourse(course);
+			coursesContainer.appendChild(courseElement);
+		});
 }
 
 document.addEventListener("DOMContentLoaded", fillPersonalData);
 document.addEventListener("DOMContentLoaded", fillLanguages);
 document.addEventListener("DOMContentLoaded", fillTools);
-document.addEventListener("DOMContentLoaded", fillSkills);
 document.addEventListener("DOMContentLoaded", fillProfileSummary);
 document.addEventListener("DOMContentLoaded", fillExperience);
 document.addEventListener("DOMContentLoaded", fillEducation);
-document.addEventListener("DOMContentLoaded", fillCertifications);
 document.addEventListener("DOMContentLoaded", fillCourses);
