@@ -210,13 +210,13 @@
 		{
 			"name": "HTML5",
 			"level": "Avanzado",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 2
 		},
 		{
 			"name": "CSS3",
 			"level": "Intermedio",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 2
 		},
 		{
@@ -234,7 +234,7 @@
 		{
 			"name": "Vite",
 			"level": "Intermedio",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 2
 		},
 		{
@@ -318,7 +318,7 @@
 		{
 			"name": "Git (GitHub / GitLab)",
 			"level": "Intermedio",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 4
 		},
 		{
@@ -366,13 +366,13 @@
 		{
 			"name": "ESLint",
 			"level": "Basico",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 5
 		},
 		{
 			"name": "Prettier",
 			"level": "Basico",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 5
 		},
 		{
@@ -390,7 +390,7 @@
 		{
 			"name": "Testing Frontend",
 			"level": "Basico",
-			"hidden": true,
+			"hidden": false,
 			"categoryId": 5
 		},
 		{
@@ -513,11 +513,11 @@
 			"achievements": [
 				{
 					"title": "Modernización Frontend",
-					"content": "Lideré la migración de interfaces críticas a React y TypeScript, mejorando la mantenibilidad del código y facilitando la incorporación de nuevas funcionalidades del producto."
+					"content": "Lideré la migración de interfaces críticas a React y TypeScript, implementando arquitectura basada en componentes, consumo de APIs REST y buenas prácticas de desarrollo frontend para mejorar la mantenibilidad y la evolución del producto."
 				},
 				{
 					"title": "Adaptación y UX",
-					"content": "Lideré la transición de aplicaciones híbridas a diseños responsive y diseñé flujos de autenticación en Figma, prototipando soluciones junto a equipos de diseño y producto para mejorar la experiencia de usuario y reducir la fricción en procesos clave."
+					"content": "Lideré la transición de aplicaciones híbridas a interfaces responsive y diseñé flujos de UX en Figma para aplicaciones basadas en React Native, mejorando la experiencia de usuario y reduciendo la fricción en procesos clave."
 				},
 				{
 					"title": "Optimización de Core Business",
@@ -525,7 +525,7 @@
 				},
 				{
 					"title": "Coordinación Técnica",
-					"content": "Traduje requerimientos de negocio en soluciones técnicas, realizando análisis, estimaciones y documentación bajo estándares de calidad (ISO), y coordinando con equipos de producto, diseño e ingeniería para asegurar entregas alineadas al usuario."
+					"content": "Traduje requerimientos de negocio en soluciones técnicas, realizando análisis, estimación y documentación bajo estándares de calidad (ISO), y coordinando con equipos de producto, diseño e ingeniería para asegurar entregas alineadas al usuario."
 				},
 				{
 					"title": "Seguridad e Integraciones",
@@ -537,7 +537,7 @@
 				},
 				{
 					"title": "Calidad y Testing",
-					"content": "Diseñé y ejecuté casos de prueba funcionales para validar flujos críticos, asegurando la calidad de las entregas."
+					"content": "Realicé testing funcional y diseño de casos de prueba para validar flujos críticos en aplicaciones web, asegurando la calidad de las entregas."
 				}
 			],
 			"tools": [
