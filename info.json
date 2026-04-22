@@ -27,7 +27,7 @@
 	"profileSummary": [
 		"Full Stack Engineer con TOTAL_EXPERIENCE años de experiencia desarrollando y optimizando sistemas críticos en el sector salud.",
 		"Combino una sólida base en backend (Java) con especialización en frontend (React/TypeScript) y una fuerte orientación a producto, colaborando estrechamente con equipos de diseño y negocio para construir soluciones centradas en el usuario.",
-		"Me enfoco en construir soluciones mantenibles y escalables, asegurando una experiencia de usuario consistente y alineada a la evolución del producto."
+		"Me enfoco en construir soluciones mantenibles y escalables, asegurando una experiencia de usuario consistente alineada a la evolución del producto."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -521,7 +521,7 @@
 				},
 				{
 					"title": "Adaptación y UX",
-					"content": "Lideré la transición de aplicaciones híbridas a interfaces responsive y diseñé flujos de UX en Figma para aplicaciones basadas en React Native, mejorando la experiencia de usuario y reduciendo la fricción en procesos clave."
+					"content": "Lideré la transición de aplicaciones híbridas a interfaces responsive y diseñé flujos de UX en Figma para aplicaciones móviles, mejorando la experiencia de usuario y reduciendo la fricción en procesos clave."
 				},
 				{
 					"title": "Optimización de Core Business",
@@ -541,7 +541,7 @@
 				},
 				{
 					"title": "Calidad y Testing",
-					"content": "Realicé testing funcional y diseño de casos de prueba para validar flujos críticos en aplicaciones web, asegurando la calidad de las entregas."
+					"content": "Realicé testing funcional y diseño de casos de prueba para validación de flujos críticos en aplicaciones web, asegurando la calidad de las entregas."
 				}
 			],
 			"tools": [
