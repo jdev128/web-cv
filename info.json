@@ -210,13 +210,13 @@
 		{
 			"name": "HTML5",
 			"level": "Avanzado",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 2
 		},
 		{
 			"name": "CSS3",
 			"level": "Intermedio",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 2
 		},
 		{
@@ -234,7 +234,7 @@
 		{
 			"name": "Vite",
 			"level": "Intermedio",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 2
 		},
 		{
@@ -268,7 +268,7 @@
 			"categoryId": 3
 		},
 		{
-			"name": "OOP",
+			"name": "POO",
 			"level": "Avanzado",
 			"hidden": true,
 			"categoryId": 3
@@ -282,13 +282,13 @@
 		{
 			"name": "mTLS",
 			"level": "Intermedio",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
 			"name": "SSL Pinning",
 			"level": "Intermedio",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
@@ -298,7 +298,7 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Kubernetes (VMware Tanzu)",
+			"name": "Kubernetes (Tanzu)",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 4
@@ -328,7 +328,13 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Agile (Scrum / Kanban)",
+			"name": "Scrum",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Kanban",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 5
@@ -346,7 +352,7 @@
 			"categoryId": 5
 		},
 		{
-			"name": "Clean Code",
+			"name": "Buenas Prácticas de Código",
 			"level": "Intermedio",
 			"hidden": true,
 			"categoryId": 5
@@ -358,19 +364,43 @@
 			"categoryId": 5
 		},
 		{
-			"name": "ESLint / Prettier",
+			"name": "ESLint",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Prettier",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Testing Funcional",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 5
 		},
 		{
-			"name": "Testing (funcional / manual, diseño de casos de prueba)",
+			"name": "Diseño de Casos de Prueba",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 5
 		},
 		{
-			"name": "Testing (bases en Vitest / React Testing Library)",
+			"name": "Testing Frontend",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Vitest",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "React Testing Library",
 			"level": "Basico",
 			"hidden": true,
 			"categoryId": 5
@@ -400,7 +430,7 @@
 			"categoryId": 6
 		},
 		{
-			"name": "UX/UI Design",
+			"name": "Diseño UX/UI",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 6
@@ -456,7 +486,7 @@
 		{
 			"name": "Portugués",
 			"logoUrl": "./assets/brazil.svg",
-			"proficiency": "Básico"
+			"proficiency": "Intermedio"
 		}
 	],
 	"experience": [
@@ -503,7 +533,7 @@
 				},
 				{
 					"title": "Infraestructura y Cloud",
-					"content": "Ejecuté la contenerización de servicios de geolocalización con Docker y Kubernetes (VMware Tanzu), asegurando despliegues estables en producción."
+					"content": "Ejecuté la contenerización de servicios de geolocalización con Docker y Kubernetes (Tanzu), asegurando despliegues estables en producción."
 				},
 				{
 					"title": "Calidad y Testing",
