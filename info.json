@@ -162,8 +162,12 @@
 			"description": "Infra & DevOps"
 		},
 		{
+			"id": 1,
+			"description": "Metodologías"
+		},
+		{
 			"id": 5,
-			"description": "Metodologías & Calidad"
+			"description": "Calidad"
 		},
 		{
 			"id": 6,
@@ -208,6 +212,12 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Vite",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 2
+		},
+		{
 			"name": "HTML5",
 			"level": "Avanzado",
 			"hidden": false,
@@ -229,12 +239,6 @@
 			"name": "Styled Components",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
-		},
-		{
-			"name": "Vite",
-			"level": "Intermedio",
-			"hidden": false,
 			"categoryId": 2
 		},
 		{
@@ -331,25 +335,25 @@
 			"name": "Scrum",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 5
+			"categoryId": 1
 		},
 		{
 			"name": "Kanban",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 5
+			"categoryId": 1
 		},
 		{
 			"name": "Jira",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": null
+			"hidden": true,
+			"categoryId": 1
 		},
 		{
 			"name": "Code Review",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 5
+			"categoryId": 1
 		},
 		{
 			"name": "Buenas Prácticas de Código",
@@ -361,30 +365,6 @@
 			"name": "SOLID",
 			"level": "Intermedio",
 			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "ESLint",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Prettier",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Testing Funcional",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Diseño de Casos de Prueba",
-			"level": "Basico",
-			"hidden": false,
 			"categoryId": 5
 		},
 		{
@@ -403,6 +383,30 @@
 			"name": "React Testing Library",
 			"level": "Basico",
 			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Testing Funcional",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Test Design",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "ESLint",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Prettier",
+			"level": "Basico",
+			"hidden": false,
 			"categoryId": 5
 		},
 		{
