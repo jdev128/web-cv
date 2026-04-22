@@ -1,8 +1,8 @@
 {
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
-	"headline": "Full Stack Engineer (Java + React) | Frontend-Focused",
-	"atsHeadline": "Full Stack Engineer | Java & React | Frontend-Focused | APIs, Cloud & UX",
+	"headline": "Full Stack Engineer | React & Java | Product-Focused",
+	"keywordsHeadline": "Full Stack Engineer | React & TypeScript | Java | Frontend-Focused | Product-Oriented",
 	"profilePicture": "./assets/photo.jpg",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
@@ -25,9 +25,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Engineer con TOTAL_EXPERIENCE años de experiencia en sistemas críticos del sector salud.",
-		"Especializado en integrar backend en Java con interfaces modernas en React/TypeScript, asegurando altos estándares de seguridad (mTLS, SSL Pinning) y mantenibilidad.",
-		"Combino una base sólida en backend enterprise con foco en frontend y UX, construyendo soluciones end-to-end eficientes en entornos ágiles."
+		"Full Stack Engineer con TOTAL_EXPERIENCE años de experiencia desarrollando y optimizando sistemas críticos en el sector salud.",
+		"Combino una sólida base en backend (Java) con especialización en frontend (React/TypeScript) y una fuerte orientación a producto, colaborando estrechamente con equipos de diseño y negocio para construir soluciones centradas en el usuario.",
+		"Me enfoco en construir soluciones mantenibles y escalables, asegurando una experiencia de usuario consistente y alineada a la evolución del producto."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"firstJobDate": "2019-08-05",
@@ -150,10 +150,6 @@
 	],
 	"toolCategories": [
 		{
-			"id": 1,
-			"description": "Lenguajes & Frameworks"
-		},
-		{
 			"id": 2,
 			"description": "Frontend"
 		},
@@ -176,34 +172,22 @@
 	],
 	"tools": [
 		{
-			"name": "Java (EE / Spring)",
+			"name": "React",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 2
 		},
 		{
 			"name": "TypeScript",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 2
 		},
 		{
 			"name": "JavaScript (ES6+)",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "React",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "Ionic",
-			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": 1
+			"categoryId": 2
 		},
 		{
 			"name": "TanStack Query",
@@ -254,6 +238,18 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Ionic",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "Java (EE / JBoss)",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
 			"name": "REST APIs",
 			"level": "Intermedio",
 			"hidden": false,
@@ -280,7 +276,7 @@
 		{
 			"name": "GraphQL",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
@@ -302,7 +298,7 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Kubernetes (Tanzu)",
+			"name": "Kubernetes (VMware Tanzu)",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 4
@@ -310,7 +306,7 @@
 		{
 			"name": "AWS (Cloud Practitioner)",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 4
 		},
 		{
@@ -368,9 +364,15 @@
 			"categoryId": 5
 		},
 		{
-			"name": "Testing (Vitest / React Testing Library)",
+			"name": "Testing (funcional / manual, diseño de casos de prueba)",
 			"level": "Basico",
 			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Testing (bases en Vitest / React Testing Library)",
+			"level": "Basico",
+			"hidden": true,
 			"categoryId": 5
 		},
 		{
@@ -476,16 +478,24 @@
 				"year": "2025"
 			},
 			"responsibilities": [
-				"Lideré la evolución técnica de plataformas de autogestión de alta disponibilidad en el sector salud."
+				"Lideré la evolución técnica de plataformas de autogestión en el sector salud, con foco en estabilidad, escalabilidad y experiencia de usuario."
 			],
 			"achievements": [
 				{
 					"title": "Modernización Frontend",
-					"content": "Lideré la migración de interfaces críticas a React + TypeScript, implementando estado global con Context API + useReducer y reduciendo la deuda técnica, lo que mejoró la mantenibilidad y escalabilidad del código."
+					"content": "Lideré la migración de interfaces críticas a React y TypeScript, mejorando la mantenibilidad del código y facilitando la incorporación de nuevas funcionalidades del producto."
+				},
+				{
+					"title": "Adaptación y UX",
+					"content": "Lideré la transición de aplicaciones híbridas a diseños responsive y diseñé flujos de autenticación en Figma, prototipando soluciones junto a equipos de diseño y producto para mejorar la experiencia de usuario y reducir la fricción en procesos clave."
 				},
 				{
 					"title": "Optimización de Core Business",
 					"content": "Aseguré el mantenimiento y evolución de servicios Java EE (JBoss) y bases de datos MS SQL Server, optimizando la lógica de negocio para procesos críticos de valorización médica y scoring de afiliados."
+				},
+				{
+					"title": "Coordinación Técnica",
+					"content": "Traduje requerimientos de negocio en soluciones técnicas, realizando análisis, estimaciones y documentación bajo estándares de calidad (ISO), y coordinando con equipos de producto, diseño e ingeniería para asegurar entregas alineadas al usuario."
 				},
 				{
 					"title": "Seguridad e Integraciones",
@@ -493,15 +503,11 @@
 				},
 				{
 					"title": "Infraestructura y Cloud",
-					"content": "Ejecuté la contenerización de servicios de geolocalización con Docker y Kubernetes (Tanzu), asegurando despliegues estables en producción."
+					"content": "Ejecuté la contenerización de servicios de geolocalización con Docker y Kubernetes (VMware Tanzu), asegurando despliegues estables en producción."
 				},
 				{
-					"title": "Adaptación y UX",
-					"content": "Lideré la transición de aplicaciones híbridas a diseños responsive y prototipé flujos de autenticación en Figma, mejorando la experiencia de usuario."
-				},
-				{
-					"title": "Coordinación Técnica",
-					"content": "Traduje requerimientos de negocio en tareas técnicas, coordinando su ejecución con equipos multidisciplinarios bajo metodologías Scrum/Kanban."
+					"title": "Calidad y Testing",
+					"content": "Diseñé y ejecuté casos de prueba funcionales para validar flujos críticos, asegurando la calidad de las entregas."
 				}
 			],
 			"tools": [
@@ -590,6 +596,26 @@
 	],
 	"courses": [
 		{
+			"title": "GitHub Foundations",
+			"type": "Certificación Oficial",
+			"hours": null,
+			"institution": "GitHub",
+			"endDate": "2025-03-04T00:00:00.000-03:00",
+			"hidden": false,
+			"badgeIcon": "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
+			"credentialUrl": "https://www.credly.com/badges/da7a7b5e-8811-4628-890f-c246f6394082"
+		},
+		{
+			"title": "AWS Certified Cloud Practitioner",
+			"type": "Certificación Oficial",
+			"hours": null,
+			"institution": "Amazon Web Services Training and Certification",
+			"endDate": "2023-05-09T00:00:00.000-03:00",
+			"hidden": false,
+			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
+		},
+		{
 			"title": "Patrones de diseño + Testing",
 			"type": "Formación Técnica",
 			"hours": "7",
@@ -618,16 +644,6 @@
 			"hidden": true,
 			"badgeIcon": null,
 			"credentialUrl": null
-		},
-		{
-			"title": "GitHub Foundations",
-			"type": "Certificación Oficial",
-			"hours": null,
-			"institution": "GitHub",
-			"endDate": "2025-03-04T00:00:00.000-03:00",
-			"hidden": false,
-			"badgeIcon": "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
-			"credentialUrl": "https://www.credly.com/badges/da7a7b5e-8811-4628-890f-c246f6394082"
 		},
 		{
 			"title": "GitHub Foundations Learning Path",
@@ -768,16 +784,6 @@
 			"hidden": true,
 			"badgeIcon": null,
 			"credentialUrl": null
-		},
-		{
-			"title": "AWS Certified Cloud Practitioner",
-			"type": "Certificación Oficial",
-			"hours": null,
-			"institution": "Amazon Web Services Training and Certification",
-			"endDate": "2023-05-09T00:00:00.000-03:00",
-			"hidden": false,
-			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
 		},
 		{
 			"title": "Interactive Introduction to Containers and Kubernetes",
