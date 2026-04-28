@@ -2,19 +2,24 @@ import data from "./info.json" with { type: "json" };
 
 const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
 
-function calculateElapsedYears(initialDate) {
-	return Math.floor(
-		(Date.now() - new Date(initialDate).getTime()) / MILLISECONDS_IN_A_YEAR,
-	);
+function computeTotalExperience(experience) {
+	let totalTime = experience.reduce((total, job) => {
+		let jobStart = new Date(job.startDate).getTime();
+		let jobEnd = job.endDate ? new Date(job.endDate).getTime() : Date.now();
+		return total + (jobEnd - jobStart);
+	}, 0);
+	return Math.floor(totalTime / MILLISECONDS_IN_A_YEAR);
 }
 
 function formatDate(date) {
 	const options = {
 		year: "numeric",
-		month: "2-digit",
-		day: "2-digit",
+		month: "long",
 	};
-	return new Date(date).toLocaleDateString("es-AR", options);
+	let formattedDate = new Date(date).toLocaleDateString("es-AR", options);
+	return formattedDate
+		.replace(" de ", " ")
+		.replace(formattedDate[0], formattedDate[0].toUpperCase());
 }
 
 function fillPersonalData() {
@@ -37,7 +42,10 @@ function fillPersonalData() {
 	let phoneElement = document.getElementById("phone");
 	phoneElement.innerText = `+${data.contact.phone.countryCode} ${data.contact.phone.internationalPrefix} ${data.contact.phone.areaCode} ${data.contact.phone.number}`;
 	phoneElement.href = `tel:+${
-		data.contact.phone.countryCode + data.contact.phone.internationalPrefix + data.contact.phone.areaCode + data.contact.phone.number.replaceAll(" ", "")
+		data.contact.phone.countryCode +
+		data.contact.phone.internationalPrefix +
+		data.contact.phone.areaCode +
+		data.contact.phone.number.replaceAll(" ", "")
 	}`;
 
 	let linkedInElement = document.getElementById("linkedin");
@@ -52,7 +60,7 @@ function fillPersonalData() {
 function fillLanguages() {
 	let languagesList = data.languages
 		.map((lang) => {
-			return `<p><img src="${lang.logoUrl}" alt="" class="logo">${lang.name} (${lang.proficiency})</p>`;
+			return `<p><img src="${lang.logoUrl}" alt="" class="logo">${lang.name}: ${lang.proficiency}</p>`;
 		})
 		.join("");
 	document.getElementById("languages").innerHTML = languagesList;
@@ -81,11 +89,7 @@ function fillTools() {
 function fillProfileSummary() {
 	let profileSummary = data.profileSummary
 		.join("<br><br>")
-		.replace("TOTAL_EXPERIENCE", calculateElapsedYears(data.firstJobDate))
-		.replace(
-			"FRONTEND_EXPERIENCE",
-			calculateElapsedYears(data.firstFrontendJobDate),
-		);
+		.replace("TOTAL_EXPERIENCE", computeTotalExperience(data.experience));
 	document.getElementById("profile").innerHTML = profileSummary;
 }
 
@@ -97,27 +101,20 @@ function createJob(job) {
 			>${job.jobTitle}</span
 		>
 		<div>
-			<span class="job-organization">${job.company}</span> – 
+			<span class="job-organization">${job.company}</span> - 
 			<span class="job-location">
 				${job.location.city}, ${job.location.country} |
 			</span>
 			<span class="job-dates"
-				>${job.start.month + " " + job.start.year} – 
-				${
-					job.end
-						? job.end.month + " " + job.end.year
-						: "Actualidad"
-				}
+				>${formatDate(job.startDate)} - 
+				${job.endDate ? formatDate(job.endDate) : "Presente"}
 			</span>
 		</div>
-        <div class="job-responsibilities">
-            ${job.responsibilities.join(" ")}
-        </div>
         <div class="job-milestones">
             <ul>
 				${job.achievements
 					.map((achievement) => {
-						return `<li><span class="milestone-title">${achievement.title}:</span> ${achievement.content}</li>`;
+						return `<li>${achievement}</li>`;
 					})
 					.join("")}
             </ul>
@@ -147,7 +144,7 @@ function createFormalEducation(education) {
 			${education.status}
 		</div>
         <p class="education-institute">
-            ${education.institution} – ${education.location.city}, ${education.location.country}.
+            ${education.institution} - ${education.location.city}, ${education.location.country}.
         </p>
     `;
 	return educationElement;
@@ -165,9 +162,8 @@ function fillEducation() {
 
 function createCourse(course) {
 	let courseElement = document.createElement("p");
-	courseElement.innerHTML = `${course.type}: 
-        <span class="course-title">"${course.title}"</span>${course.hours ? " (" + course.hours + " hs)" : ""}.
-        ${course.institution} (${formatDate(course.endDate)}).
+	courseElement.innerHTML = `<span class="course-title">${course.title}</span>${course.hours ? " (" + course.hours + " hs)" : ""} - 
+        ${course.institution} | ${formatDate(course.endDate)} ${course.type === "CERTIFICACION" ? "(<a href=\"" + course.credentialUrl + "\" target=\"_blank\">Ver Credencial</a>)" : ""}
     `;
 	return courseElement;
 }

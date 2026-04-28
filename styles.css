@@ -8,7 +8,7 @@
 	font-family: Bahnschrift, sans-serif;
 }
 
-a {
+.dark.box a {
 	color: white;
 	text-decoration: none;
 }
