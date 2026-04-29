@@ -2,11 +2,11 @@
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
 	"headline": "Full Stack Developer | Java & React",
-	"keywordsHeadline": "Full Stack Developer | Java & React | APIs REST | Docker & Kubernetes | mTLS / SSL Pinning",
+	"keywordsHeadline": "Full Stack Developer | Java (Spring Boot) & React | APIs REST | Docker & Kubernetes | mTLS / SSL Pinning",
 	"profilePicture": "./assets/photo.jpg",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
-		"city": "La Plata",
+		"city": "La Plata, Buenos Aires",
 		"country": "Argentina",
 		"mapsUrl": "https://maps.app.goo.gl/U7btArnFZ1YHHk9XA"
 	},
@@ -25,9 +25,10 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con más de TOTAL_EXPERIENCE años de trayectoria desarrollando y evolucionando sistemas críticos del sector salud. Especializado en <b>backend Java</b> (<b>Java EE</b>, <b>SQL Server</b>) y en modernización de interfaces con <b>React</b> y <b>TypeScript</b>.",
-		"Experiencia en integración de sistemas mediante <b>APIs REST seguras (mTLS)</b> y despliegue de soluciones containerizadas con <b>Docker</b> y <b>Kubernetes</b>. Enfocado en la ejecución end-to-end en entornos de alta disponibilidad: análisis técnico, desarrollo, despliegue y soporte a la operación.",
-		"Me destaco por descomponer requerimientos complejos en soluciones ejecutables, estandarizar prácticas técnicas y facilitar el onboarding de equipos, contribuyendo a la estabilidad operativa de sistemas en producción."
+		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos. Trabajo con <b>Java</b> y <b>React (TypeScript)</b>, desarrollando e integrando <b>APIs REST seguras (mTLS / SSL Pinning)</b> en entornos de alta disponibilidad.",
+		"Experiencia en desarrollo backend con <b>Java EE</b> y despliegue de soluciones con <b>Docker</b> y <b>Kubernetes</b> en entornos de producción. Familiaridad con <b>Spring Boot</b> para la construcción de APIs modernas.",
+		"Participo en <b>code reviews</b> y aplico criterios de <b>testing funcional</b> para asegurar la calidad de las entregas. Trabajo en la ejecución <b>end-to-end</b> (análisis, desarrollo y soporte), descomponiendo requerimientos complejos en soluciones ejecutables y generando documentación técnica para facilitar el onboarding.",
+		"Disponibilidad inmediata para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"skills": [
@@ -149,23 +150,23 @@
 	"toolCategories": [
 		{
 			"id": 3,
-			"description": "Backend & Seguridad"
+			"description": "Backend & APIs"
 		},
 		{
 			"id": 2,
 			"description": "Frontend"
 		},
 		{
+			"id": 1,
+			"description": "Testing"
+		},
+		{
 			"id": 4,
-			"description": "Infraestructura & DevOps"
+			"description": "DevOps & Cloud"
 		},
 		{
 			"id": 5,
-			"description": "Metodologías & Calidad"
-		},
-		{
-			"id": 6,
-			"description": "Diseño UX/UI"
+			"description": "Tools & Quality"
 		}
 	],
 	"tools": [
@@ -200,6 +201,12 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Redux",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
 			"name": "TanStack Query",
 			"level": "Intermedio",
 			"hidden": false,
@@ -209,12 +216,6 @@
 			"name": "Context API",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
-		},
-		{
-			"name": "Redux",
-			"level": "Basico",
-			"hidden": true,
 			"categoryId": 2
 		},
 		{
@@ -242,13 +243,121 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Responsive Design",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "Rendimiento",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "Accesibilidad",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "JUnit",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Mockito",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "React Testing Library",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Vitest",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Selenium",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "Testing Funcional",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Java",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Spring Boot",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
 			"name": "Java EE (JBoss)",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
 		},
 		{
+			"name": "JPA",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Hibernate",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Maven",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
 			"name": "REST APIs",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "SQL Server",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "GraphQL",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 3
+		},
+		{
+			"name": "mTLS",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "SSL Pinning",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
@@ -266,30 +375,6 @@
 			"categoryId": 3
 		},
 		{
-			"name": "GraphQL",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 3
-		},
-		{
-			"name": "SQL Server",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
-			"name": "mTLS",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
-			"name": "SSL Pinning",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 3
-		},
-		{
 			"name": "Docker",
 			"level": "Intermedio",
 			"hidden": false,
@@ -302,14 +387,14 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Git (GitHub / GitLab)",
-			"level": "Intermedio",
+			"name": "CI/CD Pipelines",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "CI/CD Pipelines",
-			"level": "Basico",
+			"name": "Git (GitHub / GitLab)",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 4
 		},
@@ -326,63 +411,21 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Scrum",
+			"name": "Postman",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 5
 		},
 		{
-			"name": "Kanban",
+			"name": "cURL",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 5
 		},
 		{
-			"name": "Jira",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "Testing",
+			"name": "OpenSSL",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Vitest",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "React Testing Library",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "Selenium",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "Code Review",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Buenas Prácticas de Código",
-			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "SOLID",
-			"level": "Intermedio",
-			"hidden": true,
 			"categoryId": 5
 		},
 		{
@@ -398,14 +441,44 @@
 			"categoryId": 5
 		},
 		{
-			"name": "Rendimiento",
+			"name": "VS Code",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Xcode",
 			"level": "Basico",
 			"hidden": true,
 			"categoryId": 5
 		},
 		{
-			"name": "Accesibilidad",
+			"name": "Android Studio",
 			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "GitHub Copilot",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Jira",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Scrum",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "Kanban",
+			"level": "Intermedio",
 			"hidden": true,
 			"categoryId": 5
 		},
@@ -413,49 +486,31 @@
 			"name": "Figma",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 6
+			"categoryId": 5
 		},
 		{
 			"name": "Prototipado",
 			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 5
 		},
 		{
-			"name": "Responsive Design",
+			"name": "Code Review",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 5
+		},
+		{
+			"name": "SOLID",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 6
+			"categoryId": 5
 		},
 		{
-			"name": "Postman",
+			"name": "Clean Code",
 			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": null
-		},
-		{
-			"name": "VS Code",
-			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": null
-		},
-		{
-			"name": "Xcode",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": null
-		},
-		{
-			"name": "Android Studio",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": null
-		},
-		{
-			"name": "GitHub Copilot",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": null
+			"hidden": false,
+			"categoryId": 5
 		}
 	],
 	"languages": [
@@ -500,7 +555,8 @@
 				"Diseñé y prototipé en <b>Figma</b> el flujo de autenticación de una solución móvil para autogestión de afiliados, colaborando con el equipo de Producto para mejorar la experiencia de usuario.",
 
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones en <b>Postman</b>) y capacitaciones en <b>mTLS</b>, <b>Docker</b> y <b>Kubernetes</b>, facilitando el onboarding de nuevos integrantes.",
-				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos ágiles.",
+				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos ágiles bajo <b>Scrum y Kanban</b>.",
+				"Participé en <b>code reviews</b> y validé entregables considerando criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
 				"Brindé soporte técnico en producción, incluyendo análisis de causa raíz y resolución de incidentes críticos."
 			],
 			"tools": [
@@ -512,7 +568,6 @@
 				"Responsive Design",
 				"React",
 				"React Router",
-				"Redux",
 				"TypeScript",
 				"Angular",
 				"Ionic",
