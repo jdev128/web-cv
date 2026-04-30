@@ -543,20 +543,20 @@
 			"startDate": "2019-08-05T00:00:00.000-03:00",
 			"endDate": "2025-07-31T00:00:00.000-03:00",
 			"achievements": [
-				"Lideré la migración de servicios críticos de comunicación con empresas de ambulancias hacia <b>APIs REST con mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
-				"Implementé <b>SSL Pinning</b> y gestión de estado global (<b>Context API / useReducer</b>) en aplicaciones móviles híbridas (<b>Ionic / React</b>) para la gestión de visitas médicas, mejorando la seguridad y mantenibilidad.",
+				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs REST</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
+				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
 
 				"Desarrollé funcionalidades en una aplicación web para entrevistas a prestadores médicos, diseñando componentes reutilizables en <b>React</b> e integrando múltiples APIs mediante <b>Axios</b>.",
 
-				"Desarrollé y evolucioné servicios backend basados en <b>Java EE (JBoss)</b> y <b>SQL Server</b> para sistemas críticos de gestión de precios, órdenes médicas y scoring de afiliados.",
-				"Contenericé un proceso batch de geolocalización de direcciones utilizando <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con el equipo de DevOps.",
+				"Desarrollé y evolucioné servicios basados en <b>Java EE (JBoss)</b> y <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
+				"Contenericé un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 
-				"Adapté interfaces a diseño responsive y desarrollé nuevas funcionalidades en una aplicación móvil híbrida (<b>Ionic / Angular</b>) para solicitud de visitas médicas a domicilio, asegurando consistencia funcional en distintos dispositivos.",
-				"Diseñé y prototipé en <b>Figma</b> el flujo de autenticación de una solución móvil para autogestión de afiliados, colaborando con el equipo de Producto para mejorar la experiencia de usuario.",
+				"Adapté interfaces a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
+				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
 
-				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones en <b>Postman</b>) y capacitaciones en <b>mTLS</b>, <b>Docker</b> y <b>Kubernetes</b>, facilitando el onboarding de nuevos integrantes.",
-				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos ágiles bajo <b>Scrum y Kanban</b>.",
-				"Participé en <b>code reviews</b> y validé entregables considerando criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
+				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en <b>mTLS</b>, <b>Docker</b> y <b>Kubernetes</b>, facilitando el onboarding de nuevos integrantes.",
+				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
+				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
 				"Brindé soporte técnico en producción, incluyendo análisis de causa raíz y resolución de incidentes críticos."
 			],
 			"tools": [
