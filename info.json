@@ -28,7 +28,7 @@
 		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos. Trabajo con <b>Java</b> y <b>React (TypeScript)</b>, desarrollando e integrando <b>APIs RESTful</b> en entornos de alta disponibilidad.",
 		"Experiencia en backend con <b>Java EE</b> y construcción de APIs con <b>Spring Boot</b>, utilizando <b>JPA / Hibernate</b> para persistencia de datos. Manejo de integraciones seguras (<b>mTLS / SSL Pinning</b>), consumo de servicios web y despliegue de aplicaciones mediante <b>Docker</b> y <b>Kubernetes</b>.",
 		"Colaboro en el desarrollo <b>end-to-end</b> (análisis, desarrollo y soporte) en entornos ágiles (<b>Scrum / Kanban</b>), participando en <b>code reviews</b> y aplicando criterios de <b>testing funcional</b> para asegurar la calidad de las entregas.",
-		"Actualmente incorporando <b>JUnit / Mockito</b> y conocimientos de <b>AWS (EC2, S3, RDS, IAM)</b> en entornos de laboratorio.",
+		"Actualmente incorporando <b>testing automatizado</b> con JUnit / Mockito y conocimientos de <b>AWS (EC2, S3, RDS, IAM)</b> en entornos de laboratorio.",
 		"Disponibilidad inmediata para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
@@ -388,6 +388,12 @@
 			"categoryId": 3
 		},
 		{
+			"name": "NoSQL (DynamoDB)",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
 			"name": "GraphQL",
 			"level": "Basico",
 			"hidden": true,
@@ -491,12 +497,6 @@
 		},
 		{
 			"name": "EFS",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 4
-		},
-		{
-			"name": "DynamoDB",
 			"level": "Basico",
 			"hidden": true,
 			"categoryId": 4
@@ -645,7 +645,7 @@
 				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
 				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
 
-				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en <b>mTLS</b>, <b>Docker</b> y <b>Kubernetes</b>, facilitando el onboarding de nuevos integrantes.",
+				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en mTLS, Docker y Kubernetes, facilitando el onboarding de nuevos integrantes.",
 				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
 				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
 				"Brindé soporte técnico en producción, resolviendo incidentes y realizando <b>análisis de causa raíz</b> para la solución de problemas en sistemas críticos."
