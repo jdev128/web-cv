@@ -2,8 +2,8 @@
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
 	"headline": "Full Stack Developer | Java & React",
-	"keywordsHeadline": "Full Stack Developer | Java (Spring Boot) & React | APIs REST | Docker & Kubernetes | mTLS / SSL Pinning",
-	"profilePicture": "./assets/photo.jpg",
+	"keywordsHeadline": "Full Stack Developer | Java & React | Spring Boot | APIs REST | Docker & Kubernetes | AWS",
+	"profilePicture": "./assets/photo.png",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
 		"city": "La Plata, Buenos Aires",
@@ -25,9 +25,10 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos. Trabajo con <b>Java</b> y <b>React (TypeScript)</b>, desarrollando e integrando <b>APIs REST seguras (mTLS / SSL Pinning)</b> en entornos de alta disponibilidad.",
-		"Experiencia en desarrollo backend con <b>Java EE</b> y despliegue de soluciones con <b>Docker</b> y <b>Kubernetes</b> en entornos de producción. Familiaridad con <b>Spring Boot</b> para la construcción de APIs modernas.",
-		"Participo en <b>code reviews</b> y aplico criterios de <b>testing funcional</b> para asegurar la calidad de las entregas. Trabajo en la ejecución <b>end-to-end</b> (análisis, desarrollo y soporte), descomponiendo requerimientos complejos en soluciones ejecutables y generando documentación técnica para facilitar el onboarding.",
+		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos. Trabajo con <b>Java</b> y <b>React (TypeScript)</b>, desarrollando e integrando <b>APIs RESTful</b> en entornos de alta disponibilidad.",
+		"Experiencia en backend con <b>Java EE</b> y construcción de APIs con <b>Spring Boot</b>, utilizando <b>JPA / Hibernate</b> para persistencia de datos. Manejo de integraciones seguras (<b>mTLS / SSL Pinning</b>), consumo de servicios web y despliegue de aplicaciones mediante <b>Docker</b> y <b>Kubernetes</b>.",
+		"Colaboro en el desarrollo <b>end-to-end</b> (análisis, desarrollo y soporte) en entornos ágiles (<b>Scrum / Kanban</b>), participando en <b>code reviews</b> y aplicando criterios de <b>testing funcional</b> para asegurar la calidad de las entregas.",
+		"Actualmente incorporando <b>JUnit / Mockito</b> y conocimientos de <b>AWS (EC2, S3, RDS, IAM)</b> en entornos de laboratorio.",
 		"Disponibilidad inmediata para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
@@ -237,7 +238,7 @@
 			"categoryId": 2
 		},
 		{
-			"name": "Styled Components",
+			"name": "Styled-components",
 			"level": "Basico",
 			"hidden": true,
 			"categoryId": 2
@@ -261,13 +262,19 @@
 			"categoryId": 2
 		},
 		{
+			"name": "Testing Funcional",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
 			"name": "JUnit",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 1
 		},
 		{
-			"name": "Mockito",
+			"name": "Mockito (práctica)",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 1
@@ -275,13 +282,13 @@
 		{
 			"name": "React Testing Library",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 1
 		},
 		{
 			"name": "Vitest",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 1
 		},
 		{
@@ -291,14 +298,14 @@
 			"categoryId": 1
 		},
 		{
-			"name": "Testing Funcional",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
 			"name": "Java",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Spring Framework",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
 		},
@@ -309,7 +316,19 @@
 			"categoryId": 3
 		},
 		{
-			"name": "Java EE (JBoss)",
+			"name": "Spring Data",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 3
+		},
+		{
+			"name": "Spring Security",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 3
+		},
+		{
+			"name": "Java EE",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
@@ -333,14 +352,38 @@
 			"categoryId": 3
 		},
 		{
-			"name": "REST APIs",
+			"name": "APIs REST",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "JSON",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "SOAP",
+			"level": "Básico",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "XML",
+			"level": "Básico",
 			"hidden": false,
 			"categoryId": 3
 		},
 		{
 			"name": "SQL Server",
 			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "PostgreSQL",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
 		},
@@ -360,6 +403,18 @@
 			"name": "SSL Pinning",
 			"level": "Intermedio",
 			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "OAuth2",
+			"level": "Básico",
+			"hidden": true,
+			"categoryId": 3
+		},
+		{
+			"name": "JWT",
+			"level": "Básico",
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
@@ -405,9 +460,45 @@
 			"categoryId": 4
 		},
 		{
-			"name": "AWS (Cloud Practitioner)",
+			"name": "JBoss / WildFly",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "AWS (EC2, S3, RDS, IAM)",
 			"level": "Basico",
 			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "CloudWatch",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "VPC",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "ELB",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "EFS",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "DynamoDB",
+			"level": "Basico",
+			"hidden": true,
 			"categoryId": 4
 		},
 		{
@@ -431,13 +522,13 @@
 		{
 			"name": "ESLint",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 5
 		},
 		{
 			"name": "Prettier",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 5
 		},
 		{
@@ -543,21 +634,21 @@
 			"startDate": "2019-08-05T00:00:00.000-03:00",
 			"endDate": "2025-07-31T00:00:00.000-03:00",
 			"achievements": [
-				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs REST</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
+				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
 				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
 
 				"Desarrollé funcionalidades en una aplicación web para entrevistas a prestadores médicos, diseñando componentes reutilizables en <b>React</b> e integrando múltiples APIs mediante <b>Axios</b>.",
 
-				"Desarrollé y evolucioné servicios basados en <b>Java EE (JBoss)</b> y <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
+				"Evolucioné <b>servicios web SOAP</b> implementados en <b>Java EE</b> y <b>Spring</b>, configurando servidores <b>JBoss / WildFly</b> y bases de datos <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
 				"Contenericé un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 
-				"Adapté interfaces a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
+				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
 				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
 
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en <b>mTLS</b>, <b>Docker</b> y <b>Kubernetes</b>, facilitando el onboarding de nuevos integrantes.",
 				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
 				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
-				"Brindé soporte técnico en producción, incluyendo análisis de causa raíz y resolución de incidentes críticos."
+				"Brindé soporte técnico en producción, resolviendo incidentes y realizando <b>análisis de causa raíz</b> para la solución de problemas en sistemas críticos."
 			],
 			"tools": [
 				"HTML5",
