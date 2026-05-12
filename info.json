@@ -725,6 +725,16 @@
 	],
 	"courses": [
 		{
+			"title": "AWS Certified Cloud Practitioner",
+			"type": "CERTIFICACION",
+			"hours": null,
+			"institution": "AWS Training and Certification",
+			"endDate": "2023-05-09T00:00:00.000-03:00",
+			"hidden": false,
+			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
+		},
+		{
 			"title": "GitHub Foundations",
 			"type": "CERTIFICACION",
 			"hours": null,
@@ -735,14 +745,14 @@
 			"credentialUrl": "https://www.credly.com/badges/da7a7b5e-8811-4628-890f-c246f6394082"
 		},
 		{
-			"title": "AWS Certified Cloud Practitioner",
-			"type": "CERTIFICACION",
+			"title": "AWS Cloud Quest: Cloud Practitioner",
+			"type": "ENTRENAMIENTO",
 			"hours": null,
 			"institution": "AWS Training and Certification",
-			"endDate": "2023-05-09T00:00:00.000-03:00",
-			"hidden": false,
-			"badgeIcon": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-			"credentialUrl": "https://www.credly.com/badges/e87b960c-28ed-42e1-ba85-ec9a220704aa"
+			"endDate": "2026-05-09T00:00:00.000-03:00",
+			"hidden": true,
+			"badgeIcon": "https://images.credly.com/size/340x340/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob",
+			"credentialUrl": "https://www.credly.com/badges/6163d4b9-d83e-4d0b-8027-15c10240d547"
 		},
 		{
 			"title": "Patrones de diseño + Testing",
@@ -925,14 +935,14 @@
 			"credentialUrl": null
 		},
 		{
-			"title": "AWS Partner: Accreditation (Technical)",
-			"type": "CURSO",
+			"title": "AWS Partner: Technical Accredited",
+			"type": "ENTRENAMIENTO",
 			"hours": null,
 			"institution": "AWS Training and Certification",
 			"endDate": "2023-04-16T00:00:00.000-03:00",
 			"hidden": true,
-			"badgeIcon": null,
-			"credentialUrl": null
+			"badgeIcon": "https://images.credly.com/size/340x340/images/8f006312-3154-45bf-a845-4a043641e83c/blob",
+			"credentialUrl": "https://www.credly.com/badges/7719b087-56b0-4448-850a-a07d873df51b"
 		},
 		{
 			"title": "Getting Started with Kubernetes",
@@ -983,6 +993,16 @@
 			"hidden": true,
 			"badgeIcon": null,
 			"credentialUrl": null
+		},
+		{
+			"title": "AWS Partner: Sales Accreditation",
+			"type": "ENTRENAMIENTO",
+			"hours": null,
+			"institution": "AWS Training and Certification",
+			"endDate": "2022-10-30T00:00:00.000-03:00",
+			"hidden": true,
+			"badgeIcon": "https://images.credly.com/size/340x340/images/46ea4542-72a8-46a1-8d68-b72c4ca50820/blob",
+			"credentialUrl": "https://www.credly.com/badges/f622cca9-80d6-4919-b4f1-09aebd79e2e7"
 		},
 		{
 			"title": "Portugués - Nivel 1",
