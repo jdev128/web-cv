@@ -1,4 +1,19 @@
-import data from "./info.json" with { type: "json" };
+// TODO: Use dynamic import to load different language versions of the CV (make sure the corresponding JSON file exists in the data folder)
+import data from "./data/info-EN.json" with { type: "json" };
+
+const LANGUAGE_SPANISH = "ES";
+const LOCALE_SPANISH = "es-AR";
+
+const LANGUAGE_ENGLISH = "EN";
+const LOCALE_ENGLISH = "en-US";
+
+const CREDENTIAL_LABELS = {
+	EN: "View Credential",
+	ES: "Ver Credencial",
+};
+
+const LANGUAGE = LANGUAGE_ENGLISH; // Change this value to load a different language version of the CV (make sure the corresponding JSON file exists in the data folder)
+const LOCALE = LANGUAGE === LANGUAGE_SPANISH ? LOCALE_SPANISH : LOCALE_ENGLISH;
 
 const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
 
@@ -16,10 +31,25 @@ function formatDate(date) {
 		year: "numeric",
 		month: "long",
 	};
-	let formattedDate = new Date(date).toLocaleDateString("es-AR", options);
+	let formattedDate = new Date(date).toLocaleDateString(LOCALE, options);
 	return formattedDate
 		.replace(" de ", " ")
 		.replace(formattedDate[0], formattedDate[0].toUpperCase());
+}
+
+function fillSectionHeadlines() {
+	document.querySelector("#profile-header").innerText =
+		data.sectionsHeadlines.profileSummary.toUpperCase();
+	document.querySelector("#experience-header").innerText =
+		data.sectionsHeadlines.experience.toUpperCase();
+	document.querySelector("#courses-header").innerText =
+		data.sectionsHeadlines.courses.toUpperCase();
+	document.querySelector("#education-header").innerText =
+		data.sectionsHeadlines.education.toUpperCase();
+	document.querySelector("#competencies-header div.header.title").innerText =
+		data.sectionsHeadlines.tools.toUpperCase();
+	document.querySelector("#languages-info div.header.title").innerText =
+		data.sectionsHeadlines.languages.toUpperCase();
 }
 
 function fillPersonalData() {
@@ -163,7 +193,15 @@ function fillEducation() {
 function createCourse(course) {
 	let courseElement = document.createElement("p");
 	courseElement.innerHTML = `<span class="course-title">${course.title}</span>${course.hours ? " (" + course.hours + " hs)" : ""} - 
-        ${course.institution} | ${formatDate(course.endDate)} ${course.type === "CERTIFICACION" ? "(<a href=\"" + course.credentialUrl + "\" target=\"_blank\">Ver Credencial</a>)" : ""}
+        ${course.institution} | ${formatDate(course.endDate)} ${
+			course.credentialUrl
+				? '(<a href="' +
+					course.credentialUrl +
+					'" target="_blank">' +
+					CREDENTIAL_LABELS[LANGUAGE] +
+					"</a>)"
+				: ""
+		}
     `;
 	return courseElement;
 }
@@ -178,10 +216,15 @@ function fillCourses() {
 		});
 }
 
-document.addEventListener("DOMContentLoaded", fillPersonalData);
-document.addEventListener("DOMContentLoaded", fillLanguages);
-document.addEventListener("DOMContentLoaded", fillTools);
-document.addEventListener("DOMContentLoaded", fillProfileSummary);
-document.addEventListener("DOMContentLoaded", fillExperience);
-document.addEventListener("DOMContentLoaded", fillEducation);
-document.addEventListener("DOMContentLoaded", fillCourses);
+function fillPage() {
+	fillSectionHeadlines();
+	fillPersonalData();
+	fillProfileSummary();
+	fillExperience();
+	fillCourses();
+	fillEducation();
+	fillTools();
+	fillLanguages();
+}
+
+document.addEventListener("DOMContentLoaded", fillPage);
