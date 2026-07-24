@@ -1,5 +1,4 @@
-// TODO: Use dynamic import to load different language versions of the CV (make sure the corresponding JSON file exists in the data folder)
-import data from "./data/info-EN.json" with { type: "json" };
+// LANGUAGE CONFIGURATION
 
 const LANGUAGE_SPANISH = "ES";
 const LOCALE_SPANISH = "es-AR";
@@ -7,15 +6,29 @@ const LOCALE_SPANISH = "es-AR";
 const LANGUAGE_ENGLISH = "EN";
 const LOCALE_ENGLISH = "en-US";
 
+// Change this variable to load a different language (make sure the corresponding JSON file exists in the data folder)
+const LANGUAGE = LANGUAGE_SPANISH;
+const LOCALE = LANGUAGE === LANGUAGE_SPANISH ? LOCALE_SPANISH : LOCALE_ENGLISH;
+
 const CREDENTIAL_LABELS = {
 	EN: "View Credential",
 	ES: "Ver Credencial",
 };
 
-const LANGUAGE = LANGUAGE_ENGLISH; // Change this value to load a different language version of the CV (make sure the corresponding JSON file exists in the data folder)
-const LOCALE = LANGUAGE === LANGUAGE_SPANISH ? LOCALE_SPANISH : LOCALE_ENGLISH;
-
 const MILLISECONDS_IN_A_YEAR = 60 * 1000 * 60 * 24 * 365;
+
+async function getData(language) {
+	const dataURI = `./data/info-${language}.json`;
+	try {
+		const response = await fetch(dataURI);
+		if (response.ok) {
+			const data = await response.json();
+			return data;
+		}
+	} catch (error) {
+		console.error("Error while obtaining resume data");
+	}
+}
 
 function computeTotalExperience(experience) {
 	let totalTime = experience.reduce((total, job) => {
@@ -26,18 +39,18 @@ function computeTotalExperience(experience) {
 	return Math.floor(totalTime / MILLISECONDS_IN_A_YEAR);
 }
 
-function formatDate(date) {
+function formatDate(date, locale) {
 	const options = {
 		year: "numeric",
 		month: "long",
 	};
-	let formattedDate = new Date(date).toLocaleDateString(LOCALE, options);
+	let formattedDate = new Date(date).toLocaleDateString(locale, options);
 	return formattedDate
 		.replace(" de ", " ")
 		.replace(formattedDate[0], formattedDate[0].toUpperCase());
 }
 
-function fillSectionHeadlines() {
+function fillSectionHeadlines(data) {
 	document.querySelector("#profile-header").innerText =
 		data.sectionsHeadlines.profileSummary.toUpperCase();
 	document.querySelector("#experience-header").innerText =
@@ -52,7 +65,7 @@ function fillSectionHeadlines() {
 		data.sectionsHeadlines.languages.toUpperCase();
 }
 
-function fillPersonalData() {
+function fillPersonalData(data) {
 	document.title = `${data.name} ${data.surname} - Curriculum`;
 
 	document.getElementById("full-name").innerText =
@@ -87,7 +100,7 @@ function fillPersonalData() {
 	gitHubElement.href = `https://github.com/${data.contact.github}`;
 }
 
-function fillLanguages() {
+function fillLanguages(data) {
 	let languagesList = data.languages
 		.map((lang) => {
 			return `<p><img src="${lang.logoUrl}" alt="" class="logo">${lang.name}: ${lang.proficiency}</p>`;
@@ -96,7 +109,7 @@ function fillLanguages() {
 	document.getElementById("languages").innerHTML = languagesList;
 }
 
-function fillTools() {
+function fillTools(data) {
 	data.toolCategories.forEach((category) => {
 		let toolsList = data.tools
 			.filter((tool) => tool.categoryId === category.id && !tool.hidden)
@@ -116,7 +129,7 @@ function fillTools() {
 	});
 }
 
-function fillProfileSummary() {
+function fillProfileSummary(data) {
 	let profileSummary = data.profileSummary
 		.join("<br><br>")
 		.replace("TOTAL_EXPERIENCE", computeTotalExperience(data.experience));
@@ -136,8 +149,8 @@ function createJob(job) {
 				${job.location.city}, ${job.location.country} |
 			</span>
 			<span class="job-dates"
-				>${formatDate(job.startDate)} - 
-				${job.endDate ? formatDate(job.endDate) : "Presente"}
+				>${formatDate(job.startDate, LOCALE)} - 
+				${job.endDate ? formatDate(job.endDate, LOCALE) : "Presente"}
 			</span>
 		</div>
         <div class="job-milestones">
@@ -153,7 +166,7 @@ function createJob(job) {
 	return jobElement;
 }
 
-function fillExperience() {
+function fillExperience(data) {
 	let experienceContainer = document.getElementById("experience");
 	data.experience
 		.filter((job) => !job.hidden)
@@ -180,7 +193,7 @@ function createFormalEducation(education) {
 	return educationElement;
 }
 
-function fillEducation() {
+function fillEducation(data) {
 	let educationContainer = document.getElementById("education");
 	data.education
 		.filter((education) => !education.hidden)
@@ -193,7 +206,7 @@ function fillEducation() {
 function createCourse(course) {
 	let courseElement = document.createElement("p");
 	courseElement.innerHTML = `<span class="course-title">${course.title}</span>${course.hours ? " (" + course.hours + " hs)" : ""} - 
-        ${course.institution} | ${formatDate(course.endDate)} ${
+        ${course.institution} | ${formatDate(course.endDate, LOCALE)} ${
 			course.credentialUrl
 				? '(<a href="' +
 					course.credentialUrl +
@@ -206,7 +219,7 @@ function createCourse(course) {
 	return courseElement;
 }
 
-function fillCourses() {
+function fillCourses(data) {
 	let coursesContainer = document.getElementById("courses");
 	data.courses
 		.filter((course) => !course.hidden)
@@ -217,14 +230,16 @@ function fillCourses() {
 }
 
 function fillPage() {
-	fillSectionHeadlines();
-	fillPersonalData();
-	fillProfileSummary();
-	fillExperience();
-	fillCourses();
-	fillEducation();
-	fillTools();
-	fillLanguages();
+	getData(LANGUAGE).then((data) => {
+		fillSectionHeadlines(data);
+		fillPersonalData(data);
+		fillProfileSummary(data);
+		fillExperience(data);
+		fillCourses(data);
+		fillEducation(data);
+		fillTools(data);
+		fillLanguages(data);
+	}).catch(error => console.error ("Error while populating resume sections"));
 }
 
 document.addEventListener("DOMContentLoaded", fillPage);

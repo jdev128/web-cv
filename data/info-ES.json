@@ -1,7 +1,7 @@
 {
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
-	"headline": "Full Stack Developer | Java & React",
+	"headline": "Full Stack Developer | React & Java",
 	"sectionsHeadlines": {
 		"profileSummary": "Perfil Profesional",
 		"experience": "Experiencia Profesional",
@@ -10,7 +10,7 @@
 		"tools": "Competencias Técnicas",
 		"languages": "Idiomas"
 	},
-	"keywordsHeadline": "Full Stack Developer | Java & React | Spring Boot | APIs REST | Docker & Kubernetes | AWS",
+	"keywordsHeadline": "Full Stack Developer | React & Java | Spring Boot | APIs REST | Docker & Kubernetes | AWS",
 	"profilePicture": "./assets/photo.png",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
@@ -33,11 +33,10 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos. Trabajo con <b>Java</b> y <b>React (TypeScript)</b>, desarrollando e integrando <b>APIs RESTful</b> en entornos de alta disponibilidad.",
-		"Experiencia en backend con <b>Java EE</b> y construcción de APIs con <b>Spring Boot</b>, utilizando <b>JPA / Hibernate</b> para persistencia de datos. Manejo de integraciones seguras (<b>mTLS / SSL Pinning</b>), consumo de servicios web y despliegue de aplicaciones mediante <b>Docker</b> y <b>Kubernetes</b>.",
-		"Colaboro en el desarrollo <b>end-to-end</b> (análisis, desarrollo y soporte) en entornos ágiles (<b>Scrum / Kanban</b>), participando en <b>code reviews</b> y aplicando criterios de <b>testing funcional</b> para asegurar la calidad de las entregas.",
-		"Actualmente incorporando <b>testing automatizado</b> con JUnit / Mockito y conocimientos de <b>AWS (EC2, S3, RDS, IAM)</b> en entornos de laboratorio.",
-		"Disponibilidad inmediata para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
+		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos de salud, construyendo aplicaciones web y móviles con <b>React (TypeScript)</b> y <b>Java</b>. Con experiencia desarrollando interfaces de usuario, integrando <b>APIs RESTful</b> y colaborando en soluciones empresariales en entornos de alta disponibilidad.",
+		"Experiencia en backend con <b>Java EE</b>, servicios REST/SOAP, integraciones seguras (<b>mTLS / SSL Pinning</b>) y despliegues en contenedores usando <b>Docker</b> y <b>Kubernetes</b>. Actualmente me encuentro ampliando mis conocimientos en <b>Spring Boot</b>, JPA / Hibernate, PostgreSQL y <b>testing automatizado</b> (JUnit / Mockito) mediante proyectos personales.",
+		"Sólida experiencia en el desarrollo de software <b>end-to-end</b> (análisis, desarrollo y soporte productivo) en entornos ágiles (<b>Scrum / Kanban</b>), participando en <b>code reviews</b> y aplicando prácticas de <b>testing funcional</b> para asegurar la calidad de las entregas.",
+		"<b>Disponibilidad inmediata</b> para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"skills": [
@@ -158,12 +157,12 @@
 	],
 	"toolCategories": [
 		{
-			"id": 3,
-			"description": "Backend & APIs"
+			"id": 2,
+			"description": "Frontend & Web"
 		},
 		{
-			"id": 2,
-			"description": "Frontend"
+			"id": 3,
+			"description": "Backend & APIs"
 		},
 		{
 			"id": 1,
@@ -282,7 +281,7 @@
 			"categoryId": 1
 		},
 		{
-			"name": "Mockito (práctica)",
+			"name": "Mockito",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 1
@@ -312,13 +311,19 @@
 			"categoryId": 3
 		},
 		{
-			"name": "Spring Framework",
-			"level": "Basico",
+			"name": "Java EE",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
 		},
 		{
 			"name": "Spring Boot",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 3
+		},
+		{
+			"name": "Spring Framework",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
@@ -333,12 +338,6 @@
 			"name": "Spring Security",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
-		},
-		{
-			"name": "Java EE",
-			"level": "Intermedio",
-			"hidden": false,
 			"categoryId": 3
 		},
 		{
@@ -398,7 +397,7 @@
 		{
 			"name": "NoSQL (DynamoDB)",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
@@ -456,14 +455,14 @@
 			"categoryId": 4
 		},
 		{
-			"name": "CI/CD Pipelines",
-			"level": "Basico",
+			"name": "Git (GitHub / GitLab)",
+			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "Git (GitHub / GitLab)",
-			"level": "Intermedio",
+			"name": "CI/CD Pipelines",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 4
 		},
@@ -508,6 +507,18 @@
 			"level": "Basico",
 			"hidden": true,
 			"categoryId": 4
+		},
+		{
+			"name": "Figma",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 5
+		},
+		{
+			"name": "Prototipado",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 5
 		},
 		{
 			"name": "Postman",
@@ -582,18 +593,6 @@
 			"categoryId": 5
 		},
 		{
-			"name": "Figma",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Prototipado",
-			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
 			"name": "Code Review",
 			"level": "Intermedio",
 			"hidden": true,
@@ -642,17 +641,13 @@
 			"startDate": "2019-08-05T00:00:00.000-03:00",
 			"endDate": "2025-07-31T00:00:00.000-03:00",
 			"achievements": [
-				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
+				"Diseñé componentes reutilizables en <b>React</b> e integré múltiples APIs REST mediante <b>Axios</b> en una aplicación web para entrevistas a prestadores médicos.",
 				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
-
-				"Desarrollé funcionalidades en una aplicación web para entrevistas a prestadores médicos, diseñando componentes reutilizables en <b>React</b> e integrando múltiples APIs mediante <b>Axios</b>.",
-
+				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
 				"Evolucioné <b>servicios web SOAP</b> implementados en <b>Java EE</b> y <b>Spring</b>, configurando servidores <b>JBoss / WildFly</b> y bases de datos <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
-				"Contenericé un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
-
+				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
 				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
-
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en mTLS, Docker y Kubernetes, facilitando el onboarding de nuevos integrantes.",
 				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
 				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
