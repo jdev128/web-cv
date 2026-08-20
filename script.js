@@ -205,7 +205,7 @@ function fillEducation(data) {
 
 function createCourse(course) {
 	let courseElement = document.createElement("p");
-	courseElement.innerHTML = `<span class="course-title">${course.title}</span>${course.hours ? " (" + course.hours + " hs)" : ""} - 
+	courseElement.innerHTML = `<span class="course-title">${course.title}</span> - 
         ${course.institution} | ${formatDate(course.endDate, LOCALE)} ${
 			course.credentialUrl
 				? '(<a href="' +

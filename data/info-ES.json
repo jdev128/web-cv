@@ -1,7 +1,7 @@
 {
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
-	"headline": "Full Stack Developer | React & Java",
+	"headline": "Full Stack Developer | React & TypeScript | Java EE",
 	"sectionsHeadlines": {
 		"profileSummary": "Perfil Profesional",
 		"experience": "Experiencia Profesional",
@@ -10,7 +10,7 @@
 		"tools": "Competencias Técnicas",
 		"languages": "Idiomas"
 	},
-	"keywordsHeadline": "Full Stack Developer | React & Java | Spring Boot | APIs REST | Docker & Kubernetes | AWS",
+	"keywordsHeadline": "Full Stack Developer | React & TypeScript | Java EE | Spring Boot | REST APIs | Docker & Kubernetes | AWS Certified",
 	"profilePicture": "./assets/photo.png",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
@@ -33,9 +33,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos de salud, construyendo aplicaciones web y móviles con <b>React (TypeScript)</b> y <b>Java</b>. Con experiencia desarrollando interfaces de usuario, integrando <b>APIs RESTful</b> y colaborando en soluciones empresariales en entornos de alta disponibilidad.",
-		"Experiencia en backend con <b>Java EE</b>, servicios REST/SOAP, integraciones seguras (<b>mTLS / SSL Pinning</b>) y despliegues en contenedores usando <b>Docker</b> y <b>Kubernetes</b>. Actualmente me encuentro ampliando mis conocimientos en <b>Spring Boot</b>, JPA / Hibernate, PostgreSQL y <b>testing automatizado</b> (JUnit / Mockito) mediante proyectos personales.",
-		"Sólida experiencia en el desarrollo de software <b>end-to-end</b> (análisis, desarrollo y soporte productivo) en entornos ágiles (<b>Scrum / Kanban</b>), participando en <b>code reviews</b> y aplicando prácticas de <b>testing funcional</b> para asegurar la calidad de las entregas.",
+		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos de salud, con foco principal en desarrollo frontend usando <b>React, TypeScript y JavaScript</b>. Con experiencia en desarrollo de componentes reutilizables, interfaces responsive, gestión de estado e integración de <b>APIs REST</b> en aplicaciones web y móviles.",
+		"Aproximadamente <b>3 años de experiencia en backend con Java EE</b>, evolucionando servicios y dando soporte a iniciativas de migración. Experiencia con JBoss/WildFly, <b>servicios REST/SOAP</b>, <b>SQL Server</b> e integraciones seguras con <b>mTLS</b>.",
+		"Sólida experiencia colaborando con equipos de Arquitectura, Seguridad, Infraestructura, DevOps, QA y Producto en entornos ágiles. Actualmente transicionando de <b>Java EE hacia Spring Boot, JPA/Hibernate, PostgreSQL y pruebas automatizadas.</b>",
 		"<b>Disponibilidad inmediata</b> para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
@@ -158,7 +158,7 @@
 	"toolCategories": [
 		{
 			"id": 2,
-			"description": "Frontend & Web"
+			"description": "Frontend"
 		},
 		{
 			"id": 3,
@@ -166,15 +166,19 @@
 		},
 		{
 			"id": 1,
-			"description": "Testing"
+			"description": "Calidad"
 		},
 		{
 			"id": 4,
 			"description": "DevOps & Cloud"
 		},
 		{
+			"id": 6,
+			"description": "Aprendiendo"
+		},
+		{
 			"id": 5,
-			"description": "Tools & Quality"
+			"description": "Herramientas Adicionales"
 		}
 	],
 	"tools": [
@@ -209,9 +213,9 @@
 			"categoryId": 2
 		},
 		{
-			"name": "Redux",
-			"level": "Basico",
-			"hidden": true,
+			"name": "Context API",
+			"level": "Intermedio",
+			"hidden": false,
 			"categoryId": 2
 		},
 		{
@@ -221,13 +225,19 @@
 			"categoryId": 2
 		},
 		{
-			"name": "Context API",
+			"name": "Redux",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 2
+		},
+		{
+			"name": "Vite",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 2
 		},
 		{
-			"name": "Vite",
+			"name": "Responsive Design",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 2
@@ -241,18 +251,12 @@
 		{
 			"name": "CSS Modules",
 			"level": "Intermedio",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 2
 		},
 		{
 			"name": "Styled-components",
 			"level": "Basico",
-			"hidden": true,
-			"categoryId": 2
-		},
-		{
-			"name": "Responsive Design",
-			"level": "Intermedio",
 			"hidden": true,
 			"categoryId": 2
 		},
@@ -269,42 +273,6 @@
 			"categoryId": 2
 		},
 		{
-			"name": "Testing Funcional",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "JUnit",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "Mockito",
-			"level": "Basico",
-			"hidden": false,
-			"categoryId": 1
-		},
-		{
-			"name": "React Testing Library",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 1
-		},
-		{
-			"name": "Vitest",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 1
-		},
-		{
-			"name": "Selenium",
-			"level": "Basico",
-			"hidden": true,
-			"categoryId": 1
-		},
-		{
 			"name": "Java",
 			"level": "Intermedio",
 			"hidden": false,
@@ -317,16 +285,16 @@
 			"categoryId": 3
 		},
 		{
-			"name": "Spring Boot",
+			"name": "Spring Framework",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
 		},
 		{
-			"name": "Spring Framework",
+			"name": "Spring Boot",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 6
 		},
 		{
 			"name": "Spring Data",
@@ -344,13 +312,13 @@
 			"name": "JPA",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 6
 		},
 		{
 			"name": "Hibernate",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 6
 		},
 		{
 			"name": "Maven",
@@ -359,7 +327,7 @@
 			"categoryId": 3
 		},
 		{
-			"name": "APIs REST",
+			"name": "REST APIs",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 3
@@ -372,13 +340,13 @@
 		},
 		{
 			"name": "SOAP",
-			"level": "Básico",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
 		},
 		{
 			"name": "XML",
-			"level": "Básico",
+			"level": "Basico",
 			"hidden": false,
 			"categoryId": 3
 		},
@@ -392,7 +360,7 @@
 			"name": "PostgreSQL",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 6
 		},
 		{
 			"name": "NoSQL (DynamoDB)",
@@ -420,13 +388,13 @@
 		},
 		{
 			"name": "OAuth2",
-			"level": "Básico",
+			"level": "Basico",
 			"hidden": true,
 			"categoryId": 3
 		},
 		{
 			"name": "JWT",
-			"level": "Básico",
+			"level": "Basico",
 			"hidden": true,
 			"categoryId": 3
 		},
@@ -443,6 +411,66 @@
 			"categoryId": 3
 		},
 		{
+			"name": "Testing Funcional",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Code Review",
+			"level": "Intermedio",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "SOLID",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Clean Code",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "Patrones de Diseño",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "JUnit",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 6
+		},
+		{
+			"name": "Mockito",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 6
+		},
+		{
+			"name": "React Testing Library",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "Vitest",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
+			"name": "Selenium",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 1
+		},
+		{
 			"name": "Docker",
 			"level": "Intermedio",
 			"hidden": false,
@@ -455,33 +483,69 @@
 			"categoryId": 4
 		},
 		{
-			"name": "Git (GitHub / GitLab)",
+			"name": "Git",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "CI/CD Pipelines",
+			"name": "GitHub",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "GitLab",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "CI/CD",
 			"level": "Basico",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "Linux (Bash)",
+			"name": "Linux/Bash",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "JBoss / WildFly",
+			"name": "JBoss/WildFly",
 			"level": "Intermedio",
 			"hidden": false,
 			"categoryId": 4
 		},
 		{
-			"name": "AWS (EC2, S3, RDS, IAM)",
+			"name": "AWS",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 4
+		},
+		{
+			"name": "EC2",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "S3",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "RDS",
+			"level": "Basico",
+			"hidden": true,
+			"categoryId": 4
+		},
+		{
+			"name": "IAM",
+			"level": "Basico",
+			"hidden": true,
 			"categoryId": 4
 		},
 		{
@@ -591,24 +655,6 @@
 			"level": "Intermedio",
 			"hidden": true,
 			"categoryId": 5
-		},
-		{
-			"name": "Code Review",
-			"level": "Intermedio",
-			"hidden": true,
-			"categoryId": 5
-		},
-		{
-			"name": "SOLID",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 5
-		},
-		{
-			"name": "Clean Code",
-			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 5
 		}
 	],
 	"languages": [
@@ -643,15 +689,15 @@
 			"achievements": [
 				"Diseñé componentes reutilizables en <b>React</b> e integré múltiples APIs REST mediante <b>Axios</b> en una aplicación web para entrevistas a prestadores médicos.",
 				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
-				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
-				"Evolucioné <b>servicios web SOAP</b> implementados en <b>Java EE</b> y <b>Spring</b>, configurando servidores <b>JBoss / WildFly</b> y bases de datos <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
-				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
 				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
+				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
+				"Evolucioné <b>servicios web SOAP</b> implementados en <b>Java EE</b> y <b>Spring</b>, configurando servidores <b>JBoss / WildFly</b> y bases de datos <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
+				"Brindé soporte técnico en producción, resolviendo incidentes y realizando <b>análisis de causa raíz</b> para la solución de problemas en sistemas críticos.",
+				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en mTLS, Docker y Kubernetes, facilitando el onboarding de nuevos integrantes.",
 				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
-				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas.",
-				"Brindé soporte técnico en producción, resolviendo incidentes y realizando <b>análisis de causa raíz</b> para la solución de problemas en sistemas críticos."
+				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas."
 			],
 			"tools": [
 				"HTML5",
@@ -704,7 +750,7 @@
 				"city": "Esquel",
 				"country": "Argentina"
 			},
-			"averageGrade": "9.29",
+			"averageGrade": "9.27",
 			"finished": false,
 			"hidden": false,
 			"status": "En curso - Finalización estimada: Diciembre 2026",
