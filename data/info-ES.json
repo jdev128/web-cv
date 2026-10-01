@@ -10,13 +10,13 @@
 		"tools": "Competencias Técnicas",
 		"languages": "Idiomas"
 	},
-	"keywordsHeadline": "Full Stack Developer | React & TypeScript | Java EE | Spring Boot | REST APIs | Docker & Kubernetes | AWS Certified",
+	"keywordsHeadline": "Full Stack Developer | React & TypeScript | Java | Java EE | REST APIs | Docker & Kubernetes | AWS Certified",
 	"profilePicture": "./assets/photo.png",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
-		"city": "La Plata, Buenos Aires",
+		"city": "Comodoro Rivadavia, Chubut",
 		"country": "Argentina",
-		"mapsUrl": "https://maps.app.goo.gl/U7btArnFZ1YHHk9XA"
+		"mapsUrl": "https://maps.app.goo.gl/URoKSiHvgdHr4y2G8"
 	},
 	"birth": "1994-11-04",
 	"contact": {
@@ -33,10 +33,10 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con +TOTAL_EXPERIENCE años de experiencia en sistemas críticos de salud, con foco principal en desarrollo frontend usando <b>React, TypeScript y JavaScript</b>. Con experiencia en desarrollo de componentes reutilizables, interfaces responsive, gestión de estado e integración de <b>APIs REST</b> en aplicaciones web y móviles.",
-		"Aproximadamente <b>3 años de experiencia en backend con Java EE</b>, evolucionando servicios y dando soporte a iniciativas de migración. Experiencia con JBoss/WildFly, <b>servicios REST/SOAP</b>, <b>SQL Server</b> e integraciones seguras con <b>mTLS</b>.",
-		"Sólida experiencia colaborando con equipos de Arquitectura, Seguridad, Infraestructura, DevOps, QA y Producto en entornos ágiles. Actualmente transicionando de <b>Java EE hacia Spring Boot, JPA/Hibernate, PostgreSQL y pruebas automatizadas.</b>",
-		"<b>Disponibilidad inmediata</b> para trabajo remoto y esquema híbrido en CABA (hasta 2 días por semana)."
+		"Full Stack Developer con <b>más de TOTAL_EXPERIENCE años de experiencia</b> en sistemas críticos de salud, combinando desarrollo frontend con <b>React, TypeScript y JavaScript</b> y desarrollo backend con <b>Java</b>. Desarrollo de componentes reutilizables, interfaces responsive, gestión de estado e integración de <b>APIs REST</b> en aplicaciones web y móviles.",
+		"Experiencia profesional en backend con <b>Java EE</b>, evolucionando <b>servicios REST/SOAP</b> existentes y participando en iniciativas de migración, con JBoss/WildFly, <b>SQL Server</b> e integraciones seguras <b>mTLS</b>.",
+		"Trabajo en equipos ágiles distribuidos, colaborando con equipos de Arquitectura, Seguridad, Infraestructura, DevOps, QA y Producto en la implementación de soluciones. Actualmente transicionando de <b>Java EE hacia Spring Boot, JPA/Hibernate, PostgreSQL y pruebas automatizadas.</b>",
+		"<b>Disponibilidad inmediata</b> para trabajo remoto. Disponibilidad para reubicación, coordinando los tiempos de mudanza."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"skills": [
@@ -287,7 +287,7 @@
 		{
 			"name": "Spring Framework",
 			"level": "Basico",
-			"hidden": false,
+			"hidden": true,
 			"categoryId": 3
 		},
 		{
@@ -666,12 +666,12 @@
 		{
 			"name": "Inglés",
 			"logoUrl": "./assets/united-states.svg",
-			"proficiency": "Intermedio-Avanzado"
+			"proficiency": "Avanzado (comprensión) | Conversación técnica/profesional"
 		},
 		{
 			"name": "Portugués",
 			"logoUrl": "./assets/brazil.svg",
-			"proficiency": "Intermedio"
+			"proficiency": "Básico"
 		}
 	],
 	"experience": [
@@ -691,9 +691,8 @@
 				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
 				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
 				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
-				"Lideré la migración de servicios críticos para emergencias médicas hacia <b>APIs RESTful</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
-				"Evolucioné <b>servicios web SOAP</b> implementados en <b>Java EE</b> y <b>Spring</b>, configurando servidores <b>JBoss / WildFly</b> y bases de datos <b>SQL Server</b> para la gestión de precios, órdenes médicas y scoring de afiliados.",
-				"Brindé soporte técnico en producción, resolviendo incidentes y realizando <b>análisis de causa raíz</b> para la solución de problemas en sistemas críticos.",
+				"Participé activamente en la migración de servicios críticos para emergencias médicas hacia <b>APIs REST</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
+				"Brindé soporte a sistemas críticos en producción, realizando <b>análisis de causa raíz</b> y resolviendo incidentes en servicios backend implementados con <b>Java EE y Spring Core</b> sobre <b>JBoss/WildFly</b> y con bases de datos <b>SQL Server</b>.",
 				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en mTLS, Docker y Kubernetes, facilitando el onboarding de nuevos integrantes.",
 				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
