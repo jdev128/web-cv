@@ -1,7 +1,7 @@
 {
 	"name": "Mauricio Daniel",
 	"surname": "Pisco",
-	"headline": "Full Stack Developer | React & TypeScript | Java EE",
+	"headline": "Frontend Developer | React & TypeScript | REST APIs & Java",
 	"sectionsHeadlines": {
 		"profileSummary": "Perfil Profesional",
 		"experience": "Experiencia Profesional",
@@ -10,7 +10,7 @@
 		"tools": "Competencias Técnicas",
 		"languages": "Idiomas"
 	},
-	"keywordsHeadline": "Full Stack Developer | React & TypeScript | Java | Java EE | REST APIs | Docker & Kubernetes | AWS Certified",
+	"keywordsHeadline": "Frontend Developer | React & TypeScript | REST APIs & Java | Docker & Kubernetes | AWS Certified",
 	"profilePicture": "./assets/photo.png",
 	"portfolioPicture": "./assets/images/confident-pic-2.jpg",
 	"location": {
@@ -33,10 +33,9 @@
 		"x": "MauricioPisco"
 	},
 	"profileSummary": [
-		"Full Stack Developer con <b>más de TOTAL_EXPERIENCE años de experiencia</b> en sistemas críticos de salud, combinando desarrollo frontend con <b>React, TypeScript y JavaScript</b> y desarrollo backend con <b>Java</b>. Desarrollo de componentes reutilizables, interfaces responsive, gestión de estado e integración de <b>APIs REST</b> en aplicaciones web y móviles.",
-		"Experiencia profesional en backend con <b>Java EE</b>, evolucionando <b>servicios REST/SOAP</b> existentes y participando en iniciativas de migración, con JBoss/WildFly, <b>SQL Server</b> e integraciones seguras <b>mTLS</b>.",
-		"Trabajo en equipos ágiles distribuidos, colaborando con equipos de Arquitectura, Seguridad, Infraestructura, DevOps, QA y Producto en la implementación de soluciones. Actualmente transicionando de <b>Java EE hacia Spring Boot, JPA/Hibernate, PostgreSQL y pruebas automatizadas.</b>",
-		"<b>Disponibilidad inmediata</b> para trabajo remoto. Disponibilidad para reubicación, coordinando los tiempos de mudanza."
+		"Frontend Developer con <b>más de TOTAL_EXPERIENCE años de experiencia</b> en desarrollo de software para sistemas críticos de salud, especializado en <b>React, TypeScript y JavaScript</b>. Experiencia en desarrollo de interfaces responsive, arquitectura de componentes reutilizables, gestión de estado e integración de <b>APIs REST</b> en aplicaciones web y móviles.",
+		"Trabajo multidisciplinario con equipos de Producto, Arquitectura, Seguridad, Infraestructura, DevOps y QA para la implementación de soluciones punta a punta en equipos ágiles distribuidos. Experiencia complementaria en backend con <b>Java EE</b>, evolucionando <b>servicios REST/SOAP</b>, integraciones seguras con <b>mTLS</b> y bases de datos <b>SQL Server</b>.",
+		"<b>Disponibilidad inmediata</b> para trabajo remoto y abierto a reubicación."
 	],
 	"onlineResume": "https://jdev128.github.io/web-cv/",
 	"skills": [
@@ -157,24 +156,20 @@
 	],
 	"toolCategories": [
 		{
-			"id": 2,
+			"id": 1,
 			"description": "Frontend"
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"description": "Backend & APIs"
 		},
 		{
-			"id": 1,
+			"id": 3,
 			"description": "Calidad"
 		},
 		{
 			"id": 4,
 			"description": "DevOps & Cloud"
-		},
-		{
-			"id": 6,
-			"description": "Aprendiendo"
 		},
 		{
 			"id": 5,
@@ -186,289 +181,307 @@
 			"name": "React",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "TypeScript",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "JavaScript (ES6+)",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "HTML5",
 			"level": "Avanzado",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "CSS3",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
+		},
+		{
+			"name": "Tailwind CSS",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
+		},
+		{
+			"name": "shadcn/ui",
+			"level": "Intermedio",
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "Context API",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "TanStack Query",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Redux",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Vite",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
+		},
+		{
+			"name": "Axios",
+			"level": "Basico",
+			"hidden": false,
+			"categoryId": 1
 		},
 		{
 			"name": "Responsive Design",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Ionic",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "CSS Modules",
 			"level": "Intermedio",
 			"hidden": true,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Styled-components",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Rendimiento",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Accesibilidad",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 2
+			"categoryId": 1
 		},
 		{
 			"name": "Java",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Java EE",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Spring Framework",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Spring Boot",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
 			"name": "Spring Data",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Spring Security",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "JPA",
 			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
 			"name": "Hibernate",
 			"level": "Intermedio",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
 			"name": "Maven",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "REST APIs",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "JSON",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "SOAP",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "XML",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "SQL Server",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "PostgreSQL",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 2
 		},
 		{
 			"name": "NoSQL (DynamoDB)",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "GraphQL",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "mTLS",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "SSL Pinning",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "OAuth2",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "JWT",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Estructuras de Datos",
 			"level": "Intermedio",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "POO",
 			"level": "Avanzado",
 			"hidden": true,
-			"categoryId": 3
+			"categoryId": 2
 		},
 		{
 			"name": "Testing Funcional",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Code Review",
 			"level": "Intermedio",
 			"hidden": true,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "SOLID",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Clean Code",
 			"level": "Intermedio",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Patrones de Diseño",
 			"level": "Basico",
 			"hidden": false,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "JUnit",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 3
 		},
 		{
 			"name": "Mockito",
 			"level": "Basico",
-			"hidden": false,
-			"categoryId": 6
+			"hidden": true,
+			"categoryId": 3
 		},
 		{
 			"name": "React Testing Library",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Vitest",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Selenium",
 			"level": "Basico",
 			"hidden": true,
-			"categoryId": 1
+			"categoryId": 3
 		},
 		{
 			"name": "Docker",
@@ -666,7 +679,9 @@
 		{
 			"name": "Inglés",
 			"logoUrl": "./assets/united-states.svg",
-			"proficiency": "Avanzado (comprensión) | Conversación técnica/profesional"
+			"proficiency": "Avanzado en comprensión (EF SET C2) | Intermedio conversacional",
+			"credentialName": "EF SET C2",
+			"credentialUrl": "https://cert.efset.org/en/renQkQ"
 		},
 		{
 			"name": "Portugués",
@@ -687,16 +702,15 @@
 			"startDate": "2019-08-05T00:00:00.000-03:00",
 			"endDate": "2025-07-31T00:00:00.000-03:00",
 			"achievements": [
-				"Diseñé componentes reutilizables en <b>React</b> e integré múltiples APIs REST mediante <b>Axios</b> en una aplicación web para entrevistas a prestadores médicos.",
+				"Diseñé y desarrollé componentes reutilizables en <b>React y TypeScript</b>, integrando múltiples APIs REST mediante <b>Axios</b> en una aplicación web para entrevistas a prestadores médicos.",
 				"Implementé <b>SSL Pinning</b> y gestión de estado (<b>Context API + useReducer</b>) en aplicaciones móviles (<b>Ionic/React</b>) para visitas médicas, mejorando la seguridad y mantenibilidad.",
 				"Adapté interfaces de usuario a diseño responsive y desarrollé nuevas funcionalidades en aplicación móvil (<b>Ionic/Angular</b>) para visitas a domicilio, asegurando la consistencia en distintos dispositivos.",
-				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con equipo de Producto para mejorar la experiencia de usuario.",
+				"Diseñé en <b>Figma</b> el flujo de autenticación de una aplicación para afiliados, colaborando con el equipo de Producto para optimizar la experiencia del usuario.",
 				"Participé activamente en la migración de servicios críticos para emergencias médicas hacia <b>APIs REST</b> con <b>mTLS</b>, coordinando la integración con equipos de Arquitectura, Seguridad, Infraestructura y Monitoreo.",
 				"Brindé soporte a sistemas críticos en producción, realizando <b>análisis de causa raíz</b> y resolviendo incidentes en servicios backend implementados con <b>Java EE y Spring Core</b> sobre <b>JBoss/WildFly</b> y con bases de datos <b>SQL Server</b>.",
-				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con equipo de DevOps.",
+				"Implementé la contenerización de un proceso batch de geolocalización con <b>Docker</b> y participé en la configuración de su despliegue en <b>Kubernetes (Tanzu)</b>, en conjunto con el equipo de DevOps.",
 				"Estandaricé el conocimiento del equipo mediante documentación técnica (diagramas de despliegue, colecciones <b>Postman</b>) y capacitaciones en mTLS, Docker y Kubernetes, facilitando el onboarding de nuevos integrantes.",
-				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución en entornos <b>Scrum/Kanban</b>.",
-				"Participé en <b>code reviews</b> y validé entregables con criterios de <b>testing funcional</b>, asegurando la calidad de las entregas."
+				"Realicé análisis de factibilidad y descomposición de historias complejas en tareas ejecutables, estimando y coordinando su ejecución y calidad mediante <b>code reviews</b> y <b>testing funcional</b> en entornos <b>Scrum/Kanban</b>."
 			],
 			"tools": [
 				"HTML5",
@@ -1064,6 +1078,25 @@
 		}
 	],
 	"projects": [
+		{
+			"title": "Agenda Andina",
+			"description": "Plataforma web de gestión y agenda de eventos culturales. Prototipado en Figma (web y mobile), definición de contratos de APIs REST en Postman, diseño y desarrollo en React y priorización de backlog por valor de negocio.",
+			"technologies": [
+				"React",
+				"TypeScript",
+				"Tailwind CSS",
+				"shadcn/ui",
+				"Vite",
+				"Supabase",
+				"RESTful APIs",
+				"Figma",
+				"Postman",
+				"Responsive Design"
+			],
+			"url": "https://organizadores-agendaandina.netlify.app/",
+			"repositoryUrl": "https://github.com/jdev128/AgendaAndinaOrganizadores",
+			"hidden": false
+		},
 		{
 			"title": "Lens SNS",
 			"description": "Una red social para ver lo que tus amigos estuvieron haciendo ultimamente.",
